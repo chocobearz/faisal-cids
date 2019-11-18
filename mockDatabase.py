@@ -42,13 +42,14 @@ all_rid_same = {}
 for key in subjects:
   all_rid_same[key] = {}
   for variable in subjects[key]:
-    for column_name in subjects[key][variable]:
-      entry_value = subjects[key][variable]
-      if column_name not in all_rid_same[key]:
-        all_rid_same[key][column_name] = [entry_value]
-      else:
-        all_rid_same[key][column_name].append(entry_value)
-
+    for idx, _ in enumerate(subjects[key][variable]):
+      for column_name in subjects[key][variable][idx-1]:
+        entry_value = subjects[key][variable][idx-1][column_name]
+        if column_name not in all_rid_same[key]:
+          all_rid_same[key][column_name] = [entry_value]
+        else:
+          all_rid_same[key][column_name].append(entry_value)
+print(all_rid_same)
 exit(0)
 for key in all_rid_same:
   for column_name in all_rid_same[key]:
