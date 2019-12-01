@@ -49,16 +49,35 @@ for key in subjects:
           all_rid_same[key][column_name] = [entry_value]
         else:
           all_rid_same[key][column_name].append(entry_value)
-print(all_rid_same)
-exit(0)
+
+column_eval = {}
+
 for key in all_rid_same:
   for column_name in all_rid_same[key]:
-    print(all_rid_same[key][column_name])
-    print(
-      all(
-        value == all_rid_same[key][column_name][0]
-          for value in all_rid_same[key][column_name]
-      )
+    bool_result = all(
+      value == all_rid_same[key][column_name][0]
+      for value in all_rid_same[key][column_name]
     )
+    if column_name not in column_eval:
+      column_eval[column_name] = [bool_result]
+    else:
+      column_eval[column_name].append(bool_result)
 
-#print(subjectVariables)
+for column_name in column_eval:
+  if (all(value for value in column_eval[column_name])):
+    subjectVariables.append(column_name)
+
+visit_level = {}
+
+for key in subjects:
+  visit_level[key] = {}
+  for variable in subjects[key]:
+    #for idx, _ in enumerate(subjects[key][variable]):
+    #  for column_name in subjects[key][variable][idx-1]:
+    #    entry_value = subjects[key][variable][idx-1][column_name]
+    #    if column_name not in all_rid_same[key]:
+    #      all_rid_same[key][column_name] = [entry_value]
+    #    else:
+    #      all_rid_same[key][column_name].append(entry_value)
+
+print(subjectVariables)
