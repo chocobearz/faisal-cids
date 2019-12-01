@@ -1,10 +1,7 @@
 import csv
 import pandas as pd
 
-#textfile = open("mockData.sql", "w+")
-
-#createTableTemplate = open("createTableTemplate.sql").read()
-#createTableTemplate.format(tablename = "subject", columns)
+textfile = open("mockData.sql", "w+")
 
 #read in the daata and save the headers to a list
 data = pd.read_csv("ClinicalInfo_final.csv")
@@ -24,6 +21,7 @@ if("RID" not in colnames):
 data_uniqueRID = data.RID.unique()
 subjectVariables = []
 visitsVariables = []
+repeatVariables = []
 subjects = {}
 for RID in data_uniqueRID:
     subjects[RID] = {}
@@ -92,6 +90,11 @@ for column_name in column_visits_eval:
   if (all(value for value in column_visits_eval[column_name])):
     if(column_name not in subjectVariables):
       visitsVariables.append(column_name)
+  else:
+    repeatVariables.append(column_name)
 
-print(visitsVariables)
-print(subjectVariables)
+createTableTemplate = open("createTableTemplate.sql").read()
+createTableTemplate.format(tablename = "subject", columns)
+createTableTemplate.format(tablename = "visit", columns)
+createTableTemplate.format(tablename = "repeat", columns)
+
