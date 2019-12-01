@@ -90,7 +90,8 @@ for key in subjects:
 
 for column_name in column_visits_eval:
   if (all(value for value in column_visits_eval[column_name])):
-    visitsVariables.append(column_name)
+    if(column_name not in subjectVariables):
+      visitsVariables.append(column_name)
 
 print(visitsVariables)
 print(subjectVariables)
