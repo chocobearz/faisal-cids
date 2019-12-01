@@ -41,43 +41,56 @@ all_rid_same = {}
 
 for key in subjects:
   all_rid_same[key] = {}
-  for variable in subjects[key]:
-    for idx, _ in enumerate(subjects[key][variable]):
-      for column_name in subjects[key][variable][idx-1]:
-        entry_value = subjects[key][variable][idx-1][column_name]
+  for viscode in subjects[key]:
+    for idx, _ in enumerate(subjects[key][viscode]):
+      for column_name in subjects[key][viscode][idx-1]:
+        entry_value = subjects[key][viscode][idx-1][column_name]
         if column_name not in all_rid_same[key]:
           all_rid_same[key][column_name] = [entry_value]
         else:
           all_rid_same[key][column_name].append(entry_value)
 
-column_eval = {}
+column_subjects_eval = {}
 
 for key in all_rid_same:
   for column_name in all_rid_same[key]:
-    bool_result = all(
+    subject_bool = all(
       value == all_rid_same[key][column_name][0]
       for value in all_rid_same[key][column_name]
     )
-    if column_name not in column_eval:
-      column_eval[column_name] = [bool_result]
+    if column_name not in column_subjects_eval:
+      column_subjects_eval[column_name] = [subject_bool]
     else:
-      column_eval[column_name].append(bool_result)
+      column_subjects_eval[column_name].append(subject_bool)
 
-for column_name in column_eval:
-  if (all(value for value in column_eval[column_name])):
+for column_name in column_subjects_eval:
+  if (all(value for value in column_subjects_eval[column_name])):
     subjectVariables.append(column_name)
 
 visit_level = {}
+column_visits_eval = {}
 
 for key in subjects:
-  visit_level[key] = {}
-  for variable in subjects[key]:
-    #for idx, _ in enumerate(subjects[key][variable]):
-    #  for column_name in subjects[key][variable][idx-1]:
-    #    entry_value = subjects[key][variable][idx-1][column_name]
-    #    if column_name not in all_rid_same[key]:
-    #      all_rid_same[key][column_name] = [entry_value]
-    #    else:
-    #      all_rid_same[key][column_name].append(entry_value)
+  for viscode in subjects[key]:
+    if (len(subjects[key][viscode]) > 1):
+      visit_level[key] = {}
+      visit_level[key][viscode] = {}
+      for column_name in subjects[key][viscode][0]:
+        store_values = []
+        for visit_dict in subjects[key][viscode]:
+          store_values.append(visit_dict[column_name])
+        visit_bool = all(
+          value == store_values[0]
+          for value in store_values
+        )
+        if column_name not in column_visits_eval:
+          column_visits_eval[column_name] = [visit_bool]
+        else:
+          column_visits_eval[column_name].append(visit_bool)
 
+for column_name in column_visits_eval:
+  if (all(value for value in column_visits_eval[column_name])):
+    visitsVariables.append(column_name)
+
+print(visitsVariables)
 print(subjectVariables)
