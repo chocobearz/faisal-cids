@@ -1,0 +1,6 @@
+--- 
+ int: int
+ float: float
+ char: varchar
+ datetime: date
+ time: timestamp
