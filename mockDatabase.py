@@ -12,6 +12,14 @@ colnames = list(data)
 if("RID" not in colnames):
   raise Error("Incorrect data format, please standardize column nammes and try again")
 
+#check that RID exists or throw an error
+if("VISCODE" not in colnames):
+  raise Error("Incorrect data format, please standardize column nammes and try again")
+
+#check that RID exists or throw an error
+if("REPEATCODE" not in colnames):
+  raise Error("Incorrect data format, please standardize column nammes and try again")
+
 """
   check subject level time stamp
   extract the rows of data which do not change for unique RID
@@ -93,8 +101,11 @@ for column_name in column_visits_eval:
   else:
     repeatVariables.append(column_name)
 
-createTableTemplate = open("createTableTemplate.sql").read()
-createTableTemplate.format(tablename = "subject", columns)
-createTableTemplate.format(tablename = "visit", columns)
-createTableTemplate.format(tablename = "repeat", columns)
+#createTableTemplate = open("createTableTemplate.sql").read()
+#createTableTemplate.format(tablename = "subject", columns)
+#createTableTemplate.format(tablename = "visit", columns)
+#createTableTemplate.format(tablename = "repeat", columns)
 
+print(subjectVariables)
+print(visitsVariables)
+print(repeatVariables)
