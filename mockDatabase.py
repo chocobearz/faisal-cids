@@ -34,12 +34,10 @@ repeatVariables = []
 subjects = {}
 for RID in data_uniqueRID:
   subjects[RID] = {}
-for RID in subjects:
   row = data.loc[data['RID'] == RID]
   visit = row["VISCODE"]
   for viscode in visit:
     subjects[RID][viscode] = {}
-  for viscode in subjects[RID]:
     repeat = row["REPEATCODE"]
     new = row.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
     for i, repeatcode in enumerate(repeat):
