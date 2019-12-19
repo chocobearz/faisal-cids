@@ -37,9 +37,11 @@ for RID in data_uniqueRID:
   row = data.loc[data['RID'] == RID]
   visit = row["VISCODE"]
   for viscode in visit:
-    subjects[RID][viscode] = {}
-    repeat = row["REPEATCODE"]
-    new = row.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
+    if viscode not in subjects[RID]:
+      subjects[RID][viscode] = {}
+    vrow = row.loc[row['VISCODE'] == viscode]
+    repeat = vrow["REPEATCODE"]
+    new = vrow.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
     for i, repeatcode in enumerate(repeat):
       subjects[RID][viscode][repeatcode] = [dict(new.iloc[i])]
 
