@@ -30,19 +30,23 @@ data_uniqueRID = data.RID.unique()
 subjectVariables = []
 visitsVariables = []
 repeatVariables = []
+
 subjects = {}
 for RID in data_uniqueRID:
-    subjects[RID] = {}
+  subjects[RID] = {}
 for RID in subjects:
   row = data.loc[data['RID'] == RID]
   visit = row["VISCODE"]
-  new = row.drop(["RID", "VISCODE"], axis = 1)
-  for i, viscode in enumerate(visit):
-    if viscode in subjects[RID]:
-      subjects[RID][viscode].append(dict(new.iloc[i]))
-    else:
-      subjects[RID][viscode] = [dict(new.iloc[i])]
+  for viscode in visit:
+    subjects[RID][viscode] = {}
+  for viscode in subjects[RID]:
+    repeat = row["REPEATCODE"]
+    new = row.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
+    for i, repeatcode in enumerate(repeat):
+      subjects[RID][viscode][repeatcode] = [dict(new.iloc[i])]
 
+print(subjects)
+exit(0)
 all_rid_same = {}
 
 for key in subjects:
