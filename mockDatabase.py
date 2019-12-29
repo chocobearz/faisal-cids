@@ -1,5 +1,6 @@
 import csv
 import pandas as pd
+import yaml
 
 textfile = open("mockData.sql", "w+")
 
@@ -45,21 +46,23 @@ for RID in data_uniqueRID:
     for i, repeatcode in enumerate(repeat):
       subjects[RID][viscode][repeatcode] = [dict(new.iloc[i])]
 
-print(subjects)
-exit(0)
+
 all_rid_same = {}
 
 for key in subjects:
   all_rid_same[key] = {}
   for viscode in subjects[key]:
-    for idx, _ in enumerate(subjects[key][viscode]):
-      for column_name in subjects[key][viscode][idx-1]:
-        entry_value = subjects[key][viscode][idx-1][column_name]
-        if column_name not in all_rid_same[key]:
-          all_rid_same[key][column_name] = [entry_value]
-        else:
-          all_rid_same[key][column_name].append(entry_value)
+    for repeatcode in subjects[key][viscode]:
+      for idx, _ in enumerate(subjects[key][viscode][repeatcode]):
+        for column_name in subjects[key][viscode][repeatcode][idx]:
+          entry_value = subjects[key][viscode][repeatcode][idx][column_name]
+          if column_name not in all_rid_same[key]:
+            all_rid_same[key][column_name] = [entry_value]
+          else:
+            all_rid_same[key][column_name].append(entry_value)
 
+print(all_rid_same)
+exit(0)
 column_subjects_eval = {}
 
 for key in all_rid_same:
