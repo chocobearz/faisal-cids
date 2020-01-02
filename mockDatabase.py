@@ -61,8 +61,6 @@ for key in subjects:
           else:
             all_rid_same[key][column_name].append(entry_value)
 
-print(all_rid_same)
-exit(0)
 column_subjects_eval = {}
 
 for key in all_rid_same:
@@ -80,26 +78,26 @@ for column_name in column_subjects_eval:
   if (all(value for value in column_subjects_eval[column_name])):
     subjectVariables.append(column_name)
 
-visit_level = {}
+
 column_visits_eval = {}
+
 
 for key in subjects:
   for viscode in subjects[key]:
     if (len(subjects[key][viscode]) > 1):
-      visit_level[key] = {}
-      visit_level[key][viscode] = {}
-      for column_name in subjects[key][viscode][0]:
+      for column_name in subjects[key][viscode][repeatcode][0]:
         store_values = []
-        for visit_dict in subjects[key][viscode]:
-          store_values.append(visit_dict[column_name])
-        visit_bool = all(
-          value == store_values[0]
-          for value in store_values
-        )
-        if column_name not in column_visits_eval:
-          column_visits_eval[column_name] = [visit_bool]
-        else:
-          column_visits_eval[column_name].append(visit_bool)
+        for repeatcode in subjects[key][viscode]:
+          for visit_dict in subjects[key][viscode][repeatcode]:
+            store_values.append(visit_dict[column_name])
+            visit_bool = all(
+            value == store_values[0]
+            for value in store_values
+            )
+          if column_name not in column_visits_eval:
+            column_visits_eval[column_name] = [visit_bool]
+          else:
+            column_visits_eval[column_name].append(visit_bool)
 
 for column_name in column_visits_eval:
   if (all(value for value in column_visits_eval[column_name])):
