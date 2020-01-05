@@ -10,8 +10,6 @@ with open(r"config.yaml") as config: ##is the "r" a typo?
     print(vars_list)
     exit(0)
 
-#with open("mockData.sql", "w+") as textfile:
-
 #read in the data and save the headers to a list
 with pd.read_csv("ClinicalInfo_final.csv") as data:
   
