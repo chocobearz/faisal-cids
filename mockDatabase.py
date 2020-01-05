@@ -32,44 +32,44 @@ with pd.read_csv("ClinicalInfo_final.csv") as data:
   """
     check subject level time stamp
     extract the rows of data which do not change for unique RID
-    These belong to the subjects table
+    These belong to the subject table
   """
 
   data_uniqueRID = data.RID.unique()
   subjectVariables = []
-  visitsVariables = []
+  visitVariables = []
   repeatVariables = []
 
-  subjects = {}
+  subject = {}
   for RID in data_uniqueRID:
-    subjects[RID] = {}
+    subject[RID] = {}
     row = data.loc[data['RID'] == RID]
     visit = row["VISCODE"]
     for viscode in visit:
-      if viscode not in subjects[RID]:
-        subjects[RID][viscode] = {}
+      if viscode not in subject[RID]:
+        subject[RID][viscode] = {}
       vrow = row.loc[row['VISCODE'] == viscode]
       repeat = vrow["REPEATCODE"]
       new = vrow.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
       for i, repeatcode in enumerate(repeat):
-        subjects[RID][viscode][repeatcode] = [dict(new.iloc[i])]
+        subject[RID][viscode][repeatcode] = [dict(new.iloc[i])]
 
 
   all_rid_same = {}
 
-  for key in subjects:
+  for key in subject:
     all_rid_same[key] = {}
-    for viscode in subjects[key]:
-      for repeatcode in subjects[key][viscode]:
-        for idx, _ in enumerate(subjects[key][viscode][repeatcode]):
-          for column_name in subjects[key][viscode][repeatcode][idx]:
-            entry_value = subjects[key][viscode][repeatcode][idx][column_name]
+    for viscode in subject[key]:
+      for repeatcode in subject[key][viscode]:
+        for idx, _ in enumerate(subject[key][viscode][repeatcode]):
+          for column_name in subject[key][viscode][repeatcode][idx]:
+            entry_value = subject[key][viscode][repeatcode][idx][column_name]
             if column_name not in all_rid_same[key]:
               all_rid_same[key][column_name] = [entry_value]
             else:
               all_rid_same[key][column_name].append(entry_value)
 
-  column_subjects_eval = {}
+  column_subject_eval = {}
 
   for key in all_rid_same:
     for column_name in all_rid_same[key]:
@@ -77,44 +77,49 @@ with pd.read_csv("ClinicalInfo_final.csv") as data:
         value == all_rid_same[key][column_name][0]
         for value in all_rid_same[key][column_name]
       )
-      if column_name not in column_subjects_eval:
-        column_subjects_eval[column_name] = [subject_bool]
+      if column_name not in column_subject_eval:
+        column_subject_eval[column_name] = [subject_bool]
       else:
-        column_subjects_eval[column_name].append(subject_bool)
+        column_subject_eval[column_name].append(subject_bool)
 
-  for column_name in column_subjects_eval:
-    if (all(value for value in column_subjects_eval[column_name])):
+  for column_name in column_subject_eval:
+    if (all(value for value in column_subject_eval[column_name])):
       subjectVariables.append(column_name)
 
 
-  column_visits_eval = {}
+  column_visit_eval = {}
 
 
-  for key in subjects:
-    for viscode in subjects[key]:
-      if (len(subjects[key][viscode]) > 1):
-        for column_name in subjects[key][viscode][repeatcode][0]:
+  for key in subject:
+    for viscode in subject[key]:
+      if (len(subject[key][viscode]) > 1):
+        for column_name in subject[key][viscode][repeatcode][0]:
           store_values = []
-          for repeatcode in subjects[key][viscode]:
-            for visit_dict in subjects[key][viscode][repeatcode]:
+          for repeatcode in subject[key][viscode]:
+            for visit_dict in subject[key][viscode][repeatcode]:
               store_values.append(visit_dict[column_name])
               visit_bool = all(
               value == store_values[0]
               for value in store_values
               )
-            if column_name not in column_visits_eval:
-              column_visits_eval[column_name] = [visit_bool]
+            if column_name not in column_visit_eval:
+              column_visit_eval[column_name] = [visit_bool]
             else:
-              column_visits_eval[column_name].append(visit_bool)
+              column_visit_eval[column_name].append(visit_bool)
 
-  for column_name in column_visits_eval:
-    if (all(value for value in column_visits_eval[column_name])):
+  for column_name in column_visit_eval:
+    if (all(value for value in column_visit_eval[column_name])):
       if(column_name not in subjectVariables):
-        visitsVariables.append(column_name)
+        visitVariables.append(column_name)
     else:
       repeatVariables.append(column_name)
 
-#createTableTemplate = open("createTableTemplate.sql").read()
-#createTableTemplate.format(tablename = "subject", columns)
-#createTableTemplate.format(tablename = "visit", columns)
-#createTableTemplate.format(tablename = "repeat", columns)
+#with open("mockData.sql", "w+") as textfile:
+  
+  #createTableTemplate = open("createTableTemplate.sql").read()
+  
+  #createTableTemplate.format(tablename = "subject", columns)
+  
+  #createTableTemplate.format(tablename = "visit", columns)
+  
+  #createTableTemplate.format(tablename = "repeat", columns)
