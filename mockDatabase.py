@@ -130,19 +130,20 @@ for column_name in column_visit_eval:
   else:
     repeatVariables.append(column_name)
 
+with open(args.filename+".sql", "w+") as textfile:
+ 
+ textfile.write("SET search_path TO mockschema;\n\n")
+ updateTableTemplate = "ALTER TABLE {tablename}\n"
+ tables = ["mockschema.subject","mockschema.visit","mockschema.repeatmeasure"]
+ timePoint = [subjectVariables,visitVariables,repeatVariables]
+ for i, tablename in enumerate(tables):
+   textfile.write(updateTableTemplate.format(tablename = tablename))
+   for column in timePoint[i]:
+     textfile.write(
+       "  ADD {name} {datatype},\n".format(
+         name = column,
+         datatype = vars_list[column],
+       )
+     )
+   textfile.write("\n")
 
-#with open(filename, "w+") as textfile:
-#  
-#  updateTableTemplate = "ALTER TABLE {tablename}\n"
-#
-#  updateTableTemplate.format(tablename = "subject")
-#
-#  for column in columns:
-#    updateTableTemplate = updateTableTemplate + "ADD {name} {datatype}".format(
-#      name = column.name,
-#      datatype = column.type,
-#    )
-#
-#  updateTableTemplate.format(tablename = "visit", col
-#
-#  updateTableTemplate.format(tablename = "repeat", columns)
