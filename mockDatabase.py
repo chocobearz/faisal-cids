@@ -64,9 +64,6 @@ for RID in data_uniqueRID:
   these belong to the subject table
 """
 
-for column_name in subject[RID][viscode][repeatcode]:
-  colType = type(column_name)
-
 all_rid_same = {}
 for RID in subject:
   all_rid_same[RID] = {}
@@ -75,7 +72,6 @@ for RID in subject:
       for idx, _ in enumerate(subject[RID][viscode][repeatcode]):
         for column_name in subject[RID][viscode][repeatcode][idx]:
           entry_value = subject[RID][viscode][repeatcode][idx][column_name]
-          print(type(column_name))
           if column_name not in all_rid_same[RID]:
             all_rid_same[RID][column_name] = [entry_value]
           else:
@@ -105,7 +101,6 @@ for column_name in column_subject_eval:
   """
 
 column_visit_eval = {}
-
 
 for RID in subject:
   for viscode in subject[RID]:
