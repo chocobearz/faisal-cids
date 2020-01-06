@@ -1,28 +1,27 @@
 SET search_path TO mockschema;
 
-ALTER TABLE mockschema.subject
-  ADD PTGENDER varchar,
-  ADD PTRACE varchar,
-  ADD FLDSTRENG varchar,
+ALTER TABLE subject
+  ADD IF NOT EXISTS PTGENDER varchar,
+  ADD IF NOT EXISTS PTRACE varchar,
+  ADD IF NOT EXISTS FLDSTRENG varchar;
 
-ALTER TABLE mockschema.visit
-  ADD DATE date,
-  ADD AGE varchar,
-  ADD Month.bl varchar,
-  ADD AUX.DIAGNOSIS varchar,
-  ADD AUX.STRATIFICATION varchar,
+ALTER TABLE visit
+  ADD IF NOT EXISTS DATE date,
+  ADD IF NOT EXISTS AGE varchar,
+  ADD IF NOT EXISTS Month_bl varchar,
+  ADD IF NOT EXISTS AUX_DIAGNOSIS varchar,
+  ADD IF NOT EXISTS AUX_STRATIFICATION varchar;
 
-ALTER TABLE mockschema.repeatmeasure
-  ADD TIME.1 time,
-  ADD Measure1 float,
-  ADD TIME.2 time,
-  ADD Measure2 float,
-  ADD TIME.3 time,
-  ADD Measure3 float,
-  ADD TIME.4 time,
-  ADD Measure4 float,
-  ADD TIME.5 time,
-  ADD Measure5 float,
-  ADD TIME.6 time,
-  ADD Measure6 float,
-
+ALTER TABLE repeatmeasure
+  ADD IF NOT EXISTS TIME_1 time,
+  ADD IF NOT EXISTS Measure1 float,
+  ADD IF NOT EXISTS TIME_2 time,
+  ADD IF NOT EXISTS Measure2 float,
+  ADD IF NOT EXISTS TIME_3 time,
+  ADD IF NOT EXISTS Measure3 float,
+  ADD IF NOT EXISTS TIME_4 time,
+  ADD IF NOT EXISTS Measure4 float,
+  ADD IF NOT EXISTS TIME_5 time,
+  ADD IF NOT EXISTS Measure5 float,
+  ADD IF NOT EXISTS TIME_6 time,
+  ADD IF NOT EXISTS Measure6 float;
