@@ -1,6 +1,24 @@
 --- 
- int: int
- float: float
- char: varchar
- datetime: date
- time: timestamp
+RID: varchar
+VISCODE: varchar
+REPEATCODE: varchar
+DATE: date
+AGE: varchar
+Month.bl: varchar
+PTGENDER: varchar
+PTRACE: varchar
+FLDSTRENG: varchar
+AUX.DIAGNOSIS: varchar
+AUX.STRATIFICATION: varchar
+TIME.1: time
+Measure1: float
+TIME.2: time
+Measure2: float
+TIME.3: time
+Measure3: float
+TIME.4: time
+Measure4: float
+TIME.5: time
+Measure5: float
+TIME.6: time
+Measure6: float
