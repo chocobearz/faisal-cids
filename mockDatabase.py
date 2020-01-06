@@ -129,13 +129,13 @@ with open(args.filename+".sql", "w+") as textfile:
  
  textfile.write("SET search_path TO mockschema;\n\n")
  updateTableTemplate = "ALTER TABLE {tablename}\n"
- tables = ["mockschema.subject","mockschema.visit","mockschema.repeatmeasure"]
+ tables = ["subject","visit","repeatmeasure"]
  timePoint = [subjectVariables,visitVariables,repeatVariables]
  for i, tablename in enumerate(tables):
    textfile.write(updateTableTemplate.format(tablename = tablename))
    for column in timePoint[i]:
      textfile.write(
-       "  ADD {name} {datatype},\n".format(
+       "  ADD IF NOT EXISTS {name} {datatype},\n".format(
          name = column,
          datatype = vars_list[column],
        )
