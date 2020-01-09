@@ -107,4 +107,31 @@ def findTimepoints(data):
       repeatVariables.append(column_name)
 
   return [subjectVariables,visitVariables,repeatVariables]
-  
+
+def updateTables(filename, timePoint, vars_list):
+
+  with open(filename+".sql", "w+") as textfile:
+
+    textfile.write("SET search_path TO mockschema;\n\n")
+    updateTableTemplate = "ALTER TABLE {tablename}\n"
+
+    tables = ["subject","visit","repeatmeasure"]
+
+    for i, tablename in enumerate(tables):
+      textfile.write(updateTableTemplate.format(tablename = tablename))
+      for column in timePoint[i]:
+        if column == timePoint[i][-1]:
+          textfile.write(
+            "  ADD IF NOT EXISTS {name} {datatype};\n".format(
+              name = column,
+              datatype = vars_list[column],
+            )
+          )
+        else:
+          textfile.write(
+            "  ADD IF NOT EXISTS {name} {datatype},\n".format(
+              name = column,
+              datatype = vars_list[column],
+            )
+          )
+      textfile.write("\n")
