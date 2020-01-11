@@ -242,7 +242,8 @@ flycheck_*.el
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -1421,3 +1422,7 @@ GPATH
 GRTAGS
 GSYMS
 GTAGS
+
+#username and password combinations for database
+.env.development
+.env.production

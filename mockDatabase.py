@@ -3,6 +3,19 @@ import yaml
 import argparse
 from utils import findTimepoints
 from utils import updateTables
+import psycopg2
+
+Username = "username"
+Password = "password"
+
+environment = open(".env.development").readlines()
+creds = {}
+for line in environment:
+  elements = line.split(':')
+  if elements[0] == Username:
+    creds[Username] = elements[1].strip()
+  elif elements[0] == Password:
+    creds[Password] = elements[1].strip()
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -11,7 +24,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-with open(r"config.yaml") as config: ##is the "r" a typo?
+with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
   # scalar values to Python the dictionary format
   vars_list = yaml.load(config, Loader=yaml.FullLoader)
