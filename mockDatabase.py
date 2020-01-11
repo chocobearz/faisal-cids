@@ -4,9 +4,13 @@ import argparse
 from utils import findTimepoints
 from utils import updateTables
 import psycopg2
+from psycopg2 import Error
 
 Username = "username"
 Password = "password"
+Host = "host"
+Port = "port"
+Database = "database"
 
 environment = open(".env.development").readlines()
 creds = {}
