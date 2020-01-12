@@ -66,8 +66,12 @@ try:
   cursor.execute("SELECT version();")
   record = cursor.fetchone()
   print("You are connected to - ", record,"\n")
-  
-  alterTable = updateTables(args.filename, timePoint, vars_list
+
+  for query in alterTable:
+    alterTableQuery= query
+    cursor.execute(alterTableQuery)
+    connection.commit()
+    print("Table altered successfully in PostgreSQL ")
 
 except (Exception, psycopg2.Error) as error :
   print ("Error while connecting to PostgreSQL", error)

@@ -108,37 +108,40 @@ def findTimepoints(data):
 
   return [subjectVariables,visitVariables,repeatVariables]
 
-def updateTables(filename, timePoint, vars_list):
+def updateTables(schema, filename, timePoint, vars_list):
 
   sqlStatement = []
-  searchPath = "SET search_path TO mockschema;\n\n"
-
-  sqlStatement.append(searchPath)
+  alterationStatement = ""
 
   with open(filename+".sql", "w+") as textfile:
     
-    textfile.write(searchPath)
-    updateTableTemplate = "ALTER TABLE {tablename}\n"
-    sqlStatement.append(updateTableTemplate)
+    updateTableTemplate = "ALTER TABLE {schema}.{tablename}\n"
 
     tables = ["subject","visit","repeatmeasure"]
 
     for i, tablename in enumerate(tables):
-      textfile.write(updateTableTemplate.format(tablename = tablename))
+      updateTable = updateTableTemplate.format(
+          tablename = tablename,
+          schema = schema
+        )
+
+      textfile.write(updateTable)
+      alterationStatement = alterationStatement + updateTable
       for column in timePoint[i]:
         if column == timePoint[i][-1]:
           alteration = "  ADD IF NOT EXISTS {name} {datatype};\n".format(
               name = column,
-              datatype = vars_list[column],
+              datatype = vars_list[column]
             )
           textfile.write(alteration)
-          sqlStatement.append(alteration)
+          alterationStatement = alterationStatement + alteration
+          sqlStatement.append(alterationStatement)
         else:
           alteration = "  ADD IF NOT EXISTS {name} {datatype},\n".format(
               name = column,
-              datatype = vars_list[column],
+              datatype = vars_list[column]
             )
           textfile.write(alteration)
-          sqlStatement.append(alteration)
+          alterationStatement = alterationStatement + alteration
       textfile.write("\n")
   return sqlStatement
