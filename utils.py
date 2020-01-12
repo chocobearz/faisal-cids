@@ -110,10 +110,16 @@ def findTimepoints(data):
 
 def updateTables(filename, timePoint, vars_list):
 
-  with open(filename+".sql", "w+") as textfile:
+  sqlStatement = []
+  searchPath = "SET search_path TO mockschema;\n\n"
 
-    textfile.write("SET search_path TO mockschema;\n\n")
+  sqlStatement.append(searchPath)
+
+  with open(filename+".sql", "w+") as textfile:
+    
+    textfile.write(searchPath)
     updateTableTemplate = "ALTER TABLE {tablename}\n"
+    sqlStatement.append(updateTableTemplate)
 
     tables = ["subject","visit","repeatmeasure"]
 
@@ -121,17 +127,18 @@ def updateTables(filename, timePoint, vars_list):
       textfile.write(updateTableTemplate.format(tablename = tablename))
       for column in timePoint[i]:
         if column == timePoint[i][-1]:
-          textfile.write(
-            "  ADD IF NOT EXISTS {name} {datatype};\n".format(
+          alteration = "  ADD IF NOT EXISTS {name} {datatype};\n".format(
               name = column,
               datatype = vars_list[column],
             )
-          )
+          textfile.write(alteration)
+          sqlStatement.append(alteration)
         else:
-          textfile.write(
-            "  ADD IF NOT EXISTS {name} {datatype},\n".format(
+          alteration = "  ADD IF NOT EXISTS {name} {datatype},\n".format(
               name = column,
               datatype = vars_list[column],
             )
-          )
+          textfile.write(alteration)
+          sqlStatement.append(alteration)
       textfile.write("\n")
+  return sqlStatement
