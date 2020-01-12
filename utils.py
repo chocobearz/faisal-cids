@@ -1,3 +1,6 @@
+def putparen(string):
+  return f"\'{string}\'"
+
 def findTimepoints(data):
 
   colnames = list(data)

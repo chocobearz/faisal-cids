@@ -3,6 +3,7 @@ import yaml
 import argparse
 from utils import findTimepoints
 from utils import updateTables
+from utils import putparen
 import psycopg2
 from psycopg2 import Error
 
@@ -75,12 +76,14 @@ try:
     print("Table altered successfully in PostgreSQL ")
 
   for i, tablename in enumerate(tables):
-    values = []
     for index, row in data.iterrows():
+      values = []
       for name in timePoint[i]:
-        values.append(row[name])
+        values.append(putparen(row[name]))
+      parenTimepoints = []
       cursor.execute(
-        "INSERT INTO {table} ({columns}) VALUES ({values})".format(
+        "INSERT INTO {schema}.{table} ({columns}) VALUES ({values})".format(
+          schema = schema,
           table = tablename,
           columns = ", ".join(timePoint[i]),
           values = ", ".join(values),
