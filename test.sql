@@ -1,18 +1,16 @@
-SET search_path TO mockschema;
-
-ALTER TABLE subject
+ALTER TABLE mockschema.subject
   ADD IF NOT EXISTS PTGENDER varchar,
   ADD IF NOT EXISTS PTRACE varchar,
   ADD IF NOT EXISTS FLDSTRENG varchar;
 
-ALTER TABLE visit
+ALTER TABLE mockschema.visit
   ADD IF NOT EXISTS DATE date,
   ADD IF NOT EXISTS AGE varchar,
   ADD IF NOT EXISTS Month_bl varchar,
   ADD IF NOT EXISTS AUX_DIAGNOSIS varchar,
   ADD IF NOT EXISTS AUX_STRATIFICATION varchar;
 
-ALTER TABLE repeatmeasure
+ALTER TABLE mockschema.repeatmeasure
   ADD IF NOT EXISTS TIME_1 time,
   ADD IF NOT EXISTS Measure1 float,
   ADD IF NOT EXISTS TIME_2 time,

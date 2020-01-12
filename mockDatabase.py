@@ -12,6 +12,7 @@ Host = "host"
 Port = "port"
 Database = "database"
 connection = None
+schema = "mockschema"
 
 environment = open(".env.development").readlines()
 creds = {}
@@ -44,6 +45,8 @@ with open(r"config.yaml") as config:
 data = pd.read_csv("ClinicalInfo_final.csv")
 
 timePoint = findTimepoints(data)
+
+alterTable = updateTables(schema, args.filename, timePoint, vars_list)
 
 try:
   connection = psycopg2.connect(
