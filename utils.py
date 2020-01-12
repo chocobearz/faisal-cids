@@ -22,9 +22,9 @@ def findTimepoints(data):
   """
   
   data_uniqueRID = data.RID.unique()
-  subjectVariables = []
-  visitVariables = []
-  repeatVariables = []
+  subjectVariables = ["RID"]
+  visitVariables = ["VISCODE"]
+  repeatVariables = ["REPEATCODE"]
   subject = {}
   for RID in data_uniqueRID:
     subject[RID] = {}
