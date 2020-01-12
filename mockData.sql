@@ -19,10 +19,19 @@ CREATE TABLE mockschema.datasets(
 );
 
 --holds info that remains constant over all visits
-CREATE TABLE mockschema.subject();
+CREATE TABLE mockschema.subject(
+  id serial,
+  datasetid int
+);
 
 --holds info that remains constant for the duration of a visit
-CREATE TABLE mockschema.visit();
+CREATE TABLE mockschema.visit(
+  id serial,
+  subjectid int
+);
 
 --info that changes during the visit
-CREATE TABLE mockschema.repeatmeasure();
+CREATE TABLE mockschema.repeatmeasure(
+  id serial,
+  visitid int
+);
