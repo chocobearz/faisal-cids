@@ -44,6 +44,7 @@ with open(r"config.yaml") as config:
 #read in the data and save the headers to a list
 data = pd.read_csv("ClinicalInfo_final.csv")
 
+tables = ["subject","visit","repeatmeasure"]
 timePoint = findTimepoints(data)
 
 alterTable = updateTables(schema, args.filename, timePoint, vars_list)
@@ -72,6 +73,21 @@ try:
     cursor.execute(alterTableQuery)
     connection.commit()
     print("Table altered successfully in PostgreSQL ")
+
+  for i, tablename in enumerate(tables):
+    values = []
+    for index, row in data.iterrows():
+      for name in timePoint[i]:
+        values.append(row[name])
+      cursor.execute(
+        "INSERT INTO {table} ({columns}) VALUES ({values})".format(
+          table = tablename,
+          columns = ", ".join(timePoint[i]),
+          values = ", ".join(values),
+        )
+      )
+    connection.commit()
+    print("Data successfully inserted in PostgreSQL for table ", tablename)
 
 except (Exception, psycopg2.Error) as error :
   print ("Error while connecting to PostgreSQL", error)
