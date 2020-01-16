@@ -10,7 +10,7 @@ CREATE SCHEMA mockschema
 
 --holds info on the dataset
 CREATE TABLE mockschema.datasets(
-  id serial,
+  id serial UNIQUE PRIMARY KEY,
   name varchar,
   country varchar,
   timeframe varchar,
@@ -20,18 +20,18 @@ CREATE TABLE mockschema.datasets(
 
 --holds info that remains constant over all visits
 CREATE TABLE mockschema.subject(
-  id serial,
-  datasetid int
+  id serial UNIQUE PRIMARY KEY,
+  datasetid int REFERENCES mockdatabase.datasets(id) ON DELETE CASCADE
 );
 
 --holds info that remains constant for the duration of a visit
 CREATE TABLE mockschema.visit(
-  id serial,
-  subjectid int
+  id serial UNIQUE PRIMARY KEY,
+  subjectid int REFERENCES mockdatabase.subject(id) ON DELETE CASCADE
 );
 
 --info that changes during the visit
 CREATE TABLE mockschema.repeatmeasure(
-  id serial,
-  visitid int
+  id serial UNIQUE PRIMARY KEY,
+  visitid int REFERENCES mockdatabase.visit(id) ON DELETE CASCADE
 );
