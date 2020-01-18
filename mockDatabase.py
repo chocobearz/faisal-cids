@@ -7,6 +7,8 @@ from utils import putparen
 import psycopg2
 from psycopg2 import Error
 
+tables = ["subject","visit","repeatmeasure"]
+foreign_keys = ["datasetid", "subjectid", "visitid"]
 Username = "username"
 Password = "password"
 Host = "host"
@@ -45,7 +47,6 @@ with open(r"config.yaml") as config:
 #read in the data and save the headers to a list
 data = pd.read_csv("ClinicalInfo_final.csv")
 
-tables = ["subject","visit","repeatmeasure"]
 timePoint = findTimepoints(data)
 
 alterTable = updateTables(schema, args.filename, timePoint, vars_list)
