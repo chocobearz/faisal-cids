@@ -75,26 +75,105 @@ try:
     cursor.execute(alterTableQuery)
     connection.commit()
     print("Table altered successfully in PostgreSQL ")
+  
+  uniqueRID = []
+  uniqueRIDVC = []
+  uniqueTarget_id = []
 
   for i, tablename in enumerate(tables):
-    for index, row in data.iterrows():
-      values = []
-      for name in timePoint[i]:
-        values.append(putparen(row[name]))
-      parenTimepoints = []
-      cursor.execute(
-        "INSERT INTO {schema}.{table} ({columns}) VALUES ({values})".format(
-          schema = schema,
-          table = tablename,
-          columns = ", ".join(timePoint[i]),
-          values = ", ".join(values),
-        )
-      )
+    if tablename == 'subject':
+      for index, row in data.iterrows():
+        values = []
+        if row['RID'] not in uniqueRID:
+          uniqueRID.append(row['RID'])
+          for name in timePoint[i]:
+            values.append(putparen(row[name]))
+          cursor.execute(
+            '''INSERT INTO 
+                 {schema}.subject
+                   ({fk}, {columns})
+               VALUES 
+               ( 
+                 1, {values}
+               )'''.format(
+                 schema = schema,
+                 fk = foreign_keys[i],
+                 columns = ", ".join(timePoint[i]),
+                 values = ", ".join(values),
+               )
+          )
+    elif tablename == 'visit':
+      for index, row in data.iterrows():
+        values = []
+        RID_VC = f"{row['RID']}-{row['VISCODE']}"
+        if RID_VC not in uniqueRIDVC:
+          uniqueRIDVC.append(RID_VC)
+          key_id = putparen(row['RID'])
+          for name in timePoint[i]:
+            values.append(putparen(row[name]))
+          cursor.execute(
+            '''INSERT INTO 
+                {schema}.visit 
+                  ({fk}, {columns}) 
+              VALUES
+                (
+                  (
+                    SELECT
+                      id
+                    FROM
+                      {schema}.subject
+                    WHERE
+                      RID = {key_id}
+                  ), {values}
+                )'''.format(
+              schema = schema,
+              fk = foreign_keys[i],
+              columns = ", ".join(timePoint[i]),
+              values = ", ".join(values),
+              key_id = key_id
+            )
+          )
+    elif tablename == 'repeatmeasure':
+      for index, row in data.iterrows():
+        values = []
+        RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}"
+        if RID_VC_RC not in uniqueRIDVC:
+          uniqueRIDVC.append(RID_VC_RC)
+          fk_id = putparen(row['RID'])
+          key_id = putparen(row['VISCODE'])
+          for name in timePoint[i]:
+            values.append(putparen(row[name]))
+          cursor.execute(
+            '''INSERT INTO
+                 {schema}.repeatmeasure
+                   ({fk}, {columns})
+               VALUES
+                 (
+                   (
+                     SELECT
+                       {schema}.visit.id 
+                     FROM
+                       {schema}.subject,
+                       {schema}.visit
+                     WHERE
+                        visit.subjectid = subject.id
+                        AND subject.rid = {fk_id}
+                        AND visit.viscode = {key_id}
+                   ), {values}
+                 )'''.format(
+                 schema = schema,
+                 fk = foreign_keys[i],
+                 columns = ", ".join(timePoint[i]),
+                 values = ", ".join(values),
+                 fk_id = fk_id,
+                 key_id = key_id
+            )
+          )
     connection.commit()
     print("Data successfully inserted in PostgreSQL for table ", tablename)
 
 except (Exception, psycopg2.Error) as error :
-  print ("Error while connecting to PostgreSQL", error)
+  print ("Error while connected to PostgreSQL", error)
   exit(0)
 finally:
   #closing database connection.
