@@ -131,6 +131,13 @@ def updateTables(schema, filename, timePoint, vars_list):
       textfile.write(updateTable)
       alterationStatement = alterationStatement + updateTable
       for column in timePoint[i]:
+        if column == 'RID':
+          alteration = "  ADD IF NOT EXISTS {name} {datatype} UNIQUE,\n".format(
+              name = column,
+              datatype = vars_list[column]
+            )
+          textfile.write(alteration)
+          alterationStatement = alterationStatement + alteration
         if column == timePoint[i][-1]:
           alteration = "  ADD IF NOT EXISTS {name} {datatype};\n".format(
               name = column,

@@ -1,4 +1,5 @@
 ALTER TABLE mockschema.subject
+  ADD IF NOT EXISTS RID varchar UNIQUE,
   ADD IF NOT EXISTS RID varchar,
   ADD IF NOT EXISTS PTGENDER varchar,
   ADD IF NOT EXISTS PTRACE varchar,

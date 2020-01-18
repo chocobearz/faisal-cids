@@ -20,18 +20,18 @@ CREATE TABLE mockschema.datasets(
 
 --holds info that remains constant over all visits
 CREATE TABLE mockschema.subject(
-  id serial UNIQUE PRIMARY KEY,
-  datasetid int REFERENCES mockdatabase.datasets(id) ON DELETE CASCADE
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  datasetid int NOT NULL REFERENCES mockschema.datasets(id) ON DELETE CASCADE
 );
 
 --holds info that remains constant for the duration of a visit
 CREATE TABLE mockschema.visit(
-  id serial UNIQUE PRIMARY KEY,
-  subjectid int REFERENCES mockdatabase.subject(id) ON DELETE CASCADE
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  subjectid int NOT NULL REFERENCES mockschema.subject(id) ON DELETE CASCADE
 );
 
 --info that changes during the visit
 CREATE TABLE mockschema.repeatmeasure(
-  id serial UNIQUE PRIMARY KEY,
-  visitid int REFERENCES mockdatabase.visit(id) ON DELETE CASCADE
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  visitid int NOT NULL REFERENCES mockschema.visit(id) ON DELETE CASCADE
 );
