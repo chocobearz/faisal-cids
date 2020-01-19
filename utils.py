@@ -155,3 +155,89 @@ def updateTables(schema, filename, timePoint, vars_list):
           alterationStatement = alterationStatement + alteration
       textfile.write("\n")
   return sqlStatement
+
+def insertData(filename, tables, data, timePoint, foreign_keys, schema):
+
+  uniqueRID = []
+  uniqueRIDVC = []
+  uniqueTarget_id = []
+  sqlStatement = []
+  
+  with open(filename+".sql", "w+") as textfile:
+
+    for i, tablename in enumerate(tables):
+      insertStatement = ""
+      if tablename == 'subject':
+        for index, row in data.iterrows():
+          values = []
+          if row['RID'] not in uniqueRID:
+            uniqueRID.append(row['RID'])
+            for name in timePoint[i]:
+              values.append(putparen(row[name]))
+            templateInsert = ''.join(
+              open('templateInsertSubject.sql', 'r').readlines()
+            )
+            insert = (
+              templateInsert.format(
+                schema = schema,
+                fk = foreign_keys[i],
+                columns = ", ".join(timePoint[i]),
+                values = ", ".join(values),
+              )
+            )
+            textfile.write(insert)
+            insertStatement = insertStatement + insert
+        textfile.write("\n")
+        sqlStatement.append(insertStatement)
+      elif tablename == 'visit':
+        for index, row in data.iterrows():
+          values = []
+          RID_VC = f"{row['RID']}-{row['VISCODE']}"
+          if RID_VC not in uniqueRIDVC:
+            uniqueRIDVC.append(RID_VC)
+            key_id = putparen(row['RID'])
+            for name in timePoint[i]:
+              values.append(putparen(row[name]))
+            templateInsert = ''.join(
+              open('templateInsertVisit.sql', 'r').readlines()
+            )
+            insert = (
+              templateInsert.format(
+                schema = schema,
+                fk = foreign_keys[i],
+                columns = ", ".join(timePoint[i]),
+                values = ", ".join(values),
+                key_id = key_id
+              )
+            )
+            textfile.write(insert)
+            insertStatement = insertStatement + insert
+        textfile.write("\n")
+        sqlStatement.append(insertStatement)
+      elif tablename == 'repeatmeasure':
+        for index, row in data.iterrows():
+          values = []
+          RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}"
+          if RID_VC_RC not in uniqueRIDVC:
+            uniqueRIDVC.append(RID_VC_RC)
+            fk_id = putparen(row['RID'])
+            key_id = putparen(row['VISCODE'])
+            for name in timePoint[i]:
+              values.append(putparen(row[name]))
+            templateInsert = ''.join(
+              open('templateInsertRepeat.sql', 'r').readlines()
+            )
+            insert = (
+              templateInsert.format(
+                schema = schema,
+                fk = foreign_keys[i],
+                columns = ", ".join(timePoint[i]),
+                values = ", ".join(values),
+                fk_id = fk_id,
+                key_id = key_id
+              )
+            )
+            textfile.write(insert)
+            insertStatement = insertStatement + insert
+    sqlStatement.append(insertStatement)
+  return(sqlStatement)

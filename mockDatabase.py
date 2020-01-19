@@ -3,6 +3,7 @@ import yaml
 import argparse
 from utils import findTimepoints
 from utils import updateTables
+from utils import insertData
 from utils import putparen
 import psycopg2
 from psycopg2 import Error
@@ -49,7 +50,15 @@ data = pd.read_csv("ClinicalInfo_final.csv")
 
 timePoint = findTimepoints(data)
 
-alterTable = updateTables(schema, args.filename, timePoint, vars_list)
+alterTable = updateTables(schema, args.alterfilename, timePoint, vars_list)
+dataInsertion = insertData(
+  args.insertfilename,
+  tables,
+  data,
+  timePoint,
+  foreign_keys,
+  schema
+)
 
 try:
   connection = psycopg2.connect(
@@ -70,107 +79,17 @@ try:
   record = cursor.fetchone()
   print("You are connected to - ", record,"\n")
 
-  for query in alterTable:
+  for i, query in enumerate(alterTable):
     alterTableQuery= query
     cursor.execute(alterTableQuery)
     connection.commit()
-    print("Table altered successfully in PostgreSQL ")
-  
-  uniqueRID = []
-  uniqueRIDVC = []
-  uniqueTarget_id = []
+    print("Table " + tables[i] + " altered successfully in PostgreSQL")
 
-  for i, tablename in enumerate(tables):
-    if tablename == 'subject':
-      for index, row in data.iterrows():
-        values = []
-        if row['RID'] not in uniqueRID:
-          uniqueRID.append(row['RID'])
-          for name in timePoint[i]:
-            values.append(putparen(row[name]))
-          cursor.execute(
-            '''INSERT INTO 
-                 {schema}.subject
-                   ({fk}, {columns})
-               VALUES 
-               ( 
-                 1, {values}
-               )'''.format(
-                 schema = schema,
-                 fk = foreign_keys[i],
-                 columns = ", ".join(timePoint[i]),
-                 values = ", ".join(values),
-               )
-          )
-    elif tablename == 'visit':
-      for index, row in data.iterrows():
-        values = []
-        RID_VC = f"{row['RID']}-{row['VISCODE']}"
-        if RID_VC not in uniqueRIDVC:
-          uniqueRIDVC.append(RID_VC)
-          key_id = putparen(row['RID'])
-          for name in timePoint[i]:
-            values.append(putparen(row[name]))
-          cursor.execute(
-            '''INSERT INTO 
-                {schema}.visit 
-                  ({fk}, {columns}) 
-              VALUES
-                (
-                  (
-                    SELECT
-                      id
-                    FROM
-                      {schema}.subject
-                    WHERE
-                      RID = {key_id}
-                  ), {values}
-                )'''.format(
-              schema = schema,
-              fk = foreign_keys[i],
-              columns = ", ".join(timePoint[i]),
-              values = ", ".join(values),
-              key_id = key_id
-            )
-          )
-    elif tablename == 'repeatmeasure':
-      for index, row in data.iterrows():
-        values = []
-        RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}"
-        if RID_VC_RC not in uniqueRIDVC:
-          uniqueRIDVC.append(RID_VC_RC)
-          fk_id = putparen(row['RID'])
-          key_id = putparen(row['VISCODE'])
-          for name in timePoint[i]:
-            values.append(putparen(row[name]))
-          cursor.execute(
-            '''INSERT INTO
-                 {schema}.repeatmeasure
-                   ({fk}, {columns})
-               VALUES
-                 (
-                   (
-                     SELECT
-                       {schema}.visit.id 
-                     FROM
-                       {schema}.subject,
-                       {schema}.visit
-                     WHERE
-                        visit.subjectid = subject.id
-                        AND subject.rid = {fk_id}
-                        AND visit.viscode = {key_id}
-                   ), {values}
-                 )'''.format(
-                 schema = schema,
-                 fk = foreign_keys[i],
-                 columns = ", ".join(timePoint[i]),
-                 values = ", ".join(values),
-                 fk_id = fk_id,
-                 key_id = key_id
-            )
-          )
+  for i, query in enumerate(dataInsertion):
+    insertQuery= query
+    cursor.execute(insertQuery)
     connection.commit()
-    print("Data successfully inserted in PostgreSQL for table ", tablename)
+    print("Data successfully inserted in PostgreSQL table " + tables[i])
 
 except (Exception, psycopg2.Error) as error :
   print ("Error while connected to PostgreSQL", error)
