@@ -35,8 +35,12 @@ for line in environment:
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
-  "filename",
+  "alterfilename",
   help="the name of the SQL file which will be created to hold ALTER statemnets"
+)
+parser.add_argument(
+  "insertfilename",
+  help="the name of the SQL file which will be created to hold INSERT statemnets"
 )
 args = parser.parse_args()
 

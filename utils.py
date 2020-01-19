@@ -114,15 +114,15 @@ def findTimepoints(data):
 def updateTables(schema, filename, timePoint, vars_list):
 
   sqlStatement = []
-  alterationStatement = ""
 
   with open(filename+".sql", "w+") as textfile:
-    
+
     updateTableTemplate = "ALTER TABLE {schema}.{tablename}\n"
 
     tables = ["subject","visit","repeatmeasure"]
 
     for i, tablename in enumerate(tables):
+      alterationStatement = ""
       updateTable = updateTableTemplate.format(
           tablename = tablename,
           schema = schema
