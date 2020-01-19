@@ -4,26 +4,26 @@ def putparen(string):
 def findTimepoints(data):
 
   colnames = list(data)
-  
+
   #check that RID exists or throw an error
   if("RID" not in colnames):
     raise Error("Incorrect data format, please standardize column nammes and try again")
-  
+
   #check that RID exists or throw an error
   if("VISCODE" not in colnames):
     raise Error("Incorrect data format, please standardize column nammes and try again")
-  
+
   #check that RID exists or throw an error
   if("REPEATCODE" not in colnames):
     raise Error("Incorrect data format, please standardize column nammes and try again")
-  
+
   """
   Create a dictionary with three levels of keys
   Subject key: RID
   Visit key: VISCODE
   Repeat key: REPEATCODE
   """
-  
+
   data_uniqueRID = data.RID.unique()
   subjectVariables = ["RID"]
   visitVariables = ["VISCODE"]
@@ -41,13 +41,13 @@ def findTimepoints(data):
       new = vrow.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
       for i, repeatcode in enumerate(repeat):
         subject[RID][viscode][repeatcode] = [dict(new.iloc[i])]
-  
+
   """
     check subject level time stamp
     extract the columns of data which do not change for unique RID
     these belong to the subject table
   """
-  
+
   all_rid_same = {}
   for RID in subject:
     all_rid_same[RID] = {}
@@ -60,9 +60,9 @@ def findTimepoints(data):
               all_rid_same[RID][column_name] = [entry_value]
             else:
               all_rid_same[RID][column_name].append(entry_value)
-  
+
   column_subject_eval = {}
-  
+
   for RID in all_rid_same:
     for column_name in all_rid_same[RID]:
       subject_bool = all(
@@ -76,16 +76,16 @@ def findTimepoints(data):
   for column_name in column_subject_eval:
     if (all(value for value in column_subject_eval[column_name])):
       subjectVariables.append(column_name)
-  
+
     """
       check visit level time stamp
       extract columns of data which do not change for unique viscode of unique ID
       these belong to the visits table
       all remaining measures belong to the repeat table
     """
-  
+
   column_visit_eval = {}
-  
+
   for RID in subject:
     for viscode in subject[RID]:
       if (len(subject[RID][viscode]) > 1):
@@ -162,7 +162,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema):
   uniqueRIDVC = []
   uniqueTarget_id = []
   sqlStatement = []
-  
+
   with open(filename+".sql", "w+") as textfile:
 
     for i, tablename in enumerate(tables):
