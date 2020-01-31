@@ -1,5 +1,5 @@
 INSERT INTO
-  {schema}.repeatmeasure ({fk}, {columns})
+  {schema}.{repeattable} ({fk}, {columns})
 VALUES
   (
     (

@@ -16,15 +16,17 @@ ALTER TABLE mockschema.visit
 ALTER TABLE mockschema.repeatmeasure
   ADD IF NOT EXISTS REPEATCODE varchar,
   ADD IF NOT EXISTS TIME_1 time,
-  ADD IF NOT EXISTS Measure1 float,
   ADD IF NOT EXISTS TIME_2 time,
-  ADD IF NOT EXISTS Measure2 float,
   ADD IF NOT EXISTS TIME_3 time,
-  ADD IF NOT EXISTS Measure3 float,
   ADD IF NOT EXISTS TIME_4 time,
-  ADD IF NOT EXISTS Measure4 float,
   ADD IF NOT EXISTS TIME_5 time,
-  ADD IF NOT EXISTS Measure5 float,
-  ADD IF NOT EXISTS TIME_6 time,
-  ADD IF NOT EXISTS Measure6 float;
+  ADD IF NOT EXISTS TIME_6 time;
+
+ALTER TABLE mockschema.mrimeasure
+  ADD IF NOT EXISTS MRI_Measure1 float,
+  ADD IF NOT EXISTS MRI_Measure2 float,
+  ADD IF NOT EXISTS MRI_Measure3 float,
+  ADD IF NOT EXISTS MRI_Measure4 float,
+  ADD IF NOT EXISTS MRI_Measure5 float,
+  ADD IF NOT EXISTS MRI_Measure6 float;
 
