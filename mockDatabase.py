@@ -53,9 +53,34 @@ with open(r"config.yaml") as config:
 #read in the data and save the headers to a list
 data = pd.read_csv("ClinicalInfo_final.csv")
 
-timePoint = findTimepoints(data)
+measureTimePoint = measurementCheck(data)
 
-alterTable = updateTables(schema, args.alterfilename, timePoint, vars_list)
+timePointData = data
+
+for col in measureTimePoint:
+
+  timePointData = timePointData.drop(col, axis = 1)
+
+timePoint = findTimepoints(timePointData)
+
+if len(measureTimePoint[0]) > 0:
+  tables.append("ctmeasure")
+  timePoint.append(measureTimePoint[0])
+if len(measureTimePoint[1]) > 0:
+  tables.append("retnalmeasure")
+  timePoint.append(measureTimePoint[1])
+if len(measureTimePoint[2]) > 0:
+  tables.append("mrimeasure")
+  timePoint.append(measureTimePoint[2])
+
+alterTable = updateTables(
+  schema,
+  args.alterfilename,
+  timePoint,
+  measureTimePoint,
+  vars_list,
+  tables
+)
 dataInsertion = insertData(
   args.insertfilename,
   tables,
