@@ -128,7 +128,7 @@ def findTimepoints(data):
 
   return [subjectVariables,visitVariables,repeatVariables]
 
-def updateTables(schema, filename, timePoint, vars_list):
+def updateTables(schema, filename, timePoint, measureTimePoint, vars_list, tables):
 
   sqlStatement = []
 
@@ -136,15 +136,12 @@ def updateTables(schema, filename, timePoint, vars_list):
 
     updateTableTemplate = "ALTER TABLE {schema}.{tablename}\n"
 
-    tables = ["subject","visit","repeatmeasure"]
-
     for i, tablename in enumerate(tables):
       alterationStatement = ""
       updateTable = updateTableTemplate.format(
           tablename = tablename,
           schema = schema
         )
-
       textfile.write(updateTable)
       alterationStatement = alterationStatement + updateTable
       for column in timePoint[i]:
@@ -171,6 +168,7 @@ def updateTables(schema, filename, timePoint, vars_list):
           textfile.write(alteration)
           alterationStatement = alterationStatement + alteration
       textfile.write("\n")
+
   return sqlStatement
 
 def insertData(filename, tables, data, timePoint, foreign_keys, schema):
@@ -231,10 +229,10 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema):
             insertStatement = insertStatement + insert
         textfile.write("\n")
         sqlStatement.append(insertStatement)
-      elif tablename == 'repeatmeasure':
+      elif tablename == 'repeatmeasure' or tablename == 'ctmeasure' or tablename == 'retnalmeasure' or tablename == 'mrimeasure':
         for index, row in data.iterrows():
           values = []
-          RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}"
+          RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}-{tablename}"
           if RID_VC_RC not in uniqueRIDVC:
             uniqueRIDVC.append(RID_VC_RC)
             fk_id = putparen(row['RID'])
@@ -247,6 +245,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema):
             insert = (
               templateInsert.format(
                 schema = schema,
+                repeattable = tablename,
                 fk = foreign_keys[i],
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
