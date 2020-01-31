@@ -10,7 +10,7 @@ import psycopg2
 from psycopg2 import Error
 
 tables = ["subject","visit","repeatmeasure"]
-foreign_keys = ["datasetid", "subjectid", "visitid"]
+foreign_keys = ["datasetid", "subjectid", "visitid", "visitid", "visitid", "visitid"]
 Username = "username"
 Password = "password"
 Host = "host"
