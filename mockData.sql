@@ -35,3 +35,21 @@ CREATE TABLE mockschema.repeatmeasure(
   id serial NOT NULL UNIQUE PRIMARY KEY,
   visitid int NOT NULL REFERENCES mockschema.visit(id) ON DELETE CASCADE
 );
+
+--CT measurments
+CREATE TABLE mockschema.ctmeasure(
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  visitid int NOT NULL REFERENCES mockschema.visit(id) ON DELETE CASCADE
+);
+
+--MRI measurments
+CREATE TABLE mockschema.mrimeasure(
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  visitid int NOT NULL REFERENCES mockschema.visit(id) ON DELETE CASCADE
+);
+
+--Retnal measurements
+CREATE TABLE mockschema.retnalmeasure(
+  id serial NOT NULL UNIQUE PRIMARY KEY,
+  visitid int NOT NULL REFERENCES mockschema.visit(id) ON DELETE CASCADE
+);

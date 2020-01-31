@@ -1,7 +1,4 @@
-def putparen(string):
-  return f"\'{string}\'"
-
-def findTimepoints(data):
+def measurementCheck(data):
 
   colnames = list(data)
 
@@ -16,6 +13,26 @@ def findTimepoints(data):
   #check that RID exists or throw an error
   if("REPEATCODE" not in colnames):
     raise Error("Incorrect data format, please standardize column nammes and try again")
+  
+  variables = []
+  ctVariables = []
+  retnalVariables = []
+  mriVariables = []
+  
+  for col in colnames:
+    if "CT_Measure" in col:
+      ctvariables.append(col)
+    elif "Retnal_Measure" in col:
+      retnalVariables.append(col)
+    elif "MRI_Measure" in col:
+      mriVariables.append(col)
+
+  return [ctVariables, retnalVariables, mriVariables]
+
+def putparen(string):
+  return f"\'{string}\'"
+
+def findTimepoints(data):
 
   """
   Create a dictionary with three levels of keys

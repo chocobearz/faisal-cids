@@ -5,6 +5,7 @@ from utils import findTimepoints
 from utils import updateTables
 from utils import insertData
 from utils import putparen
+from utils import measurementCheck
 import psycopg2
 from psycopg2 import Error
 
