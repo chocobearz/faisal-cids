@@ -171,7 +171,7 @@ def updateTables(schema, filename, timePoint, measureTimePoint, vars_list, table
 
   return sqlStatement
 
-def insertData(filename, tables, data, timePoint, foreign_keys, schema):
+def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset):
 
   uniqueRID = []
   uniqueRIDVC = []
@@ -198,6 +198,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema):
                 fk = foreign_keys[i],
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
+                datasetname = putparen(dataset),
               )
             )
             textfile.write(insert)

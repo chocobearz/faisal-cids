@@ -1,5 +1,13 @@
 INSERT INTO 
   {schema}.subject ({fk}, {columns})
-VALUES ( 
-  1, {values}
-);
+VALUES 
+  (
+    (
+      SELECT
+        id 
+      FROM
+        {schema}.dataset
+      WHERE
+         name = {datasetname}
+    ), {values}
+  );

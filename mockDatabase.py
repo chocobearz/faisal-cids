@@ -43,6 +43,10 @@ parser.add_argument(
   "insertfilename",
   help="the name of the SQL file which will be created to hold INSERT statemnets"
 )
+parser.add_argument(
+  "datasetname",
+  help="the name of the dataset you are currently loading into the database"
+)
 args = parser.parse_args()
 
 with open(r"config.yaml") as config:
@@ -87,7 +91,8 @@ dataInsertion = insertData(
   data,
   timePoint,
   foreign_keys,
-  schema
+  schema,
+  args.datasetname
 )
 
 try:

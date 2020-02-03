@@ -4,12 +4,13 @@
 --CREATE DATABASE mockdatabase;
 --connect via:
 --\c mockdatabase
+--\i to run file
 
 --Create schema
 CREATE SCHEMA mockschema
 
 --holds info on the dataset
-CREATE TABLE mockschema.datasets(
+CREATE TABLE mockschema.dataset(
   id serial UNIQUE PRIMARY KEY,
   name varchar,
   country varchar,
@@ -21,7 +22,7 @@ CREATE TABLE mockschema.datasets(
 --holds info that remains constant over all visits
 CREATE TABLE mockschema.subject(
   id serial NOT NULL UNIQUE PRIMARY KEY,
-  datasetid int NOT NULL REFERENCES mockschema.datasets(id) ON DELETE CASCADE
+  datasetid int NOT NULL REFERENCES mockschema.dataset(id) ON DELETE CASCADE
 );
 
 --holds info that remains constant for the duration of a visit
