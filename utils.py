@@ -256,5 +256,5 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
             )
             textfile.write(insert)
             insertStatement = insertStatement + insert
-    sqlStatement.append(insertStatement)
+        sqlStatement.append(insertStatement)
   return(sqlStatement)
