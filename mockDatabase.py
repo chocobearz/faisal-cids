@@ -1,11 +1,15 @@
 import pandas as pd
 import yaml
 import argparse
+import sys
+import copy
 from utils import findTimepoints
 from utils import updateTables
 from utils import insertData
 from utils import putparen
 from utils import measurementCheck
+from utils import isListEmpty
+from utils import isInList
 import psycopg2
 from psycopg2 import Error
 
@@ -18,6 +22,7 @@ Port = "port"
 Database = "database"
 connection = None
 schema = "mockschema"
+previousTableTuple = []
 
 environment = open(".env.development").readlines()
 creds = {}
@@ -77,14 +82,85 @@ if len(measureTimePoint[2]) > 0:
   tables.append("mrimeasure")
   timePoint.append(measureTimePoint[2])
 
-alterTable = updateTables(
-  schema,
-  args.alterfilename,
-  timePoint,
-  measureTimePoint,
-  vars_list,
-  tables
-)
+try:
+  connection = psycopg2.connect(
+    user = creds[Username],
+    password = creds[Password],
+    host = creds[Host],
+    port = creds[Port],
+    database = creds[Database]
+  )
+
+  cursor = connection.cursor()
+
+  # Print PostgreSQL Connection properties
+  print ( connection.get_dsn_parameters(),"\n")
+
+  # Print PostgreSQL version
+  cursor.execute("SELECT version();")
+  record = cursor.fetchone()
+  print("You are connected to - ", record,"\n")
+
+  for i, tablename in enumerate(tables):
+    query = '''SELECT column_name
+      FROM information_schema.columns 
+      WHERE table_schema = {schema}
+      AND table_name   = {table};'''.format(
+        schema = putparen(schema),
+        table = putparen(tablename)
+      )
+    cursor.execute(query)
+    previousTableTuple.append(cursor.fetchall())
+
+except (Exception, psycopg2.Error) as error :
+  print ("Error while connected to PostgreSQL", error)
+  exit(0)
+finally:
+  #closing database connection.
+  if(connection):
+    cursor.close()
+    connection.close()
+    print("PostgreSQL connection is closed")
+
+
+previousTable = []
+for i,Tuple in enumerate(previousTableTuple):
+  tempTable = []
+  for k,this in enumerate(Tuple):
+    tempTable.append(previousTableTuple[i][k][0])
+  previousTable.append(tempTable)
+
+adjTimePoint = copy.deepcopy(timePoint)
+for i, table in enumerate(timePoint):
+  for col in table:
+    column = col.lower()
+    if column in previousTable[i]:
+      adjTimePoint[i].remove(col)
+    elif isInList(previousTable, column) and column not in previousTable[i]:
+      sys.exit(f'''One of the columns: {col} you are attempting to load is already in 
+      the database and is being assesed to belong to a different table. Please
+      refer to the database to see the current table. Check for input errors
+      and if the new table is correct manually move the column to the new table''')
+
+newTimePoint = copy.deepcopy(adjTimePoint)
+newTable = copy.deepcopy(tables)
+for i, table in enumerate(adjTimePoint):
+  if not table:
+    newTimePoint.remove(table)
+    newTable.remove(tables[i])
+
+adjTimePoint = newTimePoint
+
+if not isListEmpty(adjTimePoint):
+  alterTable = updateTables(
+    schema,
+    args.alterfilename,
+    adjTimePoint,
+    measureTimePoint,
+    vars_list,
+    newTable
+  )
+
 dataInsertion = insertData(
   args.insertfilename,
   tables,
@@ -114,11 +190,12 @@ try:
   record = cursor.fetchone()
   print("You are connected to - ", record,"\n")
 
-  for i, query in enumerate(alterTable):
-    alterTableQuery= query
-    cursor.execute(alterTableQuery)
-    connection.commit()
-    print("Table " + tables[i] + " altered successfully in PostgreSQL")
+  if not isListEmpty(adjTimePoint):
+    for i, query in enumerate(alterTable):
+      alterTableQuery= query
+      cursor.execute(alterTableQuery)
+      connection.commit()
+      print("Table " + tables[i] + " altered successfully in PostgreSQL")
 
   for i, query in enumerate(dataInsertion):
     insertQuery= query

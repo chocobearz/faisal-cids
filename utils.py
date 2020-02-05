@@ -1,3 +1,16 @@
+def isListEmpty(inList):
+  if isinstance(inList, list): # Is a list
+    return all( map(isListEmpty, inList) )
+  return False
+
+def isInList(inList, value):
+  if isinstance(inList, list): # Is a list
+    for currentList in inList:
+      if value in currentList:
+        return True
+      return False
+  return False
+
 def measurementCheck(data):
 
   colnames = list(data)
