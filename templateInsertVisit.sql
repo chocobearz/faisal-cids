@@ -1,4 +1,4 @@
-INSERT INTO 
+INSERT INTO
   {schema}.visit ({fk}, {columns}) 
 VALUES
   (

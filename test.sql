@@ -1,32 +1,3 @@
-ALTER TABLE mockschema.subject
-  ADD IF NOT EXISTS RID varchar UNIQUE,
-  ADD IF NOT EXISTS RID varchar,
-  ADD IF NOT EXISTS PTGENDER varchar,
-  ADD IF NOT EXISTS PTRACE varchar,
-  ADD IF NOT EXISTS FLDSTRENG varchar;
-
 ALTER TABLE mockschema.visit
-  ADD IF NOT EXISTS VISCODE varchar,
-  ADD IF NOT EXISTS DATE date,
-  ADD IF NOT EXISTS AGE varchar,
-  ADD IF NOT EXISTS Month_bl varchar,
-  ADD IF NOT EXISTS AUX_DIAGNOSIS varchar,
-  ADD IF NOT EXISTS AUX_STRATIFICATION varchar;
-
-ALTER TABLE mockschema.repeatmeasure
-  ADD IF NOT EXISTS REPEATCODE varchar,
-  ADD IF NOT EXISTS TIME_1 time,
-  ADD IF NOT EXISTS TIME_2 time,
-  ADD IF NOT EXISTS TIME_3 time,
-  ADD IF NOT EXISTS TIME_4 time,
-  ADD IF NOT EXISTS TIME_5 time,
-  ADD IF NOT EXISTS TIME_6 time;
-
-ALTER TABLE mockschema.mrimeasure
-  ADD IF NOT EXISTS MRI_Measure1 float,
-  ADD IF NOT EXISTS MRI_Measure2 float,
-  ADD IF NOT EXISTS MRI_Measure3 float,
-  ADD IF NOT EXISTS MRI_Measure4 float,
-  ADD IF NOT EXISTS MRI_Measure5 float,
-  ADD IF NOT EXISTS MRI_Measure6 float;
+  ADD IF NOT EXISTS PTGENDER varchar;
 

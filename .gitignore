@@ -1426,3 +1426,6 @@ GTAGS
 #username and password combinations for database
 .env.development
 .env.production
+
+#python compalation
+__pycache__/

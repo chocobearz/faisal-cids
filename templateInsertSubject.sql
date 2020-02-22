@@ -1,10 +1,10 @@
-INSERT INTO 
+INSERT INTO
   {schema}.subject ({fk}, {columns})
-VALUES 
+VALUES
   (
     (
       SELECT
-        id 
+        id
       FROM
         {schema}.dataset
       WHERE

@@ -1,2835 +1,7363 @@
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0001', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0002', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0003', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0004', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0005', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0006', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0007', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0009', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0010', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0011', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0012', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0013', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0014', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0015', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0016', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0017', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0018', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0019', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0020', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0021', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0022', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0023', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0025', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0026', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0027', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0028', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0029', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0030', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0031', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0032', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0033', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0034', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0035', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0037', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0038', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0039', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0040', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0041', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0042', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0043', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0044', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0045', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0046', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0047', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0049', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0050', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0051', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0052', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0053', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0054', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0055', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0056', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0057', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0058', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0059', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0060', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0061', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0062', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0063', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0064', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0065', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0066', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0067', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0068', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0069', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0070', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0071', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0072', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0073', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0074', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0075', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0076', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0077', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0078', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0079', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0080', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0081', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0082', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0083', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0084', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0085', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0086', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0087', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0088', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0090', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0091', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0092', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0094', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0095', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0096', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0097', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0098', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0099', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0101', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0102', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0103', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0104', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0105', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0106', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0107', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0108', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0109', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0110', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0111', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0112', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0113', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0114', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0115', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0116', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0117', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0119', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0120', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0121', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0122', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0123', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0124', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0125', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0126', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0127', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0129', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0130', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0131', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0132', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0133', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0134', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0135', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0136', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0137', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0138', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0139', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0140', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0141', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0142', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0143', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0144', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0145', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0146', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0147', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0148', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0150', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0151', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0152', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0153', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0155', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0156', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0157', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0158', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0159', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0160', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0161', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0162', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0163', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0164', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0165', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0166', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0167', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0168', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0169', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0170', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0173', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0174', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0176', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0177', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0178', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0179', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0180', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0181', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0182', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0183', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0184', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0185', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0186', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0188', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0189', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0190', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0191', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0192', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0193', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0195', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0197', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0198', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0199', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0200', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0201', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0202', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0203', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0204', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0205', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0206', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0207', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0208', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0209', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0210', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0211', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0212', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0213', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0214', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0216', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0217', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0218', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0220', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0221', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0222', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0223', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0224', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0226', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0227', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0228', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0229', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0230', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0231', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0232', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0233', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0234', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0235', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0236', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0237', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0238', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0239', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0240', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0241', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0243', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0244', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0246', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0247', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0249', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0250', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0253', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0254', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0255', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0256', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0258', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0259', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0260', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0261', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0262', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0263', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0264', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0265', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0266', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0267', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0268', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0269', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0270', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0271', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0272', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0273', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0274', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0275', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0277', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0278', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0279', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0280', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0281', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0282', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0283', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0284', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0285', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0286', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0287', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0288', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0289', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0290', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0291', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0292', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0293', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0294', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0295', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0296', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0298', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0299', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0300', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0301', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0302', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0303', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0304', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0305', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0307', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0308', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0309', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0310', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0311', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0312', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0313', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0314', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0315', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0316', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0317', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0318', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0319', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0321', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0322', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0323', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0325', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0326', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0327', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0328', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0329', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0330', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0331', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0332', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0333', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0335', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0336', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0337', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0338', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0339', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0340', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0341', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0342', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0343', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0344', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0345', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0346', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0348', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0349', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0350', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0351', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0352', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0353', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0354', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0355', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0356', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0357', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0358', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0359', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0361', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0362', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0363', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0365', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0366', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0367', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0368', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0369', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0370', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0371', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0372', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0373', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0374', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0375', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0376', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0377', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0378', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0379', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0380', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0381', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0382', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0383', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0384', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0385', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0386', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0387', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0388', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0389', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0390', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0392', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0394', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0395', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0396', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0397', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0398', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0399', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0400', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0401', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0402', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0403', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0404', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0405', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0406', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0407', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0408', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0409', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0410', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0411', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0413', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0415', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0416', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0417', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0418', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0419', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0420', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0421', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0422', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0423', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0424', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0425', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0426', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0428', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0429', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0430', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0431', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0432', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0433', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0434', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0435', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0437', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0438', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0439', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0440', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0441', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0442', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0443', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0444', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0445', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0446', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0447', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0448', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0449', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0450', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0451', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0452', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0453', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0454', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0455', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0456', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS1-0457', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0001', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0002', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0004', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0005', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0007', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0008', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0009', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0010', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0012', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0013', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0014', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0016', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0017', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0018', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0020', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0021', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0022', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0023', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0026', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0027', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0028', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0029', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0030', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0031', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0032', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0034', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0035', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0036', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0037', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0039', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0040', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0041', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0042', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0043', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0044', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0045', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0046', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0047', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0048', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0049', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0050', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0051', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0052', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0053', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0054', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0055', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0056', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0057', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0058', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0060', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0061', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0062', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0063', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0064', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0066', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0067', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0068', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0069', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0070', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0071', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0073', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0075', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0076', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0077', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0078', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0079', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0080', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0081', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0085', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0086', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0087', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0088', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0089', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0090', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0091', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0092', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0094', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0095', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0096', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0097', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0098', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0099', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0100', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0101', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0102', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0103', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0104', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0105', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0106', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0108', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0109', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0111', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0112', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0113', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0114', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0116', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0117', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0118', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0119', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0120', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0121', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0122', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0124', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0126', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0127', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0128', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0129', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0131', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0133', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0134', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0135', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0137', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0138', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0139', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0140', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0141', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0142', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0143', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0144', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0145', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0146', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0147', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0149', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0150', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0152', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0154', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0156', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0157', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0158', 'Female', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0159', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0160', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0161', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0162', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0164', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0165', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0169', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0171', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0172', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0174', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0175', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0176', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0177', 'Male', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0178', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0179', 'Male', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0181', 'Female', 'Latino', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0182', 'Male', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0183', 'Female', 'White', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0184', 'Female', 'Black', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0185', 'Male', 'Asian', '1.5 Tesla'
-);
-INSERT INTO 
-  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
-VALUES ( 
-  1, 'OAS2-0186', 'Female', 'Asian', '1.5 Tesla'
-);
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0001', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0002', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0003', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0004', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0005', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0006', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0007', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0009', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0010', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0011', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0012', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0013', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0014', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0015', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0016', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0017', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0018', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0019', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0020', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0021', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0022', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0023', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0025', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0026', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0027', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0028', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0029', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0030', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0031', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0032', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0033', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0034', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0035', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0037', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0038', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0039', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0040', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0041', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0042', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0043', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0044', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0045', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0046', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0047', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0049', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0050', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0051', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0052', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0053', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0054', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0055', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0056', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0057', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0058', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0059', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0060', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0061', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0062', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0063', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0064', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0065', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0066', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0067', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0068', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0069', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0070', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0071', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0072', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0073', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0074', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0075', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0076', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0077', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0078', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0079', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0080', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0081', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0082', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0083', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0084', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0085', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0086', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0087', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0088', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0090', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0091', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0092', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0094', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0095', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0096', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0097', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0098', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0099', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0101', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0102', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0103', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0104', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0105', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0106', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0107', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0108', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0109', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0110', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0111', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0112', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0113', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0114', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0115', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0116', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0117', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0119', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0120', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0121', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0122', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0123', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0124', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0125', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0126', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0127', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0129', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0130', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0131', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0132', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0133', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0134', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0135', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0136', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0137', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0138', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0139', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0140', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0141', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0142', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0143', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0144', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0145', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0146', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0147', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0148', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0150', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0151', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0152', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0153', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0155', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0156', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0157', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0158', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0159', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0160', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0161', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0162', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0163', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0164', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0165', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0166', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0167', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0168', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0169', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0170', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0173', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0174', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0176', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0177', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0178', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0179', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0180', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0181', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0182', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0183', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0184', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0185', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0186', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0188', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0189', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0190', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0191', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0192', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0193', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0195', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0197', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0198', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0199', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0200', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0201', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0202', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0203', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0204', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0205', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0206', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0207', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0208', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0209', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0210', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0211', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0212', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0213', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0214', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0216', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0217', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0218', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0220', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0221', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0222', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0223', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0224', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0226', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0227', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0228', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0229', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0230', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0231', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0232', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0233', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0234', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0235', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0236', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0237', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0238', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0239', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0240', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0241', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0243', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0244', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0246', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0247', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0249', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0250', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0253', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0254', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0255', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0256', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0258', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0259', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0260', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0261', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0262', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0263', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0264', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0265', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0266', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0267', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0268', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0269', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0270', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0271', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0272', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0273', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0274', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0275', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0277', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0278', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0279', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0280', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0281', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0282', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0283', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0284', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0285', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0286', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0287', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0288', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0289', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0290', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0291', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0292', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0293', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0294', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0295', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0296', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0298', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0299', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0300', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0301', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0302', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0303', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0304', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0305', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0307', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0308', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0309', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0310', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0311', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0312', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0313', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0314', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0315', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0316', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0317', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0318', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0319', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0321', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0322', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0323', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0325', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0326', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0327', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0328', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0329', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0330', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0331', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0332', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0333', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0335', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0336', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0337', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0338', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0339', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0340', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0341', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0342', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0343', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0344', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0345', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0346', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0348', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0349', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0350', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0351', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0352', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0353', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0354', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0355', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0356', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0357', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0358', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0359', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0361', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0362', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0363', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0365', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0366', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0367', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0368', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0369', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0370', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0371', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0372', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0373', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0374', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0375', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0376', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0377', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0378', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0379', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0380', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0381', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0382', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0383', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0384', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0385', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0386', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0387', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0388', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0389', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0390', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0392', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0394', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0395', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0396', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0397', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0398', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0399', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0400', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0401', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0402', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0403', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0404', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0405', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0406', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0407', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0408', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0409', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0410', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0411', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0413', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0415', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0416', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0417', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0418', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0419', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0420', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0421', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0422', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0423', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0424', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0425', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0426', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0428', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0429', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0430', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0431', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0432', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0433', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0434', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0435', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0437', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0438', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0439', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0440', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0441', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0442', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0443', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0444', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0445', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0446', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0447', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0448', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0449', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0450', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0451', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0452', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0453', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0454', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0455', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0456', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS1-0457', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0001', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0002', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0004', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0005', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0007', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0008', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0009', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0010', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0012', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0013', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0014', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0016', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0017', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0018', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0020', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0021', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0022', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0023', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0026', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0027', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0028', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0029', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0030', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0031', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0032', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0034', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0035', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0036', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0037', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0039', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0040', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0041', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0042', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0043', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0044', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0045', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0046', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0047', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0048', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0049', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0050', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0051', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0052', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0053', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0054', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0055', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0056', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0057', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0058', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0060', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0061', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0062', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0063', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0064', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0066', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0067', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0068', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0069', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0070', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0071', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0073', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0075', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0076', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0077', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0078', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0079', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0080', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0081', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0085', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0086', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0087', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0088', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0089', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0090', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0091', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0092', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0094', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0095', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0096', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0097', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0098', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0099', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0100', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0101', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0102', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0103', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0104', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0105', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0106', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0108', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0109', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0111', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0112', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0113', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0114', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0116', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0117', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0118', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0119', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0120', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0121', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0122', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0124', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0126', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0127', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0128', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0129', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0131', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0133', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0134', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0135', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0137', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0138', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0139', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0140', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0141', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0142', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0143', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0144', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0145', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0146', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0147', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0149', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0150', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0152', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0154', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0156', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0157', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0158', 'Female', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0159', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0160', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0161', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0162', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0164', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0165', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0169', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0171', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0172', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0174', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0175', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0176', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0177', 'Male', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0178', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0179', 'Male', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0181', 'Female', 'Latino', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0182', 'Male', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0183', 'Female', 'White', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0184', 'Female', 'Black', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0185', 'Male', 'Asian', '1.5 Tesla'
+  );
+INSERT INTO
+  mockschema.subject (datasetid, RID, PTGENDER, PTRACE, FLDSTRENG)
+VALUES
+  (
+    (
+      SELECT
+        id
+      FROM
+        mockschema.dataset
+      WHERE
+         name = 'mock'
+    ), 'OAS2-0186', 'Female', 'Asian', '1.5 Tesla'
+  );
 
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2842,7 +7370,7 @@ VALUES
         RID = 'OAS1-0001'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2855,7 +7383,7 @@ VALUES
         RID = 'OAS1-0002'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2868,7 +7396,7 @@ VALUES
         RID = 'OAS1-0003'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2881,7 +7409,7 @@ VALUES
         RID = 'OAS1-0004'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2894,7 +7422,7 @@ VALUES
         RID = 'OAS1-0005'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2907,7 +7435,7 @@ VALUES
         RID = 'OAS1-0006'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2920,7 +7448,7 @@ VALUES
         RID = 'OAS1-0007'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2933,7 +7461,7 @@ VALUES
         RID = 'OAS1-0009'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2946,7 +7474,7 @@ VALUES
         RID = 'OAS1-0010'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2959,7 +7487,7 @@ VALUES
         RID = 'OAS1-0011'
     ), 'v1', '2018-01-03', '52.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2972,7 +7500,7 @@ VALUES
         RID = 'OAS1-0012'
     ), 'v1', '2018-01-03', '30.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2985,7 +7513,7 @@ VALUES
         RID = 'OAS1-0013'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -2998,7 +7526,7 @@ VALUES
         RID = 'OAS1-0014'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3011,7 +7539,7 @@ VALUES
         RID = 'OAS1-0015'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3024,7 +7552,7 @@ VALUES
         RID = 'OAS1-0016'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3037,7 +7565,7 @@ VALUES
         RID = 'OAS1-0017'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3050,7 +7578,7 @@ VALUES
         RID = 'OAS1-0018'
     ), 'v1', '2018-01-03', '39.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3063,7 +7591,7 @@ VALUES
         RID = 'OAS1-0019'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3076,7 +7604,7 @@ VALUES
         RID = 'OAS1-0020'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3089,7 +7617,7 @@ VALUES
         RID = 'OAS1-0021'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3102,7 +7630,7 @@ VALUES
         RID = 'OAS1-0022'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3115,7 +7643,7 @@ VALUES
         RID = 'OAS1-0023'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3128,7 +7656,7 @@ VALUES
         RID = 'OAS1-0025'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3141,7 +7669,7 @@ VALUES
         RID = 'OAS1-0026'
     ), 'v1', '2018-01-03', '58.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3154,7 +7682,7 @@ VALUES
         RID = 'OAS1-0027'
     ), 'v1', '2018-01-03', '43.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3167,7 +7695,7 @@ VALUES
         RID = 'OAS1-0028'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3180,7 +7708,7 @@ VALUES
         RID = 'OAS1-0029'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3193,7 +7721,7 @@ VALUES
         RID = 'OAS1-0030'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3206,7 +7734,7 @@ VALUES
         RID = 'OAS1-0031'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3219,7 +7747,7 @@ VALUES
         RID = 'OAS1-0032'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3232,7 +7760,7 @@ VALUES
         RID = 'OAS1-0033'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3245,7 +7773,7 @@ VALUES
         RID = 'OAS1-0034'
     ), 'v1', '2018-01-03', '51.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3258,7 +7786,7 @@ VALUES
         RID = 'OAS1-0035'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3271,7 +7799,7 @@ VALUES
         RID = 'OAS1-0037'
     ), 'v1', '2018-01-03', '27.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3284,7 +7812,7 @@ VALUES
         RID = 'OAS1-0038'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3297,7 +7825,7 @@ VALUES
         RID = 'OAS1-0039'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3310,7 +7838,7 @@ VALUES
         RID = 'OAS1-0040'
     ), 'v1', '2018-01-03', '38.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3323,7 +7851,7 @@ VALUES
         RID = 'OAS1-0041'
     ), 'v1', '2018-01-03', '62.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3336,7 +7864,7 @@ VALUES
         RID = 'OAS1-0042'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3349,7 +7877,7 @@ VALUES
         RID = 'OAS1-0043'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3362,7 +7890,7 @@ VALUES
         RID = 'OAS1-0044'
     ), 'v1', '2018-01-03', '47.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3375,7 +7903,7 @@ VALUES
         RID = 'OAS1-0045'
     ), 'v1', '2018-01-03', '29.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3388,7 +7916,7 @@ VALUES
         RID = 'OAS1-0046'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3401,7 +7929,7 @@ VALUES
         RID = 'OAS1-0047'
     ), 'v1', '2018-01-03', '57.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3414,7 +7942,7 @@ VALUES
         RID = 'OAS1-0049'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3427,7 +7955,7 @@ VALUES
         RID = 'OAS1-0050'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3440,7 +7968,7 @@ VALUES
         RID = 'OAS1-0051'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3453,7 +7981,7 @@ VALUES
         RID = 'OAS1-0052'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3466,7 +7994,7 @@ VALUES
         RID = 'OAS1-0053'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3479,7 +8007,7 @@ VALUES
         RID = 'OAS1-0054'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3492,7 +8020,7 @@ VALUES
         RID = 'OAS1-0055'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3505,7 +8033,7 @@ VALUES
         RID = 'OAS1-0056'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3518,7 +8046,7 @@ VALUES
         RID = 'OAS1-0057'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3531,7 +8059,7 @@ VALUES
         RID = 'OAS1-0058'
     ), 'v1', '2018-01-03', '46.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3544,7 +8072,7 @@ VALUES
         RID = 'OAS1-0059'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3557,7 +8085,7 @@ VALUES
         RID = 'OAS1-0060'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3570,7 +8098,7 @@ VALUES
         RID = 'OAS1-0061'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3583,7 +8111,7 @@ VALUES
         RID = 'OAS1-0061'
     ), 'v2', '2018-03-15', '20.002777', '0.033333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3596,7 +8124,7 @@ VALUES
         RID = 'OAS1-0062'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3609,7 +8137,7 @@ VALUES
         RID = 'OAS1-0063'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3622,7 +8150,7 @@ VALUES
         RID = 'OAS1-0064'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3635,7 +8163,7 @@ VALUES
         RID = 'OAS1-0065'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3648,7 +8176,7 @@ VALUES
         RID = 'OAS1-0066'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3661,7 +8189,7 @@ VALUES
         RID = 'OAS1-0067'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3674,7 +8202,7 @@ VALUES
         RID = 'OAS1-0068'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3687,7 +8215,7 @@ VALUES
         RID = 'OAS1-0069'
     ), 'v1', '2018-01-03', '33.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3700,7 +8228,7 @@ VALUES
         RID = 'OAS1-0070'
     ), 'v1', '2018-01-03', '63.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3713,7 +8241,7 @@ VALUES
         RID = 'OAS1-0071'
     ), 'v1', '2018-01-03', '49.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3726,7 +8254,7 @@ VALUES
         RID = 'OAS1-0072'
     ), 'v1', '2018-01-03', '60.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3739,7 +8267,7 @@ VALUES
         RID = 'OAS1-0073'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3752,7 +8280,7 @@ VALUES
         RID = 'OAS1-0074'
     ), 'v1', '2018-01-03', '43.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3765,7 +8293,7 @@ VALUES
         RID = 'OAS1-0075'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3778,7 +8306,7 @@ VALUES
         RID = 'OAS1-0076'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3791,7 +8319,7 @@ VALUES
         RID = 'OAS1-0077'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3804,7 +8332,7 @@ VALUES
         RID = 'OAS1-0078'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3817,7 +8345,7 @@ VALUES
         RID = 'OAS1-0079'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3830,7 +8358,7 @@ VALUES
         RID = 'OAS1-0080'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3843,7 +8371,7 @@ VALUES
         RID = 'OAS1-0080'
     ), 'v2', '2018-03-15', '25.05555556', '0.666666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3856,7 +8384,7 @@ VALUES
         RID = 'OAS1-0081'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3869,7 +8397,7 @@ VALUES
         RID = 'OAS1-0082'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3882,7 +8410,7 @@ VALUES
         RID = 'OAS1-0083'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3895,7 +8423,7 @@ VALUES
         RID = 'OAS1-0084'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3908,7 +8436,7 @@ VALUES
         RID = 'OAS1-0085'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3921,7 +8449,7 @@ VALUES
         RID = 'OAS1-0086'
     ), 'v1', '2018-01-03', '47.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3934,7 +8462,7 @@ VALUES
         RID = 'OAS1-0087'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3947,7 +8475,7 @@ VALUES
         RID = 'OAS1-0088'
     ), 'v1', '2018-01-03', '40.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3960,7 +8488,7 @@ VALUES
         RID = 'OAS1-0090'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3973,7 +8501,7 @@ VALUES
         RID = 'OAS1-0091'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3986,7 +8514,7 @@ VALUES
         RID = 'OAS1-0092'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -3999,7 +8527,7 @@ VALUES
         RID = 'OAS1-0092'
     ), 'v2', '2018-03-15', '22.01388889', '0.166666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4012,7 +8540,7 @@ VALUES
         RID = 'OAS1-0094'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4025,7 +8553,7 @@ VALUES
         RID = 'OAS1-0095'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4038,7 +8566,7 @@ VALUES
         RID = 'OAS1-0096'
     ), 'v1', '2018-01-03', '47.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4051,7 +8579,7 @@ VALUES
         RID = 'OAS1-0097'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4064,7 +8592,7 @@ VALUES
         RID = 'OAS1-0098'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4077,7 +8605,7 @@ VALUES
         RID = 'OAS1-0099'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4090,7 +8618,7 @@ VALUES
         RID = 'OAS1-0101'
     ), 'v1', '2018-01-03', '29.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4103,7 +8631,7 @@ VALUES
         RID = 'OAS1-0101'
     ), 'v2', '2018-03-15', '29.17777778', '2.133333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4116,7 +8644,7 @@ VALUES
         RID = 'OAS1-0102'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4129,7 +8657,7 @@ VALUES
         RID = 'OAS1-0103'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4142,7 +8670,7 @@ VALUES
         RID = 'OAS1-0104'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4155,7 +8683,7 @@ VALUES
         RID = 'OAS1-0105'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4168,7 +8696,7 @@ VALUES
         RID = 'OAS1-0106'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4181,7 +8709,7 @@ VALUES
         RID = 'OAS1-0107'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4194,7 +8722,7 @@ VALUES
         RID = 'OAS1-0108'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4207,7 +8735,7 @@ VALUES
         RID = 'OAS1-0109'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4220,7 +8748,7 @@ VALUES
         RID = 'OAS1-0110'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4233,7 +8761,7 @@ VALUES
         RID = 'OAS1-0111'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4246,7 +8774,7 @@ VALUES
         RID = 'OAS1-0111'
     ), 'v2', '2018-03-15', '23.00555556', '0.066666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4259,7 +8787,7 @@ VALUES
         RID = 'OAS1-0112'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4272,7 +8800,7 @@ VALUES
         RID = 'OAS1-0113'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4285,7 +8813,7 @@ VALUES
         RID = 'OAS1-0114'
     ), 'v1', '2018-01-03', '62.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4298,7 +8826,7 @@ VALUES
         RID = 'OAS1-0115'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4311,7 +8839,7 @@ VALUES
         RID = 'OAS1-0116'
     ), 'v1', '2018-01-03', '52.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4324,7 +8852,7 @@ VALUES
         RID = 'OAS1-0117'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4337,7 +8865,7 @@ VALUES
         RID = 'OAS1-0117'
     ), 'v2', '2018-03-15', '25.01388889', '0.166666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4350,7 +8878,7 @@ VALUES
         RID = 'OAS1-0119'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4363,7 +8891,7 @@ VALUES
         RID = 'OAS1-0120'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4376,7 +8904,7 @@ VALUES
         RID = 'OAS1-0121'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4389,7 +8917,7 @@ VALUES
         RID = 'OAS1-0122'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4402,7 +8930,7 @@ VALUES
         RID = 'OAS1-0123'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4415,7 +8943,7 @@ VALUES
         RID = 'OAS1-0124'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4428,7 +8956,7 @@ VALUES
         RID = 'OAS1-0125'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4441,7 +8969,7 @@ VALUES
         RID = 'OAS1-0126'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4454,7 +8982,7 @@ VALUES
         RID = 'OAS1-0127'
     ), 'v1', '2018-01-03', '30.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4467,7 +8995,7 @@ VALUES
         RID = 'OAS1-0129'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4480,7 +9008,7 @@ VALUES
         RID = 'OAS1-0130'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4493,7 +9021,7 @@ VALUES
         RID = 'OAS1-0131'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4506,7 +9034,7 @@ VALUES
         RID = 'OAS1-0132'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4519,7 +9047,7 @@ VALUES
         RID = 'OAS1-0133'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4532,7 +9060,7 @@ VALUES
         RID = 'OAS1-0134'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4545,7 +9073,7 @@ VALUES
         RID = 'OAS1-0135'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4558,7 +9086,7 @@ VALUES
         RID = 'OAS1-0136'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4571,7 +9099,7 @@ VALUES
         RID = 'OAS1-0137'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4584,7 +9112,7 @@ VALUES
         RID = 'OAS1-0138'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4597,7 +9125,7 @@ VALUES
         RID = 'OAS1-0139'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4610,7 +9138,7 @@ VALUES
         RID = 'OAS1-0140'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4623,7 +9151,7 @@ VALUES
         RID = 'OAS1-0141'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4636,7 +9164,7 @@ VALUES
         RID = 'OAS1-0142'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4649,7 +9177,7 @@ VALUES
         RID = 'OAS1-0143'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4662,7 +9190,7 @@ VALUES
         RID = 'OAS1-0144'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4675,7 +9203,7 @@ VALUES
         RID = 'OAS1-0145'
     ), 'v1', '2018-01-03', '34.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4688,7 +9216,7 @@ VALUES
         RID = 'OAS1-0145'
     ), 'v2', '2018-03-15', '34.02777778', '0.333333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4701,7 +9229,7 @@ VALUES
         RID = 'OAS1-0146'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4714,7 +9242,7 @@ VALUES
         RID = 'OAS1-0147'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4727,7 +9255,7 @@ VALUES
         RID = 'OAS1-0148'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4740,7 +9268,7 @@ VALUES
         RID = 'OAS1-0150'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4753,7 +9281,7 @@ VALUES
         RID = 'OAS1-0150'
     ), 'v2', '2018-03-15', '20.00277778', '0.033333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4766,7 +9294,7 @@ VALUES
         RID = 'OAS1-0151'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4779,7 +9307,7 @@ VALUES
         RID = 'OAS1-0152'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4792,7 +9320,7 @@ VALUES
         RID = 'OAS1-0153'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4805,7 +9333,7 @@ VALUES
         RID = 'OAS1-0155'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4818,7 +9346,7 @@ VALUES
         RID = 'OAS1-0156'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4831,7 +9359,7 @@ VALUES
         RID = 'OAS1-0156'
     ), 'v2', '2018-03-15', '20.03333333', '0.4', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4844,7 +9372,7 @@ VALUES
         RID = 'OAS1-0157'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4857,7 +9385,7 @@ VALUES
         RID = 'OAS1-0158'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4870,7 +9398,7 @@ VALUES
         RID = 'OAS1-0159'
     ), 'v1', '2018-01-03', '40.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4883,7 +9411,7 @@ VALUES
         RID = 'OAS1-0160'
     ), 'v1', '2018-01-03', '57.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4896,7 +9424,7 @@ VALUES
         RID = 'OAS1-0161'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4909,7 +9437,7 @@ VALUES
         RID = 'OAS1-0162'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4922,7 +9450,7 @@ VALUES
         RID = 'OAS1-0163'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4935,7 +9463,7 @@ VALUES
         RID = 'OAS1-0164'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4948,7 +9476,7 @@ VALUES
         RID = 'OAS1-0165'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4961,7 +9489,7 @@ VALUES
         RID = 'OAS1-0166'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4974,7 +9502,7 @@ VALUES
         RID = 'OAS1-0167'
     ), 'v1', '2018-01-03', '41.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -4987,7 +9515,7 @@ VALUES
         RID = 'OAS1-0168'
     ), 'v1', '2018-01-03', '50.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5000,7 +9528,7 @@ VALUES
         RID = 'OAS1-0169'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5013,7 +9541,7 @@ VALUES
         RID = 'OAS1-0170'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5026,7 +9554,7 @@ VALUES
         RID = 'OAS1-0173'
     ), 'v1', '2018-01-03', '35.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5039,7 +9567,7 @@ VALUES
         RID = 'OAS1-0174'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5052,7 +9580,7 @@ VALUES
         RID = 'OAS1-0176'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5065,7 +9593,7 @@ VALUES
         RID = 'OAS1-0177'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5078,7 +9606,7 @@ VALUES
         RID = 'OAS1-0178'
     ), 'v1', '2018-01-03', '44.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5091,7 +9619,7 @@ VALUES
         RID = 'OAS1-0179'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5104,7 +9632,7 @@ VALUES
         RID = 'OAS1-0180'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5117,7 +9645,7 @@ VALUES
         RID = 'OAS1-0181'
     ), 'v1', '2018-01-03', '49.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5130,7 +9658,7 @@ VALUES
         RID = 'OAS1-0182'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5143,7 +9671,7 @@ VALUES
         RID = 'OAS1-0183'
     ), 'v1', '2018-01-03', '44.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5156,7 +9684,7 @@ VALUES
         RID = 'OAS1-0184'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5169,7 +9697,7 @@ VALUES
         RID = 'OAS1-0185'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5182,7 +9710,7 @@ VALUES
         RID = 'OAS1-0186'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5195,7 +9723,7 @@ VALUES
         RID = 'OAS1-0188'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5208,7 +9736,7 @@ VALUES
         RID = 'OAS1-0189'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5221,7 +9749,7 @@ VALUES
         RID = 'OAS1-0190'
     ), 'v1', '2018-01-03', '43.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5234,7 +9762,7 @@ VALUES
         RID = 'OAS1-0191'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5247,7 +9775,7 @@ VALUES
         RID = 'OAS1-0191'
     ), 'v2', '2018-03-15', '21.07777778', '0.933333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5260,7 +9788,7 @@ VALUES
         RID = 'OAS1-0192'
     ), 'v1', '2018-01-03', '31.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5273,7 +9801,7 @@ VALUES
         RID = 'OAS1-0193'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5286,7 +9814,7 @@ VALUES
         RID = 'OAS1-0195'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5299,7 +9827,7 @@ VALUES
         RID = 'OAS1-0197'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5312,7 +9840,7 @@ VALUES
         RID = 'OAS1-0198'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5325,7 +9853,7 @@ VALUES
         RID = 'OAS1-0199'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5338,7 +9866,7 @@ VALUES
         RID = 'OAS1-0200'
     ), 'v1', '2018-01-03', '60.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5351,7 +9879,7 @@ VALUES
         RID = 'OAS1-0201'
     ), 'v1', '2018-01-03', '85.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5364,7 +9892,7 @@ VALUES
         RID = 'OAS1-0202'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5377,7 +9905,7 @@ VALUES
         RID = 'OAS1-0202'
     ), 'v2', '2018-03-15', '23.05833333', '0.7', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5390,7 +9918,7 @@ VALUES
         RID = 'OAS1-0203'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5403,7 +9931,7 @@ VALUES
         RID = 'OAS1-0204'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5416,7 +9944,7 @@ VALUES
         RID = 'OAS1-0205'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5429,7 +9957,7 @@ VALUES
         RID = 'OAS1-0206'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5442,7 +9970,7 @@ VALUES
         RID = 'OAS1-0207'
     ), 'v1', '2018-01-03', '51.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5455,7 +9983,7 @@ VALUES
         RID = 'OAS1-0208'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5468,7 +9996,7 @@ VALUES
         RID = 'OAS1-0209'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5481,7 +10009,7 @@ VALUES
         RID = 'OAS1-0210'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5494,7 +10022,7 @@ VALUES
         RID = 'OAS1-0211'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5507,7 +10035,7 @@ VALUES
         RID = 'OAS1-0212'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5520,7 +10048,7 @@ VALUES
         RID = 'OAS1-0213'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5533,7 +10061,7 @@ VALUES
         RID = 'OAS1-0214'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5546,7 +10074,7 @@ VALUES
         RID = 'OAS1-0216'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5559,7 +10087,7 @@ VALUES
         RID = 'OAS1-0217'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5572,7 +10100,7 @@ VALUES
         RID = 'OAS1-0218'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5585,7 +10113,7 @@ VALUES
         RID = 'OAS1-0220'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5598,7 +10126,7 @@ VALUES
         RID = 'OAS1-0221'
     ), 'v1', '2018-01-03', '94.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5611,7 +10139,7 @@ VALUES
         RID = 'OAS1-0222'
     ), 'v1', '2018-01-03', '49.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5624,7 +10152,7 @@ VALUES
         RID = 'OAS1-0223'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5637,7 +10165,7 @@ VALUES
         RID = 'OAS1-0224'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5650,7 +10178,7 @@ VALUES
         RID = 'OAS1-0226'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5663,7 +10191,7 @@ VALUES
         RID = 'OAS1-0227'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5676,7 +10204,7 @@ VALUES
         RID = 'OAS1-0228'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5689,7 +10217,7 @@ VALUES
         RID = 'OAS1-0229'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5702,7 +10230,7 @@ VALUES
         RID = 'OAS1-0230'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5715,7 +10243,7 @@ VALUES
         RID = 'OAS1-0230'
     ), 'v2', '2018-03-15', '19.06666667', '0.8', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5728,7 +10256,7 @@ VALUES
         RID = 'OAS1-0231'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5741,7 +10269,7 @@ VALUES
         RID = 'OAS1-0232'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5754,7 +10282,7 @@ VALUES
         RID = 'OAS1-0233'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5767,7 +10295,7 @@ VALUES
         RID = 'OAS1-0234'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5780,7 +10308,7 @@ VALUES
         RID = 'OAS1-0235'
     ), 'v1', '2018-01-03', '37.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5793,7 +10321,7 @@ VALUES
         RID = 'OAS1-0236'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5806,7 +10334,7 @@ VALUES
         RID = 'OAS1-0236'
     ), 'v2', '2018-03-15', '20.00833333', '0.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5819,7 +10347,7 @@ VALUES
         RID = 'OAS1-0237'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5832,7 +10360,7 @@ VALUES
         RID = 'OAS1-0238'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5845,7 +10373,7 @@ VALUES
         RID = 'OAS1-0239'
     ), 'v1', '2018-01-03', '29.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5858,7 +10386,7 @@ VALUES
         RID = 'OAS1-0239'
     ), 'v2', '2018-03-15', '29.11111111', '1.333333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5871,7 +10399,7 @@ VALUES
         RID = 'OAS1-0240'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5884,7 +10412,7 @@ VALUES
         RID = 'OAS1-0241'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5897,7 +10425,7 @@ VALUES
         RID = 'OAS1-0243'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5910,7 +10438,7 @@ VALUES
         RID = 'OAS1-0244'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5923,7 +10451,7 @@ VALUES
         RID = 'OAS1-0246'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5936,7 +10464,7 @@ VALUES
         RID = 'OAS1-0247'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5949,7 +10477,7 @@ VALUES
         RID = 'OAS1-0249'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5962,7 +10490,7 @@ VALUES
         RID = 'OAS1-0249'
     ), 'v2', '2018-03-15', '28.00833333', '0.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5975,7 +10503,7 @@ VALUES
         RID = 'OAS1-0250'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -5988,7 +10516,7 @@ VALUES
         RID = 'OAS1-0253'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6001,7 +10529,7 @@ VALUES
         RID = 'OAS1-0254'
     ), 'v1', '2018-01-03', '85.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6014,7 +10542,7 @@ VALUES
         RID = 'OAS1-0255'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6027,7 +10555,7 @@ VALUES
         RID = 'OAS1-0256'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6040,7 +10568,7 @@ VALUES
         RID = 'OAS1-0258'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6053,7 +10581,7 @@ VALUES
         RID = 'OAS1-0259'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6066,7 +10594,7 @@ VALUES
         RID = 'OAS1-0260'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6079,7 +10607,7 @@ VALUES
         RID = 'OAS1-0261'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6092,7 +10620,7 @@ VALUES
         RID = 'OAS1-0262'
     ), 'v1', '2018-01-03', '46.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6105,7 +10633,7 @@ VALUES
         RID = 'OAS1-0263'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6118,7 +10646,7 @@ VALUES
         RID = 'OAS1-0264'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6131,7 +10659,7 @@ VALUES
         RID = 'OAS1-0265'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6144,7 +10672,7 @@ VALUES
         RID = 'OAS1-0266'
     ), 'v1', '2018-01-03', '51.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6157,7 +10685,7 @@ VALUES
         RID = 'OAS1-0267'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6170,7 +10698,7 @@ VALUES
         RID = 'OAS1-0268'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6183,7 +10711,7 @@ VALUES
         RID = 'OAS1-0269'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6196,7 +10724,7 @@ VALUES
         RID = 'OAS1-0270'
     ), 'v1', '2018-01-03', '93.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6209,7 +10737,7 @@ VALUES
         RID = 'OAS1-0271'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6222,7 +10750,7 @@ VALUES
         RID = 'OAS1-0272'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6235,7 +10763,7 @@ VALUES
         RID = 'OAS1-0273'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6248,7 +10776,7 @@ VALUES
         RID = 'OAS1-0274'
     ), 'v1', '2018-01-03', '58.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6261,7 +10789,7 @@ VALUES
         RID = 'OAS1-0275'
     ), 'v1', '2018-01-03', '50.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6274,7 +10802,7 @@ VALUES
         RID = 'OAS1-0277'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6287,7 +10815,7 @@ VALUES
         RID = 'OAS1-0278'
     ), 'v1', '2018-01-03', '96.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6300,7 +10828,7 @@ VALUES
         RID = 'OAS1-0279'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6313,7 +10841,7 @@ VALUES
         RID = 'OAS1-0280'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6326,7 +10854,7 @@ VALUES
         RID = 'OAS1-0281'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6339,7 +10867,7 @@ VALUES
         RID = 'OAS1-0282'
     ), 'v1', '2018-01-03', '45.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6352,7 +10880,7 @@ VALUES
         RID = 'OAS1-0283'
     ), 'v1', '2018-01-03', '18.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6365,7 +10893,7 @@ VALUES
         RID = 'OAS1-0284'
     ), 'v1', '2018-01-03', '91.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6378,7 +10906,7 @@ VALUES
         RID = 'OAS1-0285'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6391,7 +10919,7 @@ VALUES
         RID = 'OAS1-0285'
     ), 'v2', '2018-03-15', '20.00555556', '0.066666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6404,7 +10932,7 @@ VALUES
         RID = 'OAS1-0286'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6417,7 +10945,7 @@ VALUES
         RID = 'OAS1-0287'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6430,7 +10958,7 @@ VALUES
         RID = 'OAS1-0288'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6443,7 +10971,7 @@ VALUES
         RID = 'OAS1-0289'
     ), 'v1', '2018-01-03', '59.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6456,7 +10984,7 @@ VALUES
         RID = 'OAS1-0290'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6469,7 +10997,7 @@ VALUES
         RID = 'OAS1-0291'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6482,7 +11010,7 @@ VALUES
         RID = 'OAS1-0292'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6495,7 +11023,7 @@ VALUES
         RID = 'OAS1-0293'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6508,7 +11036,7 @@ VALUES
         RID = 'OAS1-0294'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6521,7 +11049,7 @@ VALUES
         RID = 'OAS1-0295'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6534,7 +11062,7 @@ VALUES
         RID = 'OAS1-0296'
     ), 'v1', '2018-01-03', '28.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6547,7 +11075,7 @@ VALUES
         RID = 'OAS1-0298'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6560,7 +11088,7 @@ VALUES
         RID = 'OAS1-0299'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6573,7 +11101,7 @@ VALUES
         RID = 'OAS1-0300'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6586,7 +11114,7 @@ VALUES
         RID = 'OAS1-0301'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6599,7 +11127,7 @@ VALUES
         RID = 'OAS1-0302'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6612,7 +11140,7 @@ VALUES
         RID = 'OAS1-0303'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6625,7 +11153,7 @@ VALUES
         RID = 'OAS1-0304'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6638,7 +11166,7 @@ VALUES
         RID = 'OAS1-0305'
     ), 'v1', '2018-01-03', '48.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6651,7 +11179,7 @@ VALUES
         RID = 'OAS1-0307'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6664,7 +11192,7 @@ VALUES
         RID = 'OAS1-0308'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6677,7 +11205,7 @@ VALUES
         RID = 'OAS1-0309'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6690,7 +11218,7 @@ VALUES
         RID = 'OAS1-0310'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6703,7 +11231,7 @@ VALUES
         RID = 'OAS1-0311'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6716,7 +11244,7 @@ VALUES
         RID = 'OAS1-0312'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6729,7 +11257,7 @@ VALUES
         RID = 'OAS1-0313'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6742,7 +11270,7 @@ VALUES
         RID = 'OAS1-0314'
     ), 'v1', '2018-01-03', '27.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6755,7 +11283,7 @@ VALUES
         RID = 'OAS1-0315'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6768,7 +11296,7 @@ VALUES
         RID = 'OAS1-0316'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6781,7 +11309,7 @@ VALUES
         RID = 'OAS1-0317'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6794,7 +11322,7 @@ VALUES
         RID = 'OAS1-0318'
     ), 'v1', '2018-01-03', '33.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6807,7 +11335,7 @@ VALUES
         RID = 'OAS1-0319'
     ), 'v1', '2018-01-03', '31.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6820,7 +11348,7 @@ VALUES
         RID = 'OAS1-0321'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6833,7 +11361,7 @@ VALUES
         RID = 'OAS1-0322'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6846,7 +11374,7 @@ VALUES
         RID = 'OAS1-0323'
     ), 'v1', '2018-01-03', '50.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6859,7 +11387,7 @@ VALUES
         RID = 'OAS1-0325'
     ), 'v1', '2018-01-03', '27.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6872,7 +11400,7 @@ VALUES
         RID = 'OAS1-0326'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6885,7 +11413,7 @@ VALUES
         RID = 'OAS1-0327'
     ), 'v1', '2018-01-03', '50.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6898,7 +11426,7 @@ VALUES
         RID = 'OAS1-0328'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6911,7 +11439,7 @@ VALUES
         RID = 'OAS1-0329'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6924,7 +11452,7 @@ VALUES
         RID = 'OAS1-0330'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6937,7 +11465,7 @@ VALUES
         RID = 'OAS1-0331'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6950,7 +11478,7 @@ VALUES
         RID = 'OAS1-0332'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6963,7 +11491,7 @@ VALUES
         RID = 'OAS1-0333'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6976,7 +11504,7 @@ VALUES
         RID = 'OAS1-0335'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -6989,7 +11517,7 @@ VALUES
         RID = 'OAS1-0336'
     ), 'v1', '2018-01-03', '41.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7002,7 +11530,7 @@ VALUES
         RID = 'OAS1-0337'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7015,7 +11543,7 @@ VALUES
         RID = 'OAS1-0338'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7028,7 +11556,7 @@ VALUES
         RID = 'OAS1-0339'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7041,7 +11569,7 @@ VALUES
         RID = 'OAS1-0340'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7054,7 +11582,7 @@ VALUES
         RID = 'OAS1-0341'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7067,7 +11595,7 @@ VALUES
         RID = 'OAS1-0342'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7080,7 +11608,7 @@ VALUES
         RID = 'OAS1-0343'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7093,7 +11621,7 @@ VALUES
         RID = 'OAS1-0344'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7106,7 +11634,7 @@ VALUES
         RID = 'OAS1-0345'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7119,7 +11647,7 @@ VALUES
         RID = 'OAS1-0346'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7132,7 +11660,7 @@ VALUES
         RID = 'OAS1-0348'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7145,7 +11673,7 @@ VALUES
         RID = 'OAS1-0349'
     ), 'v1', '2018-01-03', '43.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7158,7 +11686,7 @@ VALUES
         RID = 'OAS1-0350'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7171,7 +11699,7 @@ VALUES
         RID = 'OAS1-0351'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7184,7 +11712,7 @@ VALUES
         RID = 'OAS1-0352'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7197,7 +11725,7 @@ VALUES
         RID = 'OAS1-0353'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7210,7 +11738,7 @@ VALUES
         RID = 'OAS1-0353'
     ), 'v2', '2018-03-15', '22.11111111', '1.333333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7223,7 +11751,7 @@ VALUES
         RID = 'OAS1-0354'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7236,7 +11764,7 @@ VALUES
         RID = 'OAS1-0355'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7249,7 +11777,7 @@ VALUES
         RID = 'OAS1-0356'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7262,7 +11790,7 @@ VALUES
         RID = 'OAS1-0357'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7275,7 +11803,7 @@ VALUES
         RID = 'OAS1-0358'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7288,7 +11816,7 @@ VALUES
         RID = 'OAS1-0359'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7301,7 +11829,7 @@ VALUES
         RID = 'OAS1-0361'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7314,7 +11842,7 @@ VALUES
         RID = 'OAS1-0362'
     ), 'v1', '2018-01-03', '63.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7327,7 +11855,7 @@ VALUES
         RID = 'OAS1-0363'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7340,7 +11868,7 @@ VALUES
         RID = 'OAS1-0365'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7353,7 +11881,7 @@ VALUES
         RID = 'OAS1-0366'
     ), 'v1', '2018-01-03', '45.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7366,7 +11894,7 @@ VALUES
         RID = 'OAS1-0367'
     ), 'v1', '2018-01-03', '46.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7379,7 +11907,7 @@ VALUES
         RID = 'OAS1-0368'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7392,7 +11920,7 @@ VALUES
         RID = 'OAS1-0368'
     ), 'v2', '2018-03-15', '22.24722222', '2.9666666669999997', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7405,7 +11933,7 @@ VALUES
         RID = 'OAS1-0369'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7418,7 +11946,7 @@ VALUES
         RID = 'OAS1-0370'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7431,7 +11959,7 @@ VALUES
         RID = 'OAS1-0371'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7444,7 +11972,7 @@ VALUES
         RID = 'OAS1-0372'
     ), 'v1', '2018-01-03', '59.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7457,7 +11985,7 @@ VALUES
         RID = 'OAS1-0373'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7470,7 +11998,7 @@ VALUES
         RID = 'OAS1-0374'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7483,7 +12011,7 @@ VALUES
         RID = 'OAS1-0375'
     ), 'v1', '2018-01-03', '46.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7496,7 +12024,7 @@ VALUES
         RID = 'OAS1-0376'
     ), 'v1', '2018-01-03', '31.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7509,7 +12037,7 @@ VALUES
         RID = 'OAS1-0377'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7522,7 +12050,7 @@ VALUES
         RID = 'OAS1-0378'
     ), 'v1', '2018-01-03', '58.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7535,7 +12063,7 @@ VALUES
         RID = 'OAS1-0379'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7548,7 +12076,7 @@ VALUES
         RID = 'OAS1-0379'
     ), 'v2', '2018-03-15', '20.00555556', '0.066666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7561,7 +12089,7 @@ VALUES
         RID = 'OAS1-0380'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7574,7 +12102,7 @@ VALUES
         RID = 'OAS1-0381'
     ), 'v1', '2018-01-03', '59.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7587,7 +12115,7 @@ VALUES
         RID = 'OAS1-0382'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7600,7 +12128,7 @@ VALUES
         RID = 'OAS1-0383'
     ), 'v1', '2018-01-03', '58.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7613,7 +12141,7 @@ VALUES
         RID = 'OAS1-0384'
     ), 'v1', '2018-01-03', '38.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7626,7 +12154,7 @@ VALUES
         RID = 'OAS1-0385'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7639,7 +12167,7 @@ VALUES
         RID = 'OAS1-0386'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7652,7 +12180,7 @@ VALUES
         RID = 'OAS1-0387'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7665,7 +12193,7 @@ VALUES
         RID = 'OAS1-0388'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7678,7 +12206,7 @@ VALUES
         RID = 'OAS1-0389'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7691,7 +12219,7 @@ VALUES
         RID = 'OAS1-0390'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7704,7 +12232,7 @@ VALUES
         RID = 'OAS1-0392'
     ), 'v1', '2018-01-03', '24.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7717,7 +12245,7 @@ VALUES
         RID = 'OAS1-0394'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7730,7 +12258,7 @@ VALUES
         RID = 'OAS1-0395'
     ), 'v1', '2018-01-03', '26.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7743,7 +12271,7 @@ VALUES
         RID = 'OAS1-0395'
     ), 'v2', '2018-03-15', '26.10833333', '1.3', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7756,7 +12284,7 @@ VALUES
         RID = 'OAS1-0396'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7769,7 +12297,7 @@ VALUES
         RID = 'OAS1-0397'
     ), 'v1', '2018-01-03', '20.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7782,7 +12310,7 @@ VALUES
         RID = 'OAS1-0398'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7795,7 +12323,7 @@ VALUES
         RID = 'OAS1-0399'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7808,7 +12336,7 @@ VALUES
         RID = 'OAS1-0400'
     ), 'v1', '2018-01-03', '92.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7821,7 +12349,7 @@ VALUES
         RID = 'OAS1-0401'
     ), 'v1', '2018-01-03', '54.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7834,7 +12362,7 @@ VALUES
         RID = 'OAS1-0402'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7847,7 +12375,7 @@ VALUES
         RID = 'OAS1-0403'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7860,7 +12388,7 @@ VALUES
         RID = 'OAS1-0404'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7873,7 +12401,7 @@ VALUES
         RID = 'OAS1-0405'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7886,7 +12414,7 @@ VALUES
         RID = 'OAS1-0406'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7899,7 +12427,7 @@ VALUES
         RID = 'OAS1-0407'
     ), 'v1', '2018-01-03', '55.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7912,7 +12440,7 @@ VALUES
         RID = 'OAS1-0408'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7925,7 +12453,7 @@ VALUES
         RID = 'OAS1-0409'
     ), 'v1', '2018-01-03', '34.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7938,7 +12466,7 @@ VALUES
         RID = 'OAS1-0410'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7951,7 +12479,7 @@ VALUES
         RID = 'OAS1-0411'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7964,7 +12492,7 @@ VALUES
         RID = 'OAS1-0413'
     ), 'v1', '2018-01-03', '25.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7977,7 +12505,7 @@ VALUES
         RID = 'OAS1-0415'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -7990,7 +12518,7 @@ VALUES
         RID = 'OAS1-0416'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8003,7 +12531,7 @@ VALUES
         RID = 'OAS1-0417'
     ), 'v1', '2018-01-03', '30.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8016,7 +12544,7 @@ VALUES
         RID = 'OAS1-0418'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8029,7 +12557,7 @@ VALUES
         RID = 'OAS1-0419'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8042,7 +12570,7 @@ VALUES
         RID = 'OAS1-0420'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8055,7 +12583,7 @@ VALUES
         RID = 'OAS1-0421'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8068,7 +12596,7 @@ VALUES
         RID = 'OAS1-0422'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8081,7 +12609,7 @@ VALUES
         RID = 'OAS1-0423'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8094,7 +12622,7 @@ VALUES
         RID = 'OAS1-0424'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8107,7 +12635,7 @@ VALUES
         RID = 'OAS1-0425'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8120,7 +12648,7 @@ VALUES
         RID = 'OAS1-0426'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8133,7 +12661,7 @@ VALUES
         RID = 'OAS1-0428'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8146,7 +12674,7 @@ VALUES
         RID = 'OAS1-0429'
     ), 'v1', '2018-01-03', '45.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8159,7 +12687,7 @@ VALUES
         RID = 'OAS1-0430'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8172,7 +12700,7 @@ VALUES
         RID = 'OAS1-0431'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8185,7 +12713,7 @@ VALUES
         RID = 'OAS1-0432'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8198,7 +12726,7 @@ VALUES
         RID = 'OAS1-0433'
     ), 'v1', '2018-01-03', '58.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8211,7 +12739,7 @@ VALUES
         RID = 'OAS1-0434'
     ), 'v1', '2018-01-03', '50.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8224,7 +12752,7 @@ VALUES
         RID = 'OAS1-0435'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8237,7 +12765,7 @@ VALUES
         RID = 'OAS1-0437'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8250,7 +12778,7 @@ VALUES
         RID = 'OAS1-0438'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8263,7 +12791,7 @@ VALUES
         RID = 'OAS1-0439'
     ), 'v1', '2018-01-03', '21.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8276,7 +12804,7 @@ VALUES
         RID = 'OAS1-0440'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8289,7 +12817,7 @@ VALUES
         RID = 'OAS1-0441'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8302,7 +12830,7 @@ VALUES
         RID = 'OAS1-0442'
     ), 'v1', '2018-01-03', '23.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8315,7 +12843,7 @@ VALUES
         RID = 'OAS1-0443'
     ), 'v1', '2018-01-03', '52.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8328,7 +12856,7 @@ VALUES
         RID = 'OAS1-0444'
     ), 'v1', '2018-01-03', '30.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8341,7 +12869,7 @@ VALUES
         RID = 'OAS1-0445'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8354,7 +12882,7 @@ VALUES
         RID = 'OAS1-0446'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8367,7 +12895,7 @@ VALUES
         RID = 'OAS1-0447'
     ), 'v1', '2018-01-03', '92.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8380,7 +12908,7 @@ VALUES
         RID = 'OAS1-0448'
     ), 'v1', '2018-01-03', '22.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8393,7 +12921,7 @@ VALUES
         RID = 'OAS1-0449'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8406,7 +12934,7 @@ VALUES
         RID = 'OAS1-0450'
     ), 'v1', '2018-01-03', '19.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8419,7 +12947,7 @@ VALUES
         RID = 'OAS1-0451'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8432,7 +12960,7 @@ VALUES
         RID = 'OAS1-0452'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8445,7 +12973,7 @@ VALUES
         RID = 'OAS1-0453'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8458,7 +12986,7 @@ VALUES
         RID = 'OAS1-0454'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8471,7 +12999,7 @@ VALUES
         RID = 'OAS1-0455'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8484,7 +13012,7 @@ VALUES
         RID = 'OAS1-0456'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8497,7 +13025,7 @@ VALUES
         RID = 'OAS1-0457'
     ), 'v1', '2018-01-03', '62.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8510,7 +13038,7 @@ VALUES
         RID = 'OAS2-0001'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8523,7 +13051,7 @@ VALUES
         RID = 'OAS2-0001'
     ), 'v2', '2018-03-15', '88.26944444', '15.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8536,7 +13064,7 @@ VALUES
         RID = 'OAS2-0002'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8549,7 +13077,7 @@ VALUES
         RID = 'OAS2-0002'
     ), 'v2', '2018-03-15', '76.55555556', '18.66666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8562,7 +13090,7 @@ VALUES
         RID = 'OAS2-0002'
     ), 'v3', '2018-06-13', '80.26388889', '63.16666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8575,7 +13103,7 @@ VALUES
         RID = 'OAS2-0004'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8588,7 +13116,7 @@ VALUES
         RID = 'OAS2-0004'
     ), 'v2', '2018-03-15', '89.49444444', '17.93333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8601,7 +13129,7 @@ VALUES
         RID = 'OAS2-0005'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8614,7 +13142,7 @@ VALUES
         RID = 'OAS2-0005'
     ), 'v2', '2018-03-15', '82.80555556', '33.66666667', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8627,7 +13155,7 @@ VALUES
         RID = 'OAS2-0005'
     ), 'v3', '2018-06-13', '84.45277778', '53.43333333', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8640,7 +13168,7 @@ VALUES
         RID = 'OAS2-0007'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8653,7 +13181,7 @@ VALUES
         RID = 'OAS2-0007'
     ), 'v3', '2018-06-13', '72.43888889', '17.26666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8666,7 +13194,7 @@ VALUES
         RID = 'OAS2-0007'
     ), 'v4', '2018-09-21', '74.55833333', '42.7', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8679,7 +13207,7 @@ VALUES
         RID = 'OAS2-0008'
     ), 'v1', '2018-01-03', '93.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8692,7 +13220,7 @@ VALUES
         RID = 'OAS2-0008'
     ), 'v2', '2018-03-15', '95.06111111', '24.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8705,7 +13233,7 @@ VALUES
         RID = 'OAS2-0009'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8718,7 +13246,7 @@ VALUES
         RID = 'OAS2-0009'
     ), 'v2', '2018-03-15', '69.6', '19.2', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8731,7 +13259,7 @@ VALUES
         RID = 'OAS2-0010'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8744,7 +13272,7 @@ VALUES
         RID = 'OAS2-0010'
     ), 'v2', '2018-03-15', '68.37222222', '28.46666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8757,7 +13285,7 @@ VALUES
         RID = 'OAS2-0012'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8770,7 +13298,7 @@ VALUES
         RID = 'OAS2-0012'
     ), 'v2', '2018-03-15', '80.02777778', '24.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8783,7 +13311,7 @@ VALUES
         RID = 'OAS2-0012'
     ), 'v3', '2018-06-13', '82.43888889', '53.26666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8796,7 +13324,7 @@ VALUES
         RID = 'OAS2-0013'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8809,7 +13337,7 @@ VALUES
         RID = 'OAS2-0013'
     ), 'v2', '2018-03-15', '82.78611111', '21.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8822,7 +13350,7 @@ VALUES
         RID = 'OAS2-0013'
     ), 'v3', '2018-06-13', '85.04444444', '48.53333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8835,7 +13363,7 @@ VALUES
         RID = 'OAS2-0014'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8848,7 +13376,7 @@ VALUES
         RID = 'OAS2-0014'
     ), 'v2', '2018-03-15', '77.4', '16.8', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8861,7 +13389,7 @@ VALUES
         RID = 'OAS2-0016'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8874,7 +13402,7 @@ VALUES
         RID = 'OAS2-0016'
     ), 'v2', '2018-03-15', '89.96388889', '23.56666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8887,7 +13415,7 @@ VALUES
         RID = 'OAS2-0017'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8900,7 +13428,7 @@ VALUES
         RID = 'OAS2-0017'
     ), 'v3', '2018-06-13', '81.71388889', '20.56666667', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8913,7 +13441,7 @@ VALUES
         RID = 'OAS2-0017'
     ), 'v4', '2018-09-21', '85.16944444', '62.03333333', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8926,7 +13454,7 @@ VALUES
         RID = 'OAS2-0017'
     ), 'v5', '2018-12-25', '86.66666667', '80.0', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8939,7 +13467,7 @@ VALUES
         RID = 'OAS2-0018'
     ), 'v1', '2018-01-03', '87.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8952,7 +13480,7 @@ VALUES
         RID = 'OAS2-0018'
     ), 'v3', '2018-06-13', '88.35833333', '16.3', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8965,7 +13493,7 @@ VALUES
         RID = 'OAS2-0018'
     ), 'v4', '2018-09-21', '92.36944444', '64.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8978,7 +13506,7 @@ VALUES
         RID = 'OAS2-0020'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -8991,7 +13519,7 @@ VALUES
         RID = 'OAS2-0020'
     ), 'v2', '2018-03-15', '82.1', '25.2', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9004,7 +13532,7 @@ VALUES
         RID = 'OAS2-0020'
     ), 'v3', '2018-06-13', '84.34166667', '52.1', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9017,7 +13545,7 @@ VALUES
         RID = 'OAS2-0021'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9030,7 +13558,7 @@ VALUES
         RID = 'OAS2-0021'
     ), 'v2', '2018-03-15', '75.23333333', '38.8', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9043,7 +13571,7 @@ VALUES
         RID = 'OAS2-0022'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9056,7 +13584,7 @@ VALUES
         RID = 'OAS2-0022'
     ), 'v2', '2018-03-15', '63.3', '27.6', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9069,7 +13597,7 @@ VALUES
         RID = 'OAS2-0023'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9082,7 +13610,7 @@ VALUES
         RID = 'OAS2-0023'
     ), 'v2', '2018-03-15', '87.60555556', '19.26666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9095,7 +13623,7 @@ VALUES
         RID = 'OAS2-0026'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9108,7 +13636,7 @@ VALUES
         RID = 'OAS2-0026'
     ), 'v2', '2018-03-15', '83.86944444', '22.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9121,7 +13649,7 @@ VALUES
         RID = 'OAS2-0027'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9134,7 +13662,7 @@ VALUES
         RID = 'OAS2-0027'
     ), 'v2', '2018-03-15', '70.69166667', '20.3', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9147,7 +13675,7 @@ VALUES
         RID = 'OAS2-0027'
     ), 'v3', '2018-06-13', '72.42777778', '41.13333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9160,7 +13688,7 @@ VALUES
         RID = 'OAS2-0027'
     ), 'v4', '2018-09-21', '73.94166667', '59.3', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9173,7 +13701,7 @@ VALUES
         RID = 'OAS2-0028'
     ), 'v1', '2018-01-03', '64.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9186,7 +13714,7 @@ VALUES
         RID = 'OAS2-0028'
     ), 'v2', '2018-03-15', '65.69444444', '20.33333333', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9199,7 +13727,7 @@ VALUES
         RID = 'OAS2-0029'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9212,7 +13740,7 @@ VALUES
         RID = 'OAS2-0029'
     ), 'v2', '2018-03-15', '80.05277778', '36.63333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9225,7 +13753,7 @@ VALUES
         RID = 'OAS2-0030'
     ), 'v1', '2018-01-03', '60.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9238,7 +13766,7 @@ VALUES
         RID = 'OAS2-0030'
     ), 'v2', '2018-03-15', '62.58888889', '31.06666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9251,7 +13779,7 @@ VALUES
         RID = 'OAS2-0031'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9264,7 +13792,7 @@ VALUES
         RID = 'OAS2-0031'
     ), 'v2', '2018-03-15', '87.23888889', '14.86666667', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9277,7 +13805,7 @@ VALUES
         RID = 'OAS2-0031'
     ), 'v3', '2018-06-13', '90.41111111', '52.93333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9290,7 +13818,7 @@ VALUES
         RID = 'OAS2-0032'
     ), 'v1', '2018-01-03', '90.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9303,7 +13831,7 @@ VALUES
         RID = 'OAS2-0032'
     ), 'v2', '2018-03-15', '91.78333333', '21.4', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9316,7 +13844,7 @@ VALUES
         RID = 'OAS2-0034'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9329,7 +13857,7 @@ VALUES
         RID = 'OAS2-0034'
     ), 'v2', '2018-03-15', '80.35833333', '16.3', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9342,7 +13870,7 @@ VALUES
         RID = 'OAS2-0034'
     ), 'v3', '2018-06-13', '82.575', '42.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9355,7 +13883,7 @@ VALUES
         RID = 'OAS2-0034'
     ), 'v4', '2018-09-21', '84.23333333', '62.8', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9368,7 +13896,7 @@ VALUES
         RID = 'OAS2-0035'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9381,7 +13909,7 @@ VALUES
         RID = 'OAS2-0035'
     ), 'v2', '2018-03-15', '89.125', '13.5', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9394,7 +13922,7 @@ VALUES
         RID = 'OAS2-0036'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9407,7 +13935,7 @@ VALUES
         RID = 'OAS2-0036'
     ), 'v3', '2018-06-13', '70.98055556', '23.76666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9420,7 +13948,7 @@ VALUES
         RID = 'OAS2-0036'
     ), 'v4', '2018-09-21', '73.91666667', '59.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9433,7 +13961,7 @@ VALUES
         RID = 'OAS2-0036'
     ), 'v5', '2018-12-25', '75.58055556', '78.96666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9446,7 +13974,7 @@ VALUES
         RID = 'OAS2-0037'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9459,7 +13987,7 @@ VALUES
         RID = 'OAS2-0037'
     ), 'v2', '2018-03-15', '85.11944444', '37.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9472,7 +14000,7 @@ VALUES
         RID = 'OAS2-0037'
     ), 'v3', '2018-06-13', '87.63611111', '67.63333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9485,7 +14013,7 @@ VALUES
         RID = 'OAS2-0037'
     ), 'v4', '2018-09-21', '88.96666667', '83.6', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9498,7 +14026,7 @@ VALUES
         RID = 'OAS2-0039'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9511,7 +14039,7 @@ VALUES
         RID = 'OAS2-0039'
     ), 'v2', '2018-03-15', '82.35', '16.2', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9524,7 +14052,7 @@ VALUES
         RID = 'OAS2-0040'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9537,7 +14065,7 @@ VALUES
         RID = 'OAS2-0040'
     ), 'v2', '2018-03-15', '85.575', '18.9', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9550,7 +14078,7 @@ VALUES
         RID = 'OAS2-0040'
     ), 'v3', '2018-06-13', '87.34444444', '40.13333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9563,7 +14091,7 @@ VALUES
         RID = 'OAS2-0041'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9576,7 +14104,7 @@ VALUES
         RID = 'OAS2-0041'
     ), 'v2', '2018-03-15', '73.1', '25.2', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9589,7 +14117,7 @@ VALUES
         RID = 'OAS2-0041'
     ), 'v3', '2018-06-13', '74.69722222', '44.36666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9602,7 +14130,7 @@ VALUES
         RID = 'OAS2-0042'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9615,7 +14143,7 @@ VALUES
         RID = 'OAS2-0042'
     ), 'v2', '2018-03-15', '72.8', '33.6', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9628,7 +14156,7 @@ VALUES
         RID = 'OAS2-0043'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9641,7 +14169,7 @@ VALUES
         RID = 'OAS2-0043'
     ), 'v2', '2018-03-15', '73.36388889', '16.36666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9654,7 +14182,7 @@ VALUES
         RID = 'OAS2-0044'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9667,7 +14195,7 @@ VALUES
         RID = 'OAS2-0044'
     ), 'v2', '2018-03-15', '68.97777778', '11.73333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9680,7 +14208,7 @@ VALUES
         RID = 'OAS2-0044'
     ), 'v3', '2018-06-13', '70.40555556', '28.86666667', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9693,7 +14221,7 @@ VALUES
         RID = 'OAS2-0045'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9706,7 +14234,7 @@ VALUES
         RID = 'OAS2-0045'
     ), 'v2', '2018-03-15', '76.91388889', '22.96666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9719,7 +14247,7 @@ VALUES
         RID = 'OAS2-0046'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9732,7 +14260,7 @@ VALUES
         RID = 'OAS2-0046'
     ), 'v2', '2018-03-15', '84.59722222', '19.16666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9745,7 +14273,7 @@ VALUES
         RID = 'OAS2-0047'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9758,7 +14286,7 @@ VALUES
         RID = 'OAS2-0047'
     ), 'v2', '2018-03-15', '78.35', '16.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9771,7 +14299,7 @@ VALUES
         RID = 'OAS2-0048'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9784,7 +14312,7 @@ VALUES
         RID = 'OAS2-0048'
     ), 'v2', '2018-03-15', '66.68888889', '8.266666667', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9797,7 +14325,7 @@ VALUES
         RID = 'OAS2-0048'
     ), 'v3', '2018-06-13', '67.79722222', '21.56666667', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9810,7 +14338,7 @@ VALUES
         RID = 'OAS2-0048'
     ), 'v4', '2018-09-21', '68.69444444', '32.33333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9823,7 +14351,7 @@ VALUES
         RID = 'OAS2-0048'
     ), 'v5', '2018-12-25', '69.425', '41.1', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9836,7 +14364,7 @@ VALUES
         RID = 'OAS2-0049'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9849,7 +14377,7 @@ VALUES
         RID = 'OAS2-0049'
     ), 'v2', '2018-03-15', '70.09722222', '13.16666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9862,7 +14390,7 @@ VALUES
         RID = 'OAS2-0049'
     ), 'v3', '2018-06-13', '70.90833333', '22.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9875,7 +14403,7 @@ VALUES
         RID = 'OAS2-0050'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9888,7 +14416,7 @@ VALUES
         RID = 'OAS2-0050'
     ), 'v2', '2018-03-15', '72.49444444', '17.93333333', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9901,7 +14429,7 @@ VALUES
         RID = 'OAS2-0051'
     ), 'v1', '2018-01-03', '92.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9914,7 +14442,7 @@ VALUES
         RID = 'OAS2-0051'
     ), 'v2', '2018-03-15', '93.26944444', '15.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9927,7 +14455,7 @@ VALUES
         RID = 'OAS2-0051'
     ), 'v3', '2018-06-13', '96.23888889', '50.86666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9940,7 +14468,7 @@ VALUES
         RID = 'OAS2-0052'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9953,7 +14481,7 @@ VALUES
         RID = 'OAS2-0052'
     ), 'v2', '2018-03-15', '78.19444444', '50.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9966,7 +14494,7 @@ VALUES
         RID = 'OAS2-0053'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9979,7 +14507,7 @@ VALUES
         RID = 'OAS2-0053'
     ), 'v2', '2018-03-15', '84.33888889', '28.06666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -9992,7 +14520,7 @@ VALUES
         RID = 'OAS2-0054'
     ), 'v1', '2018-01-03', '85.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10005,7 +14533,7 @@ VALUES
         RID = 'OAS2-0054'
     ), 'v2', '2018-03-15', '87.35', '28.2', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10018,7 +14546,7 @@ VALUES
         RID = 'OAS2-0055'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10031,7 +14559,7 @@ VALUES
         RID = 'OAS2-0055'
     ), 'v2', '2018-03-15', '67.01666667', '24.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10044,7 +14572,7 @@ VALUES
         RID = 'OAS2-0056'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10057,7 +14585,7 @@ VALUES
         RID = 'OAS2-0056'
     ), 'v2', '2018-03-15', '72.72777778', '20.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10070,7 +14598,7 @@ VALUES
         RID = 'OAS2-0057'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10083,7 +14611,7 @@ VALUES
         RID = 'OAS2-0057'
     ), 'v2', '2018-03-15', '82.77777778', '21.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10096,7 +14624,7 @@ VALUES
         RID = 'OAS2-0057'
     ), 'v3', '2018-06-13', '84.72222222', '44.66666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10109,7 +14637,7 @@ VALUES
         RID = 'OAS2-0058'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10122,7 +14650,7 @@ VALUES
         RID = 'OAS2-0058'
     ), 'v2', '2018-03-15', '78.58888889', '7.066666667000001', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10135,7 +14663,7 @@ VALUES
         RID = 'OAS2-0058'
     ), 'v3', '2018-06-13', '80.12222222', '25.46666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10148,7 +14676,7 @@ VALUES
         RID = 'OAS2-0060'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10161,7 +14689,7 @@ VALUES
         RID = 'OAS2-0060'
     ), 'v2', '2018-03-15', '78.58333333', '43.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10174,7 +14702,7 @@ VALUES
         RID = 'OAS2-0061'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10187,7 +14715,7 @@ VALUES
         RID = 'OAS2-0061'
     ), 'v2', '2018-03-15', '70.425', '29.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10200,7 +14728,7 @@ VALUES
         RID = 'OAS2-0061'
     ), 'v3', '2018-06-13', '72.58611111', '55.03333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10213,7 +14741,7 @@ VALUES
         RID = 'OAS2-0062'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10226,7 +14754,7 @@ VALUES
         RID = 'OAS2-0062'
     ), 'v2', '2018-03-15', '81.00833333', '24.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10239,7 +14767,7 @@ VALUES
         RID = 'OAS2-0062'
     ), 'v3', '2018-06-13', '82.75277778', '45.03333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10252,7 +14780,7 @@ VALUES
         RID = 'OAS2-0063'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10265,7 +14793,7 @@ VALUES
         RID = 'OAS2-0063'
     ), 'v2', '2018-03-15', '81.36111111', '16.33333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10278,7 +14806,7 @@ VALUES
         RID = 'OAS2-0064'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'rAD'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10291,7 +14819,7 @@ VALUES
         RID = 'OAS2-0064'
     ), 'v2', '2018-03-15', '80.30555556', '27.66666667', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10304,7 +14832,7 @@ VALUES
         RID = 'OAS2-0064'
     ), 'v3', '2018-06-13', '81.56111111', '42.73333333', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10317,7 +14845,7 @@ VALUES
         RID = 'OAS2-0066'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'AD', 'rAD'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10330,7 +14858,7 @@ VALUES
         RID = 'OAS2-0066'
     ), 'v2', '2018-03-15', '62.38055556', '16.56666667', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10343,7 +14871,7 @@ VALUES
         RID = 'OAS2-0067'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10356,7 +14884,7 @@ VALUES
         RID = 'OAS2-0067'
     ), 'v2', '2018-03-15', '68.25277778', '15.03333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10369,7 +14897,7 @@ VALUES
         RID = 'OAS2-0067'
     ), 'v3', '2018-06-13', '70.99444444', '47.93333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10382,7 +14910,7 @@ VALUES
         RID = 'OAS2-0067'
     ), 'v4', '2018-09-21', '73.00833333', '72.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10395,7 +14923,7 @@ VALUES
         RID = 'OAS2-0068'
     ), 'v1', '2018-01-03', '88.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10408,7 +14936,7 @@ VALUES
         RID = 'OAS2-0068'
     ), 'v2', '2018-03-15', '90.06388889', '24.76666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10421,7 +14949,7 @@ VALUES
         RID = 'OAS2-0069'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10434,7 +14962,7 @@ VALUES
         RID = 'OAS2-0069'
     ), 'v2', '2018-03-15', '82.2', '14.4', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10447,7 +14975,7 @@ VALUES
         RID = 'OAS2-0070'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10460,7 +14988,7 @@ VALUES
         RID = 'OAS2-0070'
     ), 'v2', '2018-03-15', '81.86666667', '22.4', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10473,7 +15001,7 @@ VALUES
         RID = 'OAS2-0070'
     ), 'v3', '2018-06-13', '83.93055556', '47.16666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10486,7 +15014,7 @@ VALUES
         RID = 'OAS2-0070'
     ), 'v4', '2018-09-21', '85.19444444', '62.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10499,7 +15027,7 @@ VALUES
         RID = 'OAS2-0070'
     ), 'v5', '2018-12-25', '86.62777778', '79.53333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10512,7 +15040,7 @@ VALUES
         RID = 'OAS2-0071'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10525,7 +15053,7 @@ VALUES
         RID = 'OAS2-0071'
     ), 'v2', '2018-03-15', '84.01388889', '12.16666667', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10538,7 +15066,7 @@ VALUES
         RID = 'OAS2-0073'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10551,7 +15079,7 @@ VALUES
         RID = 'OAS2-0073'
     ), 'v2', '2018-03-15', '71.61111111', '19.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10564,7 +15092,7 @@ VALUES
         RID = 'OAS2-0073'
     ), 'v3', '2018-06-13', '74.73611111', '56.83333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10577,7 +15105,7 @@ VALUES
         RID = 'OAS2-0073'
     ), 'v4', '2018-09-21', '76.35555556', '76.26666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10590,7 +15118,7 @@ VALUES
         RID = 'OAS2-0073'
     ), 'v5', '2018-12-25', '76.99166667', '83.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10603,7 +15131,7 @@ VALUES
         RID = 'OAS2-0075'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10616,7 +15144,7 @@ VALUES
         RID = 'OAS2-0075'
     ), 'v2', '2018-03-15', '74.575', '18.9', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10629,7 +15157,7 @@ VALUES
         RID = 'OAS2-0076'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10642,7 +15170,7 @@ VALUES
         RID = 'OAS2-0076'
     ), 'v2', '2018-03-15', '68.65555556', '31.86666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10655,7 +15183,7 @@ VALUES
         RID = 'OAS2-0076'
     ), 'v3', '2018-06-13', '70.61944444', '55.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10668,7 +15196,7 @@ VALUES
         RID = 'OAS2-0077'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10681,7 +15209,7 @@ VALUES
         RID = 'OAS2-0077'
     ), 'v2', '2018-03-15', '72.86944444', '46.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10694,7 +15222,7 @@ VALUES
         RID = 'OAS2-0078'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10707,7 +15235,7 @@ VALUES
         RID = 'OAS2-0078'
     ), 'v2', '2018-03-15', '90.225', '14.7', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10720,7 +15248,7 @@ VALUES
         RID = 'OAS2-0078'
     ), 'v3', '2018-06-13', '91.83055556', '33.96666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10733,7 +15261,7 @@ VALUES
         RID = 'OAS2-0079'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10746,7 +15274,7 @@ VALUES
         RID = 'OAS2-0079'
     ), 'v2', '2018-03-15', '70.62222222', '19.46666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10759,7 +15287,7 @@ VALUES
         RID = 'OAS2-0079'
     ), 'v3', '2018-06-13', '72.98611111', '47.83333333', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10772,7 +15300,7 @@ VALUES
         RID = 'OAS2-0080'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10785,7 +15313,7 @@ VALUES
         RID = 'OAS2-0080'
     ), 'v2', '2018-03-15', '67.61111111', '19.33333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10798,7 +15326,7 @@ VALUES
         RID = 'OAS2-0080'
     ), 'v3', '2018-06-13', '69.35833333', '40.3', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10811,7 +15339,7 @@ VALUES
         RID = 'OAS2-0081'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10824,7 +15352,7 @@ VALUES
         RID = 'OAS2-0081'
     ), 'v2', '2018-03-15', '83.83055556', '21.96666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10837,7 +15365,7 @@ VALUES
         RID = 'OAS2-0085'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10850,7 +15378,7 @@ VALUES
         RID = 'OAS2-0085'
     ), 'v2', '2018-03-15', '79.86111111', '22.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10863,7 +15391,7 @@ VALUES
         RID = 'OAS2-0086'
     ), 'v1', '2018-01-03', '63.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10876,7 +15404,7 @@ VALUES
         RID = 'OAS2-0086'
     ), 'v2', '2018-03-15', '65.22777778', '26.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10889,7 +15417,7 @@ VALUES
         RID = 'OAS2-0087'
     ), 'v1', '2018-01-03', '96.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10902,7 +15430,7 @@ VALUES
         RID = 'OAS2-0087'
     ), 'v2', '2018-03-15', '98.09444444', '25.13333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10915,7 +15443,7 @@ VALUES
         RID = 'OAS2-0088'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10928,7 +15456,7 @@ VALUES
         RID = 'OAS2-0088'
     ), 'v2', '2018-03-15', '80.08611111', '25.03333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10941,7 +15469,7 @@ VALUES
         RID = 'OAS2-0089'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10954,7 +15482,7 @@ VALUES
         RID = 'OAS2-0089'
     ), 'v3', '2018-06-13', '71.56388889', '18.76666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10967,7 +15495,7 @@ VALUES
         RID = 'OAS2-0090'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10980,7 +15508,7 @@ VALUES
         RID = 'OAS2-0090'
     ), 'v2', '2018-03-15', '74.88888889', '22.66666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -10993,7 +15521,7 @@ VALUES
         RID = 'OAS2-0090'
     ), 'v3', '2018-06-13', '76.73611111', '44.83333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11006,7 +15534,7 @@ VALUES
         RID = 'OAS2-0091'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11019,7 +15547,7 @@ VALUES
         RID = 'OAS2-0091'
     ), 'v2', '2018-03-15', '77.90833333', '34.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11032,7 +15560,7 @@ VALUES
         RID = 'OAS2-0092'
     ), 'v1', '2018-01-03', '83.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11045,7 +15573,7 @@ VALUES
         RID = 'OAS2-0092'
     ), 'v2', '2018-03-15', '84.96111111', '23.53333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11058,7 +15586,7 @@ VALUES
         RID = 'OAS2-0094'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11071,7 +15599,7 @@ VALUES
         RID = 'OAS2-0094'
     ), 'v2', '2018-03-15', '63.26944444', '27.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11084,7 +15612,7 @@ VALUES
         RID = 'OAS2-0095'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11097,7 +15625,7 @@ VALUES
         RID = 'OAS2-0095'
     ), 'v2', '2018-03-15', '72.86944444', '22.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11110,7 +15638,7 @@ VALUES
         RID = 'OAS2-0095'
     ), 'v3', '2018-06-13', '74.92222222', '47.06666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11123,7 +15651,7 @@ VALUES
         RID = 'OAS2-0096'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11136,7 +15664,7 @@ VALUES
         RID = 'OAS2-0096'
     ), 'v2', '2018-03-15', '91.16111111', '25.93333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11149,7 +15677,7 @@ VALUES
         RID = 'OAS2-0097'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11162,7 +15690,7 @@ VALUES
         RID = 'OAS2-0097'
     ), 'v2', '2018-03-15', '76.84444444', '34.13333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11175,7 +15703,7 @@ VALUES
         RID = 'OAS2-0098'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11188,7 +15716,7 @@ VALUES
         RID = 'OAS2-0098'
     ), 'v2', '2018-03-15', '67.83611111', '22.03333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11201,7 +15729,7 @@ VALUES
         RID = 'OAS2-0099'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11214,7 +15742,7 @@ VALUES
         RID = 'OAS2-0099'
     ), 'v2', '2018-03-15', '82.24166667', '26.9', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11227,7 +15755,7 @@ VALUES
         RID = 'OAS2-0100'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11240,7 +15768,7 @@ VALUES
         RID = 'OAS2-0100'
     ), 'v2', '2018-03-15', '80.38333333', '40.6', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11253,7 +15781,7 @@ VALUES
         RID = 'OAS2-0100'
     ), 'v3', '2018-06-13', '81.86666667', '58.4', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11266,7 +15794,7 @@ VALUES
         RID = 'OAS2-0101'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11279,7 +15807,7 @@ VALUES
         RID = 'OAS2-0101'
     ), 'v2', '2018-03-15', '73.64444444', '31.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11292,7 +15820,7 @@ VALUES
         RID = 'OAS2-0101'
     ), 'v3', '2018-06-13', '75.53055556', '54.36666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11305,7 +15833,7 @@ VALUES
         RID = 'OAS2-0102'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11318,7 +15846,7 @@ VALUES
         RID = 'OAS2-0102'
     ), 'v2', '2018-03-15', '83.69444444', '20.33333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11331,7 +15859,7 @@ VALUES
         RID = 'OAS2-0102'
     ), 'v3', '2018-06-13', '85.85277778', '46.23333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11344,7 +15872,7 @@ VALUES
         RID = 'OAS2-0103'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11357,7 +15885,7 @@ VALUES
         RID = 'OAS2-0103'
     ), 'v2', '2018-03-15', '73.31666667', '51.8', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11370,7 +15898,7 @@ VALUES
         RID = 'OAS2-0103'
     ), 'v3', '2018-06-13', '74.56111111', '66.73333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11383,7 +15911,7 @@ VALUES
         RID = 'OAS2-0104'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11396,7 +15924,7 @@ VALUES
         RID = 'OAS2-0104'
     ), 'v2', '2018-03-15', '71.29166667', '15.5', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11409,7 +15937,7 @@ VALUES
         RID = 'OAS2-0105'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11422,7 +15950,7 @@ VALUES
         RID = 'OAS2-0105'
     ), 'v2', '2018-03-15', '87.875', '22.5', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11435,7 +15963,7 @@ VALUES
         RID = 'OAS2-0106'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11448,7 +15976,7 @@ VALUES
         RID = 'OAS2-0106'
     ), 'v2', '2018-03-15', '72.025', '24.3', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11461,7 +15989,7 @@ VALUES
         RID = 'OAS2-0108'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11474,7 +16002,7 @@ VALUES
         RID = 'OAS2-0108'
     ), 'v2', '2018-03-15', '79.45277778', '29.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11487,7 +16015,7 @@ VALUES
         RID = 'OAS2-0109'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11500,7 +16028,7 @@ VALUES
         RID = 'OAS2-0109'
     ), 'v2', '2018-03-15', '83.12777778', '25.53333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11513,7 +16041,7 @@ VALUES
         RID = 'OAS2-0111'
     ), 'v1', '2018-01-03', '62.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11526,7 +16054,7 @@ VALUES
         RID = 'OAS2-0111'
     ), 'v2', '2018-03-15', '64.44722222', '29.36666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11539,7 +16067,7 @@ VALUES
         RID = 'OAS2-0112'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11552,7 +16080,7 @@ VALUES
         RID = 'OAS2-0112'
     ), 'v2', '2018-03-15', '77.55', '18.6', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11565,7 +16093,7 @@ VALUES
         RID = 'OAS2-0113'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11578,7 +16106,7 @@ VALUES
         RID = 'OAS2-0113'
     ), 'v2', '2018-03-15', '74.4', '16.8', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11591,7 +16119,7 @@ VALUES
         RID = 'OAS2-0114'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11604,7 +16132,7 @@ VALUES
         RID = 'OAS2-0114'
     ), 'v2', '2018-03-15', '77.58333333', '19.0', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11617,7 +16145,7 @@ VALUES
         RID = 'OAS2-0116'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11630,7 +16158,7 @@ VALUES
         RID = 'OAS2-0116'
     ), 'v2', '2018-03-15', '74.71111111', '20.53333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11643,7 +16171,7 @@ VALUES
         RID = 'OAS2-0117'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11656,7 +16184,7 @@ VALUES
         RID = 'OAS2-0117'
     ), 'v2', '2018-03-15', '74.6', '19.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11669,7 +16197,7 @@ VALUES
         RID = 'OAS2-0117'
     ), 'v3', '2018-06-13', '76.73611111', '44.83333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11682,7 +16210,7 @@ VALUES
         RID = 'OAS2-0117'
     ), 'v4', '2018-09-21', '78.35277778', '64.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11695,7 +16223,7 @@ VALUES
         RID = 'OAS2-0118'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11708,7 +16236,7 @@ VALUES
         RID = 'OAS2-0118'
     ), 'v2', '2018-03-15', '70.95', '47.4', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11721,7 +16249,7 @@ VALUES
         RID = 'OAS2-0119'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11734,7 +16262,7 @@ VALUES
         RID = 'OAS2-0119'
     ), 'v2', '2018-03-15', '83.03611111', '24.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11747,7 +16275,7 @@ VALUES
         RID = 'OAS2-0119'
     ), 'v3', '2018-06-13', '85.75833333', '57.1', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11760,7 +16288,7 @@ VALUES
         RID = 'OAS2-0120'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11773,7 +16301,7 @@ VALUES
         RID = 'OAS2-0120'
     ), 'v2', '2018-03-15', '77.65277778', '19.83333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11786,7 +16314,7 @@ VALUES
         RID = 'OAS2-0121'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11799,7 +16327,7 @@ VALUES
         RID = 'OAS2-0121'
     ), 'v2', '2018-03-15', '74.79722222', '21.56666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11812,7 +16340,7 @@ VALUES
         RID = 'OAS2-0122'
     ), 'v1', '2018-01-03', '86.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11825,7 +16353,7 @@ VALUES
         RID = 'OAS2-0122'
     ), 'v2', '2018-03-15', '87.65833333', '19.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11838,7 +16366,7 @@ VALUES
         RID = 'OAS2-0124'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11851,7 +16379,7 @@ VALUES
         RID = 'OAS2-0124'
     ), 'v2', '2018-03-15', '71.31111111', '15.73333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11864,7 +16392,7 @@ VALUES
         RID = 'OAS2-0126'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11877,7 +16405,7 @@ VALUES
         RID = 'OAS2-0126'
     ), 'v2', '2018-03-15', '75.31111111', '15.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11890,7 +16418,7 @@ VALUES
         RID = 'OAS2-0126'
     ), 'v3', '2018-06-13', '77.31111111', '39.73333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11903,7 +16431,7 @@ VALUES
         RID = 'OAS2-0127'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11916,7 +16444,7 @@ VALUES
         RID = 'OAS2-0127'
     ), 'v2', '2018-03-15', '81.36388889', '28.36666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11929,7 +16457,7 @@ VALUES
         RID = 'OAS2-0127'
     ), 'v3', '2018-06-13', '81.89444444', '34.73333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11942,7 +16470,7 @@ VALUES
         RID = 'OAS2-0127'
     ), 'v4', '2018-09-21', '84.98055556', '71.76666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11955,7 +16483,7 @@ VALUES
         RID = 'OAS2-0127'
     ), 'v5', '2018-12-25', '86.33055556', '87.96666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11968,7 +16496,7 @@ VALUES
         RID = 'OAS2-0128'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11981,7 +16509,7 @@ VALUES
         RID = 'OAS2-0128'
     ), 'v2', '2018-03-15', '79.16666667', '38.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -11994,7 +16522,7 @@ VALUES
         RID = 'OAS2-0129'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12007,7 +16535,7 @@ VALUES
         RID = 'OAS2-0129'
     ), 'v2', '2018-03-15', '80.04722222', '24.56666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12020,7 +16548,7 @@ VALUES
         RID = 'OAS2-0129'
     ), 'v3', '2018-06-13', '82.41944444', '53.03333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12033,7 +16561,7 @@ VALUES
         RID = 'OAS2-0131'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'MCI', 'rMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12046,7 +16574,7 @@ VALUES
         RID = 'OAS2-0131'
     ), 'v2', '2018-03-15', '66.88611111', '22.63333333', 'NC', 'rNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12059,7 +16587,7 @@ VALUES
         RID = 'OAS2-0133'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12072,7 +16600,7 @@ VALUES
         RID = 'OAS2-0133'
     ), 'v3', '2018-06-13', '80.79444444', '33.53333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12085,7 +16613,7 @@ VALUES
         RID = 'OAS2-0134'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12098,7 +16626,7 @@ VALUES
         RID = 'OAS2-0134'
     ), 'v2', '2018-03-15', '71.49722222', '17.96666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12111,7 +16639,7 @@ VALUES
         RID = 'OAS2-0135'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12124,7 +16652,7 @@ VALUES
         RID = 'OAS2-0135'
     ), 'v2', '2018-03-15', '77.18333333', '38.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12137,7 +16665,7 @@ VALUES
         RID = 'OAS2-0137'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12150,7 +16678,7 @@ VALUES
         RID = 'OAS2-0137'
     ), 'v2', '2018-03-15', '75.76666667', '21.2', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12163,7 +16691,7 @@ VALUES
         RID = 'OAS2-0138'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12176,7 +16704,7 @@ VALUES
         RID = 'OAS2-0138'
     ), 'v2', '2018-03-15', '75.35', '28.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12189,7 +16717,7 @@ VALUES
         RID = 'OAS2-0139'
     ), 'v1', '2018-01-03', '67.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12202,7 +16730,7 @@ VALUES
         RID = 'OAS2-0139'
     ), 'v2', '2018-03-15', '68.11944444', '13.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12215,7 +16743,7 @@ VALUES
         RID = 'OAS2-0140'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12228,7 +16756,7 @@ VALUES
         RID = 'OAS2-0140'
     ), 'v2', '2018-03-15', '78.20277778', '26.43333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12241,7 +16769,7 @@ VALUES
         RID = 'OAS2-0140'
     ), 'v3', '2018-06-13', '80.59722222', '55.16666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12254,7 +16782,7 @@ VALUES
         RID = 'OAS2-0141'
     ), 'v1', '2018-01-03', '65.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12267,7 +16795,7 @@ VALUES
         RID = 'OAS2-0141'
     ), 'v2', '2018-03-15', '67.83888889', '34.06666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12280,7 +16808,7 @@ VALUES
         RID = 'OAS2-0142'
     ), 'v1', '2018-01-03', '69.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12293,7 +16821,7 @@ VALUES
         RID = 'OAS2-0142'
     ), 'v2', '2018-03-15', '70.84722222', '22.16666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12306,7 +16834,7 @@ VALUES
         RID = 'OAS2-0143'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12319,7 +16847,7 @@ VALUES
         RID = 'OAS2-0143'
     ), 'v2', '2018-03-15', '90.55833333', '18.7', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12332,7 +16860,7 @@ VALUES
         RID = 'OAS2-0143'
     ), 'v3', '2018-06-13', '93.31388889', '51.76666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12345,7 +16873,7 @@ VALUES
         RID = 'OAS2-0144'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12358,7 +16886,7 @@ VALUES
         RID = 'OAS2-0144'
     ), 'v2', '2018-03-15', '78.89722222', '22.76666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12371,7 +16899,7 @@ VALUES
         RID = 'OAS2-0145'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12384,7 +16912,7 @@ VALUES
         RID = 'OAS2-0145'
     ), 'v2', '2018-03-15', '72.74166667', '56.9', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12397,7 +16925,7 @@ VALUES
         RID = 'OAS2-0146'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12410,7 +16938,7 @@ VALUES
         RID = 'OAS2-0146'
     ), 'v2', '2018-03-15', '81.45833333', '17.5', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12423,7 +16951,7 @@ VALUES
         RID = 'OAS2-0147'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12436,7 +16964,7 @@ VALUES
         RID = 'OAS2-0147'
     ), 'v2', '2018-03-15', '78.22222222', '14.66666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12449,7 +16977,7 @@ VALUES
         RID = 'OAS2-0147'
     ), 'v3', '2018-06-13', '80.34444444', '40.13333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12462,7 +16990,7 @@ VALUES
         RID = 'OAS2-0147'
     ), 'v4', '2018-09-21', '82.01666667', '60.2', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12475,7 +17003,7 @@ VALUES
         RID = 'OAS2-0149'
     ), 'v1', '2018-01-03', '81.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12488,7 +17016,7 @@ VALUES
         RID = 'OAS2-0149'
     ), 'v2', '2018-03-15', '82.87222222', '22.46666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12501,7 +17029,7 @@ VALUES
         RID = 'OAS2-0150'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12514,7 +17042,7 @@ VALUES
         RID = 'OAS2-0150'
     ), 'v2', '2018-03-15', '74.43888889', '17.26666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12527,7 +17055,7 @@ VALUES
         RID = 'OAS2-0152'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12540,7 +17068,7 @@ VALUES
         RID = 'OAS2-0152'
     ), 'v2', '2018-03-15', '68.19444444', '26.33333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12553,7 +17081,7 @@ VALUES
         RID = 'OAS2-0152'
     ), 'v3', '2018-06-13', '69.69166667', '44.3', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12566,7 +17094,7 @@ VALUES
         RID = 'OAS2-0154'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12579,7 +17107,7 @@ VALUES
         RID = 'OAS2-0154'
     ), 'v2', '2018-03-15', '77.19722222', '26.36666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12592,7 +17120,7 @@ VALUES
         RID = 'OAS2-0156'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12605,7 +17133,7 @@ VALUES
         RID = 'OAS2-0156'
     ), 'v2', '2018-03-15', '80.15833333', '25.9', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12618,7 +17146,7 @@ VALUES
         RID = 'OAS2-0157'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12631,7 +17159,7 @@ VALUES
         RID = 'OAS2-0157'
     ), 'v2', '2018-03-15', '75.12222222', '25.46666667', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12644,7 +17172,7 @@ VALUES
         RID = 'OAS2-0158'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12657,7 +17185,7 @@ VALUES
         RID = 'OAS2-0158'
     ), 'v2', '2018-03-15', '76.88611111', '46.63333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12670,7 +17198,7 @@ VALUES
         RID = 'OAS2-0159'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12683,7 +17211,7 @@ VALUES
         RID = 'OAS2-0159'
     ), 'v2', '2018-03-15', '75.10833333', '25.3', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12696,7 +17224,7 @@ VALUES
         RID = 'OAS2-0160'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12709,7 +17237,7 @@ VALUES
         RID = 'OAS2-0160'
     ), 'v2', '2018-03-15', '77.53333333', '18.4', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12722,7 +17250,7 @@ VALUES
         RID = 'OAS2-0161'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12735,7 +17263,7 @@ VALUES
         RID = 'OAS2-0161'
     ), 'v2', '2018-03-15', '78.26111111', '15.13333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12748,7 +17276,7 @@ VALUES
         RID = 'OAS2-0161'
     ), 'v3', '2018-06-13', '79.86944444', '34.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12761,7 +17289,7 @@ VALUES
         RID = 'OAS2-0162'
     ), 'v1', '2018-01-03', '82.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12774,7 +17302,7 @@ VALUES
         RID = 'OAS2-0162'
     ), 'v2', '2018-03-15', '83.725', '20.7', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12787,7 +17315,7 @@ VALUES
         RID = 'OAS2-0164'
     ), 'v1', '2018-01-03', '77.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12800,7 +17328,7 @@ VALUES
         RID = 'OAS2-0164'
     ), 'v2', '2018-03-15', '78.61111111', '19.33333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12813,7 +17341,7 @@ VALUES
         RID = 'OAS2-0165'
     ), 'v1', '2018-01-03', '78.0', '0.0', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12826,7 +17354,7 @@ VALUES
         RID = 'OAS2-0165'
     ), 'v2', '2018-03-15', '80.04444444', '24.53333333', 'AD', 'sDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12839,7 +17367,7 @@ VALUES
         RID = 'OAS2-0169'
     ), 'v1', '2018-01-03', '71.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12852,7 +17380,7 @@ VALUES
         RID = 'OAS2-0169'
     ), 'v2', '2018-03-15', '72.91944444', '23.03333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12865,7 +17393,7 @@ VALUES
         RID = 'OAS2-0171'
     ), 'v1', '2018-01-03', '76.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12878,7 +17406,7 @@ VALUES
         RID = 'OAS2-0171'
     ), 'v2', '2018-03-15', '77.36944444', '16.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12891,7 +17419,7 @@ VALUES
         RID = 'OAS2-0171'
     ), 'v3', '2018-06-13', '80.70833333', '56.5', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12904,7 +17432,7 @@ VALUES
         RID = 'OAS2-0172'
     ), 'v1', '2018-01-03', '75.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12917,7 +17445,7 @@ VALUES
         RID = 'OAS2-0172'
     ), 'v2', '2018-03-15', '78.36666667', '40.4', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12930,7 +17458,7 @@ VALUES
         RID = 'OAS2-0174'
     ), 'v1', '2018-01-03', '60.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12943,7 +17471,7 @@ VALUES
         RID = 'OAS2-0174'
     ), 'v2', '2018-03-15', '61.93055556', '23.16666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12956,7 +17484,7 @@ VALUES
         RID = 'OAS2-0174'
     ), 'v3', '2018-06-13', '64.31944444', '51.83333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12969,7 +17497,7 @@ VALUES
         RID = 'OAS2-0175'
     ), 'v1', '2018-01-03', '70.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12982,7 +17510,7 @@ VALUES
         RID = 'OAS2-0175'
     ), 'v2', '2018-03-15', '71.94444444', '23.33333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -12995,7 +17523,7 @@ VALUES
         RID = 'OAS2-0175'
     ), 'v3', '2018-06-13', '73.73055556', '44.76666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13008,7 +17536,7 @@ VALUES
         RID = 'OAS2-0176'
     ), 'v1', '2018-01-03', '84.0', '0.0', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13021,7 +17549,7 @@ VALUES
         RID = 'OAS2-0176'
     ), 'v2', '2018-03-15', '86.15', '25.8', 'NC', 'uNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13034,7 +17562,7 @@ VALUES
         RID = 'OAS2-0176'
     ), 'v3', '2018-06-13', '88.53055556', '54.36666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13047,7 +17575,7 @@ VALUES
         RID = 'OAS2-0177'
     ), 'v1', '2018-01-03', '68.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13060,7 +17588,7 @@ VALUES
         RID = 'OAS2-0177'
     ), 'v2', '2018-03-15', '69.84722222', '22.16666667', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13073,7 +17601,7 @@ VALUES
         RID = 'OAS2-0178'
     ), 'v1', '2018-01-03', '89.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13086,7 +17614,7 @@ VALUES
         RID = 'OAS2-0178'
     ), 'v2', '2018-03-15', '90.66666667', '20.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13099,7 +17627,7 @@ VALUES
         RID = 'OAS2-0178'
     ), 'v3', '2018-06-13', '93.01944444', '48.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13112,7 +17640,7 @@ VALUES
         RID = 'OAS2-0179'
     ), 'v1', '2018-01-03', '79.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13125,7 +17653,7 @@ VALUES
         RID = 'OAS2-0179'
     ), 'v2', '2018-03-15', '80.81111111', '21.73333333', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13138,7 +17666,7 @@ VALUES
         RID = 'OAS2-0181'
     ), 'v1', '2018-01-03', '74.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13151,7 +17679,7 @@ VALUES
         RID = 'OAS2-0181'
     ), 'v2', '2018-03-15', '75.49722222', '17.96666667', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13164,7 +17692,7 @@ VALUES
         RID = 'OAS2-0181'
     ), 'v3', '2018-06-13', '77.075', '36.9', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13177,7 +17705,7 @@ VALUES
         RID = 'OAS2-0182'
     ), 'v1', '2018-01-03', '73.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13190,7 +17718,7 @@ VALUES
         RID = 'OAS2-0182'
     ), 'v2', '2018-03-15', '75.15555556', '25.86666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13203,7 +17731,7 @@ VALUES
         RID = 'OAS2-0183'
     ), 'v1', '2018-01-03', '66.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13216,7 +17744,7 @@ VALUES
         RID = 'OAS2-0183'
     ), 'v2', '2018-03-15', '66.50555556', '6.066666667000001', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13229,7 +17757,7 @@ VALUES
         RID = 'OAS2-0183'
     ), 'v3', '2018-06-13', '68.03333333', '24.4', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13242,7 +17770,7 @@ VALUES
         RID = 'OAS2-0183'
     ), 'v4', '2018-09-21', '71.85277778', '70.23333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13255,7 +17783,7 @@ VALUES
         RID = 'OAS2-0184'
     ), 'v1', '2018-01-03', '72.0', '0.0', 'pMCI', 'pMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13268,7 +17796,7 @@ VALUES
         RID = 'OAS2-0184'
     ), 'v2', '2018-03-15', '73.53611111', '18.43333333', 'AD', 'eDAT'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13281,7 +17809,7 @@ VALUES
         RID = 'OAS2-0185'
     ), 'v1', '2018-01-03', '80.0', '0.0', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13294,7 +17822,7 @@ VALUES
         RID = 'OAS2-0185'
     ), 'v2', '2018-03-15', '82.33888889', '28.06666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13307,7 +17835,7 @@ VALUES
         RID = 'OAS2-0185'
     ), 'v3', '2018-06-13', '86.38055556', '76.56666667', 'sMCI', 'sMCI'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13320,7 +17848,7 @@ VALUES
         RID = 'OAS2-0186'
     ), 'v1', '2018-01-03', '61.0', '0.0', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
@@ -13333,7 +17861,7 @@ VALUES
         RID = 'OAS2-0186'
     ), 'v2', '2018-03-15', '63.11944444', '25.43333333', 'NC', 'sNC'
   );
-INSERT INTO 
+INSERT INTO
   mockschema.visit (subjectid, VISCODE, DATE, AGE, Month_bl, AUX_DIAGNOSIS, AUX_STRATIFICATION) 
 VALUES
   (
