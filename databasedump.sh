@@ -9,3 +9,7 @@ pg_dump --username=postgres --clean --port=5433 mockdatabase > mockdatabase_back
 #database, so make sure your max_connections setting is high enough to 
 #accommodate all connections. 
 #see https://www.postgresql.org/docs/9.3/app-pgdump.html
+
+md5sum mockdatabase_backup_$now.sql > mockdatabase_backup_$now.sql.md5sum
+
+python checkmd5sum.py mockdatabase_backup_$now.sql.md5sum
