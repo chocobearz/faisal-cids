@@ -71,7 +71,7 @@ def findTimepoints(data):
       new = vrow.drop(["RID", "VISCODE", "REPEATCODE"], axis = 1)
       for i, repeatcode in enumerate(repeat):
         subject[RID][viscode][repeatcode] = [dict(new.iloc[i])]
-
+ 
   """
     check subject level time stamp
     extract the columns of data which do not change for unique RID
@@ -106,7 +106,6 @@ def findTimepoints(data):
   for column_name in column_subject_eval:
     if (all(value for value in column_subject_eval[column_name])):
       subjectVariables.append(column_name)
-
     """
       check visit level time stamp
       extract columns of data which do not change for unique viscode of unique ID
