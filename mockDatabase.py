@@ -85,15 +85,7 @@ for col in measureTimePoint:
 
 timePoint = findTimepoints(timePointData)
 
-if len(measureTimePoint[0]) > 0:
-  tables.append("ctmeasure")
-  timePoint.append(measureTimePoint[0])
-if len(measureTimePoint[1]) > 0:
-  tables.append("retnalmeasure")
-  timePoint.append(measureTimePoint[1])
-if len(measureTimePoint[2]) > 0:
-  tables.append("mrimeasure")
-  timePoint.append(measureTimePoint[2])
+timePoint[2] = timePoint[2] + measureTimePoint
 
 try:
   connection = psycopg2.connect(

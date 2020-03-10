@@ -17,30 +17,29 @@ def measurementCheck(data):
 
   #check that RID exists or throw an error
   if("RID" not in colnames):
-    raise Error("Incorrect data format, please standardize column nammes and try again")
+    raise Exception('Incorrect data format,'+
+                    ' missing RID,'+
+                    ' please standardize column names and try again')
 
   #check that RID exists or throw an error
   if("VISCODE" not in colnames):
-    raise Error("Incorrect data format, please standardize column nammes and try again")
+    raise Exception('Incorrect data format,'+
+                    ' missing VISCODE,'+
+                    ' please standardize column names and try again')
 
   #check that RID exists or throw an error
   if("REPEATCODE" not in colnames):
-    raise Error("Incorrect data format, please standardize column nammes and try again")
+    raise Exception('Incorrect data format,'+
+                    ' missing REPEATCODE,'+
+                    ' please standardize column names and try again')
   
   variables = []
-  ctVariables = []
-  retnalVariables = []
-  mriVariables = []
   
   for col in colnames:
-    if "CT_Measure" in col:
-      ctvariables.append(col)
-    elif "Retnal_Measure" in col:
-      retnalVariables.append(col)
-    elif "MRI_Measure" in col:
-      mriVariables.append(col)
+    if "Measure" in col:
+      variables.append(col)
 
-  return [ctVariables, retnalVariables, mriVariables]
+  return variables
 
 def putparen(string):
   return f"\'{string}\'"
@@ -53,7 +52,10 @@ def findTimepoints(data):
   Visit key: VISCODE
   Repeat key: REPEATCODE
   """
-
+  columns = list(data.columns)
+  columns.remove("RID")
+  columns.remove("VISCODE")
+  columns.remove("REPEATCODE")
   data_uniqueRID = data.RID.unique()
   subjectVariables = ["RID"]
   visitVariables = ["VISCODE"]
@@ -118,7 +120,7 @@ def findTimepoints(data):
   for RID in subject:
     for viscode in subject[RID]:
       if (len(subject[RID][viscode]) > 1):
-        for column_name in subject[RID][viscode][repeatcode][0]:
+        for column_name in columns:
           store_values = []
           for repeatcode in subject[RID][viscode]:
             for visit_dict in subject[RID][viscode][repeatcode]:
@@ -131,16 +133,20 @@ def findTimepoints(data):
               column_visit_eval[column_name] = [visit_bool]
             else:
               column_visit_eval[column_name].append(visit_bool)
+  for column_name in columns:
+    if((column_name not in column_visit_eval) and
+      (column_name not in  subjectVariables)):
+      visitVariables.append(column_name)
   for column_name in column_visit_eval:
     if (all(value for value in column_visit_eval[column_name])):
       if(column_name not in subjectVariables):
         visitVariables.append(column_name)
     else:
       repeatVariables.append(column_name)
-
+  print(visitVariables)
   return [subjectVariables,visitVariables,repeatVariables]
 
-def updateTables(schema, filename, timePoint, measureTimePoint, vars_list, tables):
+def updateTables(schema, filename, timePoint, vars_list, tables):
 
   sqlStatement = []
 
@@ -242,7 +248,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
             insertStatement = insertStatement + insert
         textfile.write("\n")
         sqlStatement.append(insertStatement)
-      elif tablename == 'repeatmeasure' or tablename == 'ctmeasure' or tablename == 'retnalmeasure' or tablename == 'mrimeasure':
+      elif tablename == 'repeatmeasure':
         for index, row in data.iterrows():
           values = []
           RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}-{tablename}"
@@ -258,7 +264,6 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
             insert = (
               templateInsert.format(
                 schema = schema,
-                repeattable = tablename,
                 fk = foreign_keys[i],
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
