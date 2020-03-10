@@ -21,7 +21,6 @@ Host = "host"
 Port = "port"
 Database = "database"
 connection = None
-schema = "mockschema"
 previousTableTuple = []
 
 environment = open(".env.development").readlines()
@@ -41,6 +40,10 @@ for line in environment:
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
+  "csvPath",
+  help="relative path to the csv to be loaded"
+)
+parser.add_argument(
   "alterfilename",
   help="the name of the SQL file which will be created to hold ALTER statemnets"
 )
@@ -49,10 +52,20 @@ parser.add_argument(
   help="the name of the SQL file which will be created to hold INSERT statemnets"
 )
 parser.add_argument(
+  "schema",
+  help="the name of the schema you are currently loading into the database"
+)
+parser.add_argument(
   "datasetname",
   help="the name of the dataset you are currently loading into the database"
 )
 args = parser.parse_args()
+
+csvPath = args.csvPath
+alterfilename = args.alterfilename
+insertfilename = args.insertfilename
+schema = args.schema
+datasetname = args.datasetname
 
 with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
@@ -60,7 +73,7 @@ with open(r"config.yaml") as config:
   vars_list = yaml.load(config, Loader=yaml.FullLoader)
 
 #read in the data and save the headers to a list
-data = pd.read_csv("ClinicalInfo_final.csv")
+data = pd.read_csv(csvPath)
 
 measureTimePoint = measurementCheck(data)
 
@@ -122,12 +135,11 @@ finally:
     connection.close()
     print("PostgreSQL connection is closed")
 
-
 previousTable = []
 for i,Tuple in enumerate(previousTableTuple):
   tempTable = []
-  for k,this in enumerate(Tuple):
-    tempTable.append(previousTableTuple[i][k][0])
+  for k, table in enumerate(Tuple):
+   tempTable.append(previousTableTuple[i][k][0])
   previousTable.append(tempTable)
 
 adjTimePoint = copy.deepcopy(timePoint)
@@ -154,21 +166,20 @@ adjTimePoint = newTimePoint
 if not isListEmpty(adjTimePoint):
   alterTable = updateTables(
     schema,
-    args.alterfilename,
+    alterfilename,
     adjTimePoint,
-    measureTimePoint,
     vars_list,
     newTable
   )
 
 dataInsertion = insertData(
-  args.insertfilename,
+  insertfilename,
   tables,
   data,
   timePoint,
   foreign_keys,
   schema,
-  args.datasetname
+  datasetname
 )
 
 try:
