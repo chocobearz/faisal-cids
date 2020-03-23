@@ -41,7 +41,7 @@ def measurementCheck(data):
 
   return variables
 
-def putparen(string):
+def putquote(string):
   return f"\'{string}\'"
 
 def findTimepoints(data):
@@ -143,7 +143,6 @@ def findTimepoints(data):
         visitVariables.append(column_name)
     else:
       repeatVariables.append(column_name)
-  print(visitVariables)
   return [subjectVariables,visitVariables,repeatVariables]
 
 def updateTables(schema, filename, timePoint, vars_list, tables):
@@ -206,7 +205,10 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
           if row['RID'] not in uniqueRID:
             uniqueRID.append(row['RID'])
             for name in timePoint[i]:
-              values.append(putparen(row[name]))
+              if row[name] == "None":
+                values.append('NULL')
+              else:
+                values.append(putquote(row[name]))
             templateInsert = ''.join(
               open('templateInsertSubject.sql', 'r').readlines()
             )
@@ -216,7 +218,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
                 fk = foreign_keys[i],
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
-                datasetname = putparen(dataset),
+                datasetname = putquote(dataset),
               )
             )
             textfile.write(insert)
@@ -229,9 +231,12 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
           RID_VC = f"{row['RID']}-{row['VISCODE']}"
           if RID_VC not in uniqueRIDVC:
             uniqueRIDVC.append(RID_VC)
-            key_id = putparen(row['RID'])
+            key_id = putquote(row['RID'])
             for name in timePoint[i]:
-              values.append(putparen(row[name]))
+              if row[name] == "None":
+                values.append('NULL')
+              else:
+                values.append(putquote(row[name]))
             templateInsert = ''.join(
               open('templateInsertVisit.sql', 'r').readlines()
             )
@@ -254,10 +259,13 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset)
           RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}-{tablename}"
           if RID_VC_RC not in uniqueRIDVC:
             uniqueRIDVC.append(RID_VC_RC)
-            fk_id = putparen(row['RID'])
-            key_id = putparen(row['VISCODE'])
+            fk_id = putquote(row['RID'])
+            key_id = putquote(row['VISCODE'])
             for name in timePoint[i]:
-              values.append(putparen(row[name]))
+              if row[name] == "None":
+                values.append('NULL')
+              else:
+                values.append(putquote(row[name]))
             templateInsert = ''.join(
               open('templateInsertRepeat.sql', 'r').readlines()
             )

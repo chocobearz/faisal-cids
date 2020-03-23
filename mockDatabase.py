@@ -6,7 +6,7 @@ import copy
 from utils import findTimepoints
 from utils import updateTables
 from utils import insertData
-from utils import putparen
+from utils import putquote
 from utils import measurementCheck
 from utils import isListEmpty
 from utils import isInList
@@ -111,8 +111,8 @@ try:
       FROM information_schema.columns 
       WHERE table_schema = {schema}
       AND table_name   = {table};'''.format(
-        schema = putparen(schema),
-        table = putparen(tablename)
+        schema = putquote(schema),
+        table = putquote(tablename)
       )
     cursor.execute(query)
     previousTableTuple.append(cursor.fetchall())

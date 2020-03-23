@@ -3,8 +3,8 @@ RID: varchar # Participant roster ID
 VISCODE: varchar # Visit code
 EXAMDATE: date # Examination date
 REPEATCODE: varchar # Repeat code
-Month_bl: varchar # Months from baseline based on EXAMDATES
-AGE: varchar # Age at baseline
+Month_bl: float # Months from baseline based on EXAMDATES
+AGE: float # Age at baseline
 SEX: varchar # Sex
 EDUCATION: int # Education
 ETHNICITY: varchar # Ethnicity -hispanic, not hispanic unknown
