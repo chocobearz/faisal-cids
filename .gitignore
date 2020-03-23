@@ -82,6 +82,10 @@ local.properties
 .scala_dependencies
 .worksheet
 
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
 #>>> https://github.com/github/gitignore/Global/Emacs.gitignore
 
 # -*- mode: gitignore; -*-
@@ -242,8 +246,7 @@ flycheck_*.el
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 
 # Thumbnails
 ._*
@@ -336,6 +339,7 @@ Backup of *.doc*
 
 # SFTP configuration file
 sftp-config.json
+sftp-config-alt*.json
 
 # Package control specific files
 Package Control.last-run
@@ -659,16 +663,6 @@ inc/
 /pm_to_blib
 /*.zip
 
-#>>> https://github.com/github/gitignore/Perl6.gitignore
-
-# Gitignore for Perl 6 (http://www.perl6.org)
-# As part of https://github.com/github/gitignore
-
-# precompiled files
-.precomp
-lib/.precomp
-
-
 #>>> https://github.com/github/gitignore/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
@@ -723,6 +717,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
 
 # Translations
 *.mo
@@ -745,6 +740,7 @@ instance/
 docs/_build/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
@@ -755,7 +751,9 @@ profile_default/
 ipython_config.py
 
 # pyenv
-.python-version
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -764,8 +762,12 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# celery beat schedule file
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -796,6 +798,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
 
 #>>> https://github.com/github/gitignore/Qt.gitignore
 
@@ -852,6 +860,8 @@ compile_commands.json
 # QtCreator local machine specific files for imported projects
 *creator.user*
 
+*_qmlcache.qrc
+
 #>>> https://github.com/github/gitignore/Rails.gitignore
 
 *.rbc
@@ -880,9 +890,10 @@ config/master.key
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
 
-# dotenv
-# TODO Comment out this rule if environment variables can be committed
+# dotenv, dotenv-rails
+# TODO Comment out these rules if environment variables can be committed
 .env
+.env.*
 
 ## Environment normalization:
 /.bundle
@@ -921,6 +932,17 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+/public/uploads
+
+#>>> https://github.com/github/gitignore/Raku.gitignore
+
+# Gitignore for Raku (https://raku.org)
+# As part of https://github.com/github/gitignore
+
+# precompiled files
+.precomp
+lib/.precomp
+
 
 #>>> https://github.com/github/gitignore/R.gitignore
 
@@ -960,6 +982,9 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# R Environment Variables
+.Renviron
 
 #>>> https://github.com/github/gitignore/Ruby.gitignore
 
@@ -1159,8 +1184,8 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
 *-tikzDictionary
 
 # listings
@@ -1283,6 +1308,9 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 
+# TeXnicCenter
+*.tps
+
 # auto folder when using emacs and auctex
 ./auto/*
 *.el
@@ -1295,6 +1323,11 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
+# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
+# Uncomment the next line to have this generated file ignored.
+#*Notes.bib
 
 #>>> config/faisal-gitignore-template
 
@@ -1422,10 +1455,3 @@ GPATH
 GRTAGS
 GSYMS
 GTAGS
-
-#username and password combinations for database
-.env.development
-.env.production
-
-#python compalation
-__pycache__/
