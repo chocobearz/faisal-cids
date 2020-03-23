@@ -1,0 +1,31 @@
+---
+title: "randomMockData"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(stringr)
+mockData <- read.csv(file = "/home/ptuttosi/Desktop/IMAGE_MAIN-PTUTTOSI/Database/ClinicalInfo.csv", header = TRUE, sep = ",")
+
+names <- colnames(mockData)
+
+Measures <- str_detect(names, "Measure.")
+Measures <- names[Measures]
+rows <- dim(mockData)[1]
+cols <- dim(mockData)[2]
+seed <- 0
+
+for (i in Measures){
+  print(i)
+  mockData[i] <-  runif(rows)
+  } 
+
+race <- c("White", "Asian", "Latino", "Black")
+race_sample <- sample(race, rows, replace = TRUE)
+
+mockData <- mutate(mockData, PTRACE = race_sample)
+
+write.csv(mockData, "/home/ptuttosi/Desktop/IMAGE_MAIN-PTUTTOSI/Database/ClinicalInfo_final.csv")
+```
+
