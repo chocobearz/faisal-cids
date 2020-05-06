@@ -1,9 +1,9 @@
 --in psql shell
 --\l to list exitsing databases
 --if not created run:
---CREATE DATABASE mockdatabase;
+--CREATE DATABASE faisaldatabase;
 --connect via:
---\c mockdatabase
+--\c faialdatabase
 --\i to run file
 
 --as research intrests expand create new
