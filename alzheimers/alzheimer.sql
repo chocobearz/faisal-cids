@@ -3,7 +3,7 @@
 --if not created run:
 --CREATE DATABASE faisaldatabase;
 --connect via:
---\c faialdatabase
+--\c faisaldatabase
 --\i to run file
 
 --as research intrests expand create new
