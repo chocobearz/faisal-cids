@@ -37,7 +37,7 @@ for line in environment:
     creds[Port] = elements[1].strip()
   elif elements[0] == Database:
     creds[Database] = elements[1].strip()
-print(creds[Password])
+
 parser = argparse.ArgumentParser()
 parser.add_argument(
   "csvPath",
