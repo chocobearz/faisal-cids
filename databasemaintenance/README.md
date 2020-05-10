@@ -27,6 +27,8 @@ database
 
 NOTE: the schema should share the same name with the folder containing the
 `$research_interest` data, e.g. alzheimer
+NOTE: the `.csv` containing the data should have the same name as the dataser
+e.g. `ADNI.csv`
 
 If a table is assesed to be in a different timepoint than in a previous
 interaction an error will be thrown:
