@@ -22,6 +22,7 @@ statemnets
 into the database
 `datasetname` = the name of the dataset you are currently loading into the
 database
+`path` = path to the database repo
 
 NOTE: the schema should share the same name with the folder containing the
 `$research_interest` data, e.g. alzheimer
@@ -54,7 +55,7 @@ Run script
 
 ```
 $ cd databasemaintenance/
-$ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname
+$ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname $path
 ```
 
 These files are saved as a backup but have already been added to the database
