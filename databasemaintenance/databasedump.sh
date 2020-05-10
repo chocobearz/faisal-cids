@@ -14,6 +14,6 @@ pg_dump --username=ptuttosi --clean --port=5432 faisaldatabase > $path/backups/f
 #accommodate all connections. 
 #see https://www.postgresql.org/docs/9.3/app-pgdump.html
 
-md5sum faisaldatabase_backup_$now.sql > $path/backups/faisaldatabase_backup_$now.sql.md5sum
+md5sum $path/backups/faisaldatabase_backup_$now.sql > $path/backups/faisaldatabase_backup_$now.sql.md5sum
 
 $1faisal-databasetools/venv/bin/python checkmd5sum.py $path/backups/ faisaldatabase_backup_$now.sql.md5sum
