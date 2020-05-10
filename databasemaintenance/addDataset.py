@@ -59,10 +59,6 @@ parser.add_argument(
   "datasetname",
   help="the name of the dataset you are currently loading into the database"
 )
-parser.add_argument(
-  "path",
-  help="path to the database repo"
-)
 args = parser.parse_args()
 
 csvPath = args.csvPath
@@ -70,7 +66,7 @@ alterfilename = args.alterfilename
 insertfilename = args.insertfilename
 schema = args.schema
 datasetname = args.datasetname
-path = args.path
+
 print(Username)
 with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
@@ -167,7 +163,7 @@ if not isListEmpty(adjTimePoint):
     adjTimePoint,
     vars_list,
     newTable,
-    path,
+    csvPath,
     datasetname
   )
 
@@ -179,7 +175,7 @@ dataInsertion = insertData(
   foreign_keys,
   schema,
   datasetname,
-  path
+  csvPath
 )
 
 try:
