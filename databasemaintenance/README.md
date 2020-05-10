@@ -26,6 +26,17 @@ database
 NOTE: the schema should share the same name with the folder containing the
 `$research_interest` data, e.g. alzheimer
 
+If a table is assesed to be in a different timepoint than in a previous
+interaction an error will be thrown:
+
+```
+One of the columns: $column you are attempting to load is already in 
+the database and is being assesed to belong to a different table. Please
+refer to the database to see the current table. Check for input errors
+and if the new table is correct manually move the column to the new table
+```
+
+In this case the user must manually update the tables
 ### Execution
 
 ```
@@ -46,5 +57,5 @@ $ cd databasemaintenance/
 $ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname
 ```
 
-These files are saved as a backup but have already been added to the databased
+These files are saved as a backup but have already been added to the database
 during execution of the Python script

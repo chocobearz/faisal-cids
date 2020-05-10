@@ -181,8 +181,8 @@ $ source venv/bin/activate
 Set up python requirements
 
 ```
-$ pip install -r requirements.txt
-$ exit
+(venv) $ pip install -r requirements.txt
+(venv) $ exit
 ```
 
 `psql` will want to verify users through ident, this is problematic when executing
