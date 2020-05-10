@@ -70,6 +70,7 @@ alterfilename = args.alterfilename
 insertfilename = args.insertfilename
 schema = args.schema
 datasetname = args.datasetname
+path = args.path
 print(Username)
 with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
@@ -165,7 +166,9 @@ if not isListEmpty(adjTimePoint):
     alterfilename,
     adjTimePoint,
     vars_list,
-    newTable
+    newTable,
+    path,
+    datasetname
   )
 
 dataInsertion = insertData(
@@ -175,7 +178,8 @@ dataInsertion = insertData(
   timePoint,
   foreign_keys,
   schema,
-  datasetname
+  datasetname,
+  path
 )
 
 try:
