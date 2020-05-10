@@ -1,4 +1,4 @@
-path=/home/ptuttosi/faisaldatabase/faisal-databasetools/databasemaintenance/
+path_to_faisal-databasetools_repo=$1faisal-databasetools/databasemaintenance/
 
 cd $path
 
@@ -16,4 +16,4 @@ pg_dump --username=ptuttosi --clean --port=5432 faisaldatabase > faisaldatabase_
 
 md5sum faisaldatabase_backup_$now.sql > faisaldatabase_backup_$now.sql.md5sum
 
-/home/ptuttosi/faisaldatabase/faisal-databasetools/venv/bin/python checkmd5sum.py faisaldatabase_backup_$now.sql.md5sum
+$1faisal-databasetools/venv/bin/python checkmd5sum.py faisaldatabase_backup_$now.sql.md5sum
