@@ -1,0 +1,50 @@
+
+# Add dataset algorithm
+
+This script takes a new dataset and will output the `ALTER` and `INSERT`
+SQL required to load the data into `faisaldatabase` and run them
+
+The script automatically seperates data by timepoint. 
+
+Any variable which does not change for a single RID is inserted in `subject`
+Any variable which does not change for a single viscode is inserted in `visit`
+Any measurement or any variable not already inserted is inserted into
+`repeatmeasure`
+
+The following arguments are required:
+
+`csvPath` = relative path to the csv to be loaded
+`alterfilename` = the name of the SQL file which will be created to hold ALTER
+statemnets
+`insertfilename` = the name of the SQL file which will be created to hold INSERT
+statemnets
+`schema` = the name of the schema (research interest) you are currently loading
+into the database
+`datasetname` = the name of the dataset you are currently loading into the
+database
+
+NOTE: the schema should share the same name with the folder containing the
+`$research_interest` data, e.g. alzheimer
+
+### Execution
+
+```
+$ cd $repo_path/faisal-databasetools
+$ source venv/bin/activate
+```
+If requirements have not been set up
+
+```
+(venv) $ pip install -r requirements.txt
+(venv) $ exit
+```
+
+Run script
+
+```
+$ cd databasemaintenance/
+$ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname
+```
+
+These files are saved as a backup but have already been added to the databased
+during execution of the Python script
