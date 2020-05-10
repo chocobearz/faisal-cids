@@ -13,7 +13,8 @@ The script automatically seperates data by timepoint.
 
 The following arguments are required:
 
-* `csvPath` = relative path to the csv to be loaded
+* `csvPath` = relative path to the csv to be loaded ending in /,
+without the csv file
 * `alterfilename` = the name of the SQL file which will be created to hold ALTER
 statemnets
 * `insertfilename` = the name of the SQL file which will be created to hold INSERT

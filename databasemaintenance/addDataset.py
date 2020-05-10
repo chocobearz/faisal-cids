@@ -74,7 +74,7 @@ with open(r"config.yaml") as config:
   vars_list = yaml.load(config, Loader=yaml.FullLoader)
 
 #read in the data and save the headers to a list
-data = pd.read_csv(csvPath)
+data = pd.read_csv(csvPath+datasetname+".csv")
 
 measureTimePoint = measurementCheck(data)
 
@@ -163,8 +163,7 @@ if not isListEmpty(adjTimePoint):
     adjTimePoint,
     vars_list,
     newTable,
-    csvPath,
-    datasetname
+    csvPath
   )
 
 dataInsertion = insertData(
