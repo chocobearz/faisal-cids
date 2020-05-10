@@ -29,8 +29,8 @@ for filename in previousDumps:
   md5sum = md5sum.split(' ')
   md5sum = md5sum[0]
   if(( md5sum == currentsum) and (filename != args.md5filename)) :
-    backupfile = args.md5filename.rstrip(".md5sum")
+    backupfile = args.path+args.md5filename.rstrip(".md5sum")
     os.remove(backupfile)
-    os.remove(args.md5filename)
+    os.remove(args.path+args.md5filename)
     print("No change in database backup will not be saved")
     break
