@@ -38,6 +38,26 @@ and if the new table is correct manually move the column to the new table
 ```
 
 In this case the user must manually update the tables
+
+### Requirements
+
+* python 3.*
+* pandas
+* pyyaml
+* psycopg2-binary
+* .env
+    * formatted as follows:
+
+        username:$your_username
+
+        password:***************
+
+        host:127.0.0.1
+
+        port:5432
+
+        database:faisaldatabase
+
 ### Execution
 
 ```
