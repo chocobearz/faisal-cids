@@ -39,26 +39,27 @@ and if the new table is correct manually move the column to the new table
 
 In this case the user must manually update the tables
 
-### Requirements
+## Requirements
 
-* python 3.*
-* pandas
-* pyyaml
-* psycopg2-binary
-* .env
-    * formatted as follows:
+``python 3.*``
 
-        username:$your_username
+``pandas``
 
-        password:***************
+``pyyaml``
 
-        host:127.0.0.1
+``psycopg2-binary``
 
-        port:5432
+``.env``
+formatted as follows:
+```sh
+username:$your_username
+password:***************
+host:127.0.0.1
+port:5432
+database:faisaldatabase
+```
 
-        database:faisaldatabase
-
-### Execution
+## Execution
 
 ```
 $ cd $repo_path/faisal-databasetools
