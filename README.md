@@ -14,6 +14,8 @@ If you do not have sudo access, please contact IT
 
 #### Install postgresql
 
+Installation of postgresql 12
+
 ```
 $ sudo yum -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 $ sudo dnf -qy module disable postgresql
@@ -27,7 +29,7 @@ MAYBE?
 $ sudo firewall-cmd --add-service=postgresql --permanent
 $ sudo firewall-cmd --reload
 
-Setup postgres user with psql
+Setup postgres user within `psql` CLI
 
 ```
 $ sudo su - postgres
@@ -43,20 +45,16 @@ $ psql
 postgres=# \l
 ```
 
-faisaldatbase should not already exist
+`faisaldatbase` should not already exist
 
-Create faisaldatabase and check that it was created properly
+Create `faisaldatabase` and check that it was created properly
 
 ```
 postgres=# CREATE DATABASE faisaldatabase;
 postgres=# \l
 ```
 
-Add 
-```
-$your_username
-```
-to database and grant privileges
+Add `$your_username` to database and grant privileges
 
 ```
 $ psql template1
@@ -65,7 +63,7 @@ template1=# GRANT ALL PRIVILEGES ON DATABASE faisaldatabase to $your_username;
 template1=# \q
 ```
 
-Test
+Test that user can connect
 
 ```
 $ su $your_username
@@ -73,7 +71,7 @@ $ psql -d faisaldatabase -U $your_username
 faisaldatabase=> \q
 ```
 
-Make sure you are in /home/$your_username
+Make sure you are in `/home/$your_username`
 
 ```
 $ mkdir faisaldatabase/
@@ -90,7 +88,7 @@ $ cd faisal-databasetools/
 Begin adding datasets, these are organized by research instest
 
 These should be orgaized into folders named by research interest,
-e.g. alzheimers 
+e.g. `alzheimers`
 
 To find which folders currently exist
 
@@ -139,7 +137,7 @@ Example output for alzheimer.sql
 ```
 
 Fill dataset table with the info about data set follow the template located at:
-/home/$your_username/faisaldatabase/faisal-databasetools/alzheimers/updateDatasetTableAlzheimer.sql
+`/home/$your_username/faisaldatabase/faisal-databasetools/alzheimers/updateDatasetTableAlzheimer.sql`
 
 ```
 faisaldatabase=> \i updateDatasetTable$Research_interest.sql
@@ -147,13 +145,13 @@ faisaldatabase=> \i updateDatasetTable$Research_interest.sql
 
 Check it was correctly read
 
-NOTE: if you ever exit psql make sure to rest the search path
+NOTE: if you ever exit `psql` CLI make sure to rest the search path
 
 ```
 faisaldatabase=> SELECT * FROM DATASET;
 ```
 
-Example output for updateDatasetTableAlzheimer.sql
+Example output for `updateDatasetTableAlzheimer.sql`
 
 ```
  id | name | geographicregion | timeframe | participants |           affliliation            |   access
@@ -162,7 +160,7 @@ Example output for updateDatasetTableAlzheimer.sql
 (1 row)
 ````
 
-Exit
+Exit the `psql` CLI with the following command
 
 ```
 faisaldatabase=> \q
@@ -178,17 +176,17 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
-Set up pyton requirements
+Set up python requirements
 
 ```
 $ pip install -r requirements.txt
 $ exit
 ```
 
-psql will want to verify users through ident, this is problematic when executing
+`psql` will want to verify users through ident, this is problematic when executing
 SQL commands through python
 
-Change user vierfication to password
+Change user verification to password
 
 
 This will give you the path to the config file
@@ -225,17 +223,17 @@ $ psql
 postgres=# SELECT pg_reload_conf();
 ```
 
-Generate the ALTER.sql and INSERT.sql files for the dataset
+Generate the `ALTER.sql` and `INSERT.sql` files for the dataset
 
-Run addDataset.py, follow the directions **here**
+Run `addDataset.py`, follow the directions **here**
 
-mv the two files that were just created to
-/home/$your_username/faisaldatabase/faisal-databasetools/$research interest/dataset
+`mv` the two files that were just created to
+`/home/$your_username/faisaldatabase/faisal-databasetools/$research interest/dataset`
 
 These files are saved as a backup but have already been added to the databased
 during execution of the Python script
 
-Test
+Run this command to ensure the schema `$research_interest` was loaded correctly
 
 ```
 $ psql -d faisaldatabase -U $your_username
@@ -266,7 +264,7 @@ No change in database backup will not be saved
 
 To add users must be in postgres
 
-Create the user
+Create the user (in the following examples, assume the username is `username`)
 
 ```
 $ sudo su postgres
