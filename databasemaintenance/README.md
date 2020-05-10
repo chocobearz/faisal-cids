@@ -6,23 +6,23 @@ SQL required to load the data into `faisaldatabase` and run them
 
 The script automatically seperates data by timepoint. 
 
-Any variable which does not change for a single RID is inserted in `subject`
-Any variable which does not change for a single viscode is inserted in `visit`
-Any measurement or any variable not already inserted is inserted into
+* Any variable which does not change for a single RID is inserted in `subject`
+* Any variable which does not change for a single viscode is inserted in `visit`
+* Any measurement or any variable not already inserted is inserted into
 `repeatmeasure`
 
 The following arguments are required:
 
-`csvPath` = relative path to the csv to be loaded
-`alterfilename` = the name of the SQL file which will be created to hold ALTER
+* `csvPath` = relative path to the csv to be loaded
+* `alterfilename` = the name of the SQL file which will be created to hold ALTER
 statemnets
-`insertfilename` = the name of the SQL file which will be created to hold INSERT
+* `insertfilename` = the name of the SQL file which will be created to hold INSERT
 statemnets
-`schema` = the name of the schema (research interest) you are currently loading
+* `schema` = the name of the schema (research interest) you are currently loading
 into the database
-`datasetname` = the name of the dataset you are currently loading into the
+* `datasetname` = the name of the dataset you are currently loading into the
 database
-`path` = path to the database repo
+* `path` = path to the database repo, must end in /
 
 NOTE: the schema should share the same name with the folder containing the
 `$research_interest` data, e.g. alzheimer

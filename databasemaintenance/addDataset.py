@@ -59,6 +59,10 @@ parser.add_argument(
   "datasetname",
   help="the name of the dataset you are currently loading into the database"
 )
+parser.add_argument(
+  "path",
+  help="path to the database repo"
+)
 args = parser.parse_args()
 
 csvPath = args.csvPath
