@@ -1,5 +1,5 @@
 
-# Add dataset algorithm
+# addDataset algorithm
 
 This script takes a new dataset and will output the `ALTER` and `INSERT`
 SQL required to load the data into `faisaldatabase` and run them
