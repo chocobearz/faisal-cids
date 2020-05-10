@@ -3,7 +3,9 @@ path=$1faisal-databasetools/databasemaintenance/
 cd $path
 
 now=$(date +"%m_%d_%Y-%H.%M")
-pg_dump --username=ptuttosi --clean --port=5432 faisaldatabase > faisaldatabase_backup_$now.sql
+pg_dump --username=ptuttosi --clean --port=5432 faisaldatabase > $path/backups/faisaldatabase_backup_$now.sql
+
+cd $path/backups
 
 #-- jobs=njobs  Run the dump in parallel by dumping njobs tables simultaneously.
 # This option reduces the time of the dump but it also increases the load on the
