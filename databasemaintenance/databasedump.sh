@@ -1,4 +1,4 @@
-path_to_faisal-databasetools_repo=$1faisal-databasetools/databasemaintenance/
+path=$1faisal-databasetools/databasemaintenance/
 
 cd $path
 
