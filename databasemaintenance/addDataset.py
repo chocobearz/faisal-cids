@@ -67,7 +67,6 @@ insertfilename = args.insertfilename
 schema = args.schema
 datasetname = args.datasetname
 
-print(Username)
 with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
   # scalar values to Python the dictionary format
@@ -164,7 +163,6 @@ if not isListEmpty(adjTimePoint):
     vars_list,
     newTable,
     csvPath,
-    datasetname
   )
 
 dataInsertion = insertData(
