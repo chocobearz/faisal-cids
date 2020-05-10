@@ -145,11 +145,11 @@ def findTimepoints(data):
       repeatVariables.append(column_name)
   return [subjectVariables,visitVariables,repeatVariables]
 
-def updateTables(schema, filename, timePoint, vars_list, tables, path):
+def updateTables(schema, filename, timePoint, vars_list, tables, path, dataset):
 
   sqlStatement = []
 
-  with open(path+filename+".sql", "w+") as textfile:
+  with open(path+ dataset + "/" + filename+".sql", "w+") as textfile:
 
     updateTableTemplate = "ALTER TABLE {schema}.{tablename}\n"
 
@@ -195,7 +195,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset,
   uniqueTarget_id = []
   sqlStatement = []
 
-  with open(path+filename+".sql", "w+") as textfile:
+  with open(path+dataset + "/" + filename+".sql", "w+") as textfile:
 
     for i, tablename in enumerate(tables):
       insertStatement = ""

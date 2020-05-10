@@ -77,7 +77,7 @@ Run script
 
 ```
 $ cd databasemaintenance/
-$ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname $path
+$ python3 addDataset.py $csvpath $alterfilename $insertfilename $schema $datasetname
 ```
 
 These files are saved as a backup but have already been added to the database

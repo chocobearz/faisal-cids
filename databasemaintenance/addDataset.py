@@ -163,7 +163,8 @@ if not isListEmpty(adjTimePoint):
     adjTimePoint,
     vars_list,
     newTable,
-    csvPath
+    csvPath,
+    datasetname
   )
 
 dataInsertion = insertData(
