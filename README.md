@@ -45,7 +45,7 @@ $ psql
 postgres=# \l
 ```
 
-`faisaldatbase` should not already exist
+`faisaldatabase` should not already exist
 
 Create `faisaldatabase` and check that it was created properly
 
@@ -71,18 +71,20 @@ $ psql -d faisaldatabase -U $your_username
 faisaldatabase=> \q
 ```
 
-Make sure you are in `/home/$your_username`
-
-```
-$ mkdir faisaldatabase/
-$ cd faisaldatabase/
-```
+Make sure you are in `/home/$your_username` and any desired subfolder where you
+wish to hold the repo
 
 The following requires an ssh key
 
 ```
 $ git clone git@gitlab.rcg.sfu.ca:faisal-lab/sys-dev/faisal-databasetools.git
 $ cd faisal-databasetools/
+```
+
+Create a variable with the path to your faisal-databasetools folder
+
+```
+$ export repo_path=\/home\/$your_username\/path\/
 ```
 
 Begin adding datasets, these are organized by research instest
@@ -97,7 +99,7 @@ $ ls in faisal-databasetools/
 ```
 
 ```
-$ cd /home/$your_username/faisaldatabase/faisal-databasetools/$resarch_interest
+$ cd $repo_path/faisal-databasetools/$resarch_interest
 ```
 
 Create the schema and tables
@@ -137,7 +139,7 @@ Example output for alzheimer.sql
 ```
 
 Fill dataset table with the info about data set follow the template located at:
-`/home/$your_username/faisaldatabase/faisal-databasetools/alzheimers/updateDatasetTableAlzheimer.sql`
+`$repo_path/faisal-databasetools/alzheimers/updateDatasetTableAlzheimer.sql`
 
 ```
 faisaldatabase=> \i updateDatasetTable$Research_interest.sql
@@ -169,7 +171,7 @@ faisaldatabase=> \q
 Go to the top level of the repo
 
 ```
-$ cd /home/$your_username/faisaldatabase/faisal-databasetools
+$ cd $repo_path/faisal-databasetools
 $ sudo su root
 $ yum install python3
 $ python3 -m venv venv
@@ -228,7 +230,7 @@ Generate the `ALTER.sql` and `INSERT.sql` files for the dataset
 Run `addDataset.py`, follow the directions **here**
 
 `mv` the two files that were just created to
-`/home/$your_username/faisaldatabase/faisal-databasetools/$research interest/dataset`
+`$repo_path/faisal-databasetools/$research interest/dataset`
 
 These files are saved as a backup but have already been added to the databased
 during execution of the Python script
@@ -248,11 +250,18 @@ Do this for each table
 
 Auto backup every day at 3 am PST
 
+The path in the cron will need to be edited with the correct path to
+faisal-databasetools
+
+The file is located here:
+
+`$repo_path/faisal-databasetools/databasemaintenance/cronbackup.sh`
+
 ### Manual backup
 
 ```
-$ cd /home/$your_username/faisaldatabase/faisal-databasetools/databasemaintenence
-$ ./databasedump.sh
+$ $repo_path/faisal-databasetools/databasemaintenence
+$ ./databasedump.sh $repo_path
 ```
 
 There was no change in the databse since the last backup it will say:
@@ -313,7 +322,7 @@ $ psql
 postgres=# CREATE DATABASE faisaldatabase;
 postgres=# \q
 $ su $your_username
-$ cd /home/$your_username/faisaldatabase/faisal-databasetools/databasemaintenence
+$ cd $repo_path/faisal-databasetools/databasemaintenence
 $ psql faisaldatabase < faisaldatabase_backup_$desired_date.sql
 ```
 
