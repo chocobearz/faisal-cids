@@ -90,7 +90,7 @@ $ export repo_path=\/home\/$your_username\/path\/
 Begin adding datasets, these are organized by research instest
 
 These should be orgaized into folders named by research interest,
-e.g. `alzheimers`
+e.g. `alzheimer`
 
 To find which folders currently exist
 
@@ -139,7 +139,7 @@ Example output for alzheimer.sql
 ```
 
 Fill dataset table with the info about data set follow the template located at:
-`$repo_path/faisal-databasetools/alzheimers/updateDatasetTableAlzheimer.sql`
+`$repo_path/faisal-databasetools/alzheimer/updateDatasetTableAlzheimer.sql`
 
 ```
 faisaldatabase=> \i updateDatasetTable$Research_interest.sql
@@ -229,13 +229,7 @@ Generate the `ALTER.sql` and `INSERT.sql` files for the dataset
 
 Run `addDataset.py`, follow the directions **here**
 
-`mv` the two files that were just created to
-`$repo_path/faisal-databasetools/$research interest/dataset`
-
-These files are saved as a backup but have already been added to the databased
-during execution of the Python script
-
-Run this command to ensure the schema `$research_interest` was loaded correctly
+Run this command to ensure the dataset was loaded correctly
 
 ```
 $ psql -d faisaldatabase -U $your_username
