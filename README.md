@@ -263,7 +263,7 @@ There was no change in the databse since the last backup it will say:
 ```
 No change in database backup will not be saved
 ```
-### Add users and grant permissions
+## Add users and grant permissions
 
 To add users must be in postgres
 
@@ -307,7 +307,7 @@ Change the default user privileges on a schema
 postgres=# ALTER DEFAULT PRIVILEGES IN SCHEMA schema_name
 ```
 
-### Restore
+## Restore
 
 Restore database from a previous backup
 
