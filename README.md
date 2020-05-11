@@ -7,7 +7,7 @@ and support files.
 ## Setup
 
 Follow these instructions to set up the database from scratch, if there is a
-backup please see Restore **THIS SECTION**
+backup please [Restore](#Restore)
 
 Note: The following requires sudo access.
 If you do not have sudo access, please contact IT
@@ -227,7 +227,7 @@ postgres=# SELECT pg_reload_conf();
 
 Generate the `ALTER.sql` and `INSERT.sql` files for the dataset
 
-Run `addDataset.py`, follow the directions **here**
+Run `addDataset.py`, follow the directions [here](databasemaintenance/README.md)
 
 Run this command to ensure the dataset was loaded correctly
 
@@ -309,14 +309,15 @@ postgres=# ALTER DEFAULT PRIVILEGES IN SCHEMA schema_name
 
 ### Restore
 
-** CHECK THIS MAY CHANGE FOLDER**
+Restore database from a previous backup
+
 ```
 $ sudo su postgres
 $ psql
 postgres=# CREATE DATABASE faisaldatabase;
 postgres=# \q
 $ su $your_username
-$ cd $repo_path/faisal-databasetools/databasemaintenence
+$ cd $repo_path/faisal-databasetools/databasemaintenence/backups
 $ psql faisaldatabase < faisaldatabase_backup_$desired_date.sql
 ```
 
