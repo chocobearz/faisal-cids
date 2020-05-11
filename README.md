@@ -7,7 +7,7 @@ and support files.
 ## Setup
 
 Follow these instructions to set up the database from scratch, if there is a
-backup please [Restore](#Restore)
+backup please [Restore](#restore)
 
 Note: The following requires sudo access.
 If you do not have sudo access, please contact IT
