@@ -2,7 +2,7 @@
 # addDataset algorithm
 
 This script takes a new dataset and will output the `ALTER` and `INSERT`
-SQL required to load the data into `faisaldatabase` and run them
+SQL required to load the data into `faisalcids` and run them
 
 The script automatically seperates data by timepoint. 
 
@@ -59,7 +59,7 @@ username:$your_username
 password:***************
 host:127.0.0.1
 port:5432
-database:faisaldatabase
+database:faisalcids
 ```
 
 ## Execution

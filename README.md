@@ -1,8 +1,8 @@
 
-# Faisal Database
+# Faisal Clinical Info Database System (CIDS)
 
-This repository contains the FAISAL Database, it's data, setup, maintenance,
-and support files.
+This repository contains the FAISAL Clinical Info Database, it's data, setup,
+maintenance, and support files.
 
 ## Setup
 
@@ -25,9 +25,7 @@ $ sudo systemctl enable --now postgresql-12
 $ systemctl status postgresql-12
 ```
 
-MAYBE?
-$ sudo firewall-cmd --add-service=postgresql --permanent
-$ sudo firewall-cmd --reload
+In the final step you want to see that the database is active.
 
 Setup postgres user within `psql` CLI
 
@@ -36,7 +34,7 @@ $ sudo su - postgres
 $ psql -c "alter user postgres with password 'StrongPassword'"
 ```
 
-#### Setup faisaldatabase
+#### Setup faisalcids
 
 Check existing databases
 
@@ -45,12 +43,12 @@ $ psql
 postgres=# \l
 ```
 
-`faisaldatabase` should not already exist
+`faisalcids` should not already exist
 
-Create `faisaldatabase` and check that it was created properly
+Create `faisalcids` and check that it was created properly
 
 ```
-postgres=# CREATE DATABASE faisaldatabase;
+postgres=# CREATE DATABASE faisalcids;
 postgres=# \l
 ```
 
@@ -59,7 +57,7 @@ Add `$your_username` to database and grant privileges
 ```
 $ psql template1
 template1=# CREATE USER $your_username WITH PASSWORD 'myPassword';
-template1=# GRANT ALL PRIVILEGES ON DATABASE faisaldatabase to $your_username;
+template1=# GRANT ALL PRIVILEGES ON DATABASE faisalcids to $your_username;
 template1=# \q
 ```
 
@@ -67,8 +65,8 @@ Test that user can connect
 
 ```
 $ su $your_username
-$ psql -d faisaldatabase -U $your_username
-faisaldatabase=> \q
+$ psql -d faisalcids -U $your_username
+faisalcids=> \q
 ```
 
 Make sure you are in `/home/$your_username` and any desired subfolder where you
@@ -77,8 +75,8 @@ wish to hold the repo
 The following requires an ssh key
 
 ```
-$ git clone git@gitlab.rcg.sfu.ca:faisal-lab/sys-dev/faisal-databasetools.git
-$ cd faisal-databasetools/
+$ git clone git@gitlab.rcg.sfu.ca:faisal-lab/databases/faisal-cids.git
+$ cd faisal-cids/
 ```
 
 Create a variable with the path to your faisal-databasetools folder
@@ -95,18 +93,19 @@ e.g. `alzheimer`
 To find which folders currently exist
 
 ```
-$ ls in faisal-databasetools/
+$ ls 
 ```
+in faisal-cids/
 
 ```
-$ cd $repo_path/faisal-databasetools/$resarch_interest
+$ cd $repo_path/faisal-cids/$resarch_interest
 ```
 
 Create the schema and tables
 
 ```
-$ psql -d faisaldatabase -U $your_username
-faisaldatabase=> \i $research_interest.sql
+$ psql -d faisalcids -U $your_username
+faisalcids=> \i $research_interest.sql
 ```
 
 Expected output:
@@ -121,8 +120,8 @@ CREATE TABLE
 Check tables and schema
 
 ```
-faisaldatabase=> SET search_path TO $research_interest_schema;
-faisaldatabase=> \dt
+faisalcids=> SET search_path TO $research_interest_schema;
+faisalcids=> \dt
 ```
 
 Example output for alzheimer.sql 
@@ -142,7 +141,7 @@ Fill dataset table with the info about data set follow the template located at:
 `$repo_path/faisal-databasetools/alzheimer/updateDatasetTableAlzheimer.sql`
 
 ```
-faisaldatabase=> \i updateDatasetTable$Research_interest.sql
+faisalcids=> \i updateDatasetTable$Research_interest.sql
 ```
 
 Check it was correctly read
@@ -150,7 +149,7 @@ Check it was correctly read
 NOTE: if you ever exit `psql` CLI make sure to rest the search path
 
 ```
-faisaldatabase=> SELECT * FROM DATASET;
+faisalcids=> SELECT * FROM DATASET;
 ```
 
 Example output for `updateDatasetTableAlzheimer.sql`
@@ -165,13 +164,13 @@ Example output for `updateDatasetTableAlzheimer.sql`
 Exit the `psql` CLI with the following command
 
 ```
-faisaldatabase=> \q
+faisalcids=> \q
 ```
 
 Go to the top level of the repo
 
 ```
-$ cd $repo_path/faisal-databasetools
+$ cd $repo_path/faisal-cids
 $ sudo su root
 $ yum install python3
 $ python3 -m venv venv
@@ -232,9 +231,9 @@ Run `addDataset.py`, follow the directions [here](databasemaintenance/README.md)
 Run this command to ensure the dataset was loaded correctly
 
 ```
-$ psql -d faisaldatabase -U $your_username
-faisaldatabase=> SET search_path TO $research_intrest;
-faisaldatabase=> SELECT * FROM visit;
+$ psql -d faisalcids -U $your_username
+faisalcids=> SET search_path TO $research_intrest;
+faisalcids=> SELECT * FROM visit;
 ```
 
 Do this for each table
@@ -314,11 +313,11 @@ Restore database from a previous backup
 ```
 $ sudo su postgres
 $ psql
-postgres=# CREATE DATABASE faisaldatabase;
+postgres=# CREATE DATABASE faisalcids;
 postgres=# \q
 $ su $your_username
-$ cd $repo_path/faisal-databasetools/databasemaintenence/backups
-$ psql faisaldatabase < faisaldatabase_backup_$desired_date.sql
+$ cd $repo_path/faisal-cids/databasemaintenence/backups
+$ psql faisalcids < faisalcids_backup_$desired_date.sql
 ```
 
 Run a backup to assure the md5sum for the current database matches the backup
