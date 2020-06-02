@@ -245,7 +245,6 @@ $ cd $repo_path/faisal-cids/databasemaintenence
 $ mkdir backups
 ```
 
-
 ## Backup
 
 Auto backup every day at 3 am PST
@@ -256,6 +255,11 @@ faisal-cids
 The file is located here:
 
 `$repo_path/faisal-cids/databasemaintenance/cronbackup.sh`
+
+```
+$ crontab -r
+```
+Paste contents of cron file
 
 ### Manual backup
 
