@@ -17,3 +17,4 @@ pg_dump --username=ptuttosi --clean --port=5432 faisalcids > $path/backups/faisa
 md5sum $path/backups/faisaldatabase_backup_$now.sql > $path/backups/faisaldatabase_backup_$now.sql.md5sum
 
 $1faisal-cids/venv/bin/python checkmd5sum.py $path/backups/ faisaldatabase_backup_$now.sql.md5sum
+
