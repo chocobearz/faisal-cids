@@ -238,6 +238,13 @@ faisalcids=> SELECT * FROM visit;
 
 Do this for each table
 
+Create folder for backups
+
+```
+$ cd $repo_path/faisal-cids/databasemaintenence
+$ mkdir backups
+```
+
 
 ## Backup
 
