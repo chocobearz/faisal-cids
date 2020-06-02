@@ -28,7 +28,7 @@ for filename in previousDumps:
   f.close()
   md5sum = md5sum.split(' ')
   md5sum = md5sum[0]
-  if(( md5sum == currentsum) and (filename != args.md5filename)) :
+  if(( md5sum == currentsum) and (os.path.basename(filename) != args.md5filename)) :
     backupfile = args.path+args.md5filename.rstrip(".md5sum")
     os.remove(backupfile)
     os.remove(args.path+args.md5filename)
