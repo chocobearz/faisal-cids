@@ -79,7 +79,7 @@ $ git clone git@gitlab.rcg.sfu.ca:faisal-lab/databases/faisal-cids.git
 $ cd faisal-cids/
 ```
 
-Create a variable with the path to your faisal-databasetools folder
+Create a variable with the path to your faisal-cids folder
 
 ```
 $ export repo_path=\/home\/$your_username\/path\/
@@ -138,7 +138,7 @@ Example output for alzheimer.sql
 ```
 
 Fill dataset table with the info about data set follow the template located at:
-`$repo_path/faisal-databasetools/alzheimer/updateDatasetTableAlzheimer.sql`
+`$repo_path/faisal-cids/alzheimer/updateDatasetTableAlzheimer.sql`
 
 ```
 faisalcids=> \i updateDatasetTable$Research_interest.sql
@@ -244,16 +244,16 @@ Do this for each table
 Auto backup every day at 3 am PST
 
 The path in the cron will need to be edited with the correct path to
-faisal-databasetools
+faisal-cids
 
 The file is located here:
 
-`$repo_path/faisal-databasetools/databasemaintenance/cronbackup.sh`
+`$repo_path/faisal-cids/databasemaintenance/cronbackup.sh`
 
 ### Manual backup
 
 ```
-$ $repo_path/faisal-databasetools/databasemaintenence
+$ $repo_path/faisal-cids/databasemaintenence
 $ ./databasedump.sh $repo_path
 ```
 

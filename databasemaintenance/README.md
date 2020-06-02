@@ -65,7 +65,7 @@ database:faisalcids
 ## Execution
 
 ```
-$ cd $repo_path/faisal-databasetools
+$ cd $repo_path/faisal-cids
 $ source venv/bin/activate
 ```
 If requirements have not been set up
