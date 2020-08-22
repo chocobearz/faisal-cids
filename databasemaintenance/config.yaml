@@ -33,6 +33,7 @@ AB40: float # Abeta1-40 result in plasma
 APOE2: boolean # APOE2 gene variant
 APOE3: boolean # APOE3 gene variant
 APOE4: boolean # APOE4 gene variant
+APOE1: boolean # APOE1 gene variant
 RESTfMRI: boolean # Resting state fMRI
 FDG: boolean # Average FDG-PET of angular, temporal, and posterior cingulate
 PIB: boolean # Average PIB SUVR of frontal cortex, anterior cingulate, precuneus cortex, and parietal cortex
@@ -41,3 +42,10 @@ DTI: boolean # Diffusion tesnor imaging MRI
 ASL: boolean # Arterial spin labeling 
 DX: varchar # Diagnosis status
 DX_STRATIFICATION: varchar #diagnosis stratification
+DX_bl: varchar
+NEWDX: varchar
+NEWDX2: varchar
+DX_fiNonel: varchar
+DX_prog: varchar
+FLDSTRENG: varchar
+FLUTE: boolean
