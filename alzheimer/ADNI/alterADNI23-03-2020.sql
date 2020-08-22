@@ -1,5 +1,5 @@
 ALTER TABLE alzheimer.subject
-  ADD IF NOT EXISTS RID varchar UNIQUE,
+  ADD IF NOT EXISTS RID varchar,
   ADD IF NOT EXISTS RID varchar,
   ADD IF NOT EXISTS SEX varchar,
   ADD IF NOT EXISTS EDUCATION int,

@@ -163,7 +163,7 @@ def updateTables(schema, filename, timePoint, vars_list, tables, path):
       alterationStatement = alterationStatement + updateTable
       for column in timePoint[i]:
         if column == 'RID':
-          alteration = "  ADD IF NOT EXISTS {name} {datatype} UNIQUE,\n".format(
+          alteration = "  ADD IF NOT EXISTS {name} {datatype},\n".format(
               name = column,
               datatype = vars_list[column]
             )
