@@ -277,7 +277,7 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset,
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
                 fk_id = fk_id,
-                key_id = key_id
+                key_id = key_id,
                 datasetname = putquote(dataset)
               )
             )
