@@ -4,10 +4,13 @@ VALUES
   (
     (
       SELECT
-        id
+        subject.id
       FROM
-        {schema}.subject
+        {schema}.subject,
+        {schema}.dataset
       WHERE
-        RID = {key_id}
+        subject.RID = {key_id}
+        AND
+        dataset.name = {datasetname}
     ), {values}
   );

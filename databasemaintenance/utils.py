@@ -246,7 +246,8 @@ def insertData(filename, tables, data, timePoint, foreign_keys, schema, dataset,
                 fk = foreign_keys[i],
                 columns = ", ".join(timePoint[i]),
                 values = ", ".join(values),
-                key_id = key_id
+                key_id = key_id,
+                datasetname = putquote(dataset)
               )
             )
             textfile.write(insert)
