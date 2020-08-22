@@ -7,10 +7,12 @@ VALUES
         {schema}.visit.id 
       FROM
         {schema}.subject,
-        {schema}.visit
+        {schema}.visit,
+        {schema}.dataset
       WHERE
          visit.subjectid = subject.id
          AND subject.rid = {fk_id}
          AND visit.viscode = {key_id}
+         AND dataset.name = {datasetname}
     ), {values}
   );
