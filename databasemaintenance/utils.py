@@ -1,3 +1,5 @@
+import textwrap
+
 def isListEmpty(inList):
   if isinstance(inList, list): # Is a list
     return all( map(isListEmpty, inList) )
@@ -163,11 +165,11 @@ def updateTables(schema, filename, timePoint, vars_list, tables, path):
       alterationStatement = alterationStatement + updateTable
       for column in timePoint[i]:
         if column == 'RID':
-          alteration = '''  ADD IF NOT EXISTS {name} {datatype},\n
-          UNIQUE ({name}, datasetid)\n'''.format(
+          alteration = textwrap.dedent('''  ADD IF NOT EXISTS {name} {datatype},
+                UNIQUE ({name}, datasetid),\n'''.format(
               name = column,
               datatype = vars_list[column]
-            )
+            ))
           textfile.write(alteration)
           alterationStatement = alterationStatement + alteration
         if column == timePoint[i][-1]:
