@@ -256,10 +256,14 @@ The file is located here:
 
 `$repo_path/faisal-cids/databasemaintenance/cronbackup.sh`
 
+As `root` user
+
 ```
-$ crontab -r
+$ sudo su root
+$ crontab -e
 ```
-Paste contents of cron file
+Paste contents of cron file, the repo path may need to be changed as well
+as the repo path argument.
 
 ### Manual backup
 
