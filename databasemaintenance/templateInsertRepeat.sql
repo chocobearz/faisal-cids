@@ -11,6 +11,7 @@ VALUES
         {schema}.dataset
       WHERE
          visit.subjectid = subject.id
+         AND subject.datasetid = dataset.id
          AND subject.rid = {fk_id}
          AND visit.viscode = {key_id}
          AND dataset.name = {datasetname}

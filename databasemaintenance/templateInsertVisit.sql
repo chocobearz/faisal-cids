@@ -10,7 +10,7 @@ VALUES
         {schema}.dataset
       WHERE
         subject.datasetid = dataset.id
-        subject.RID = {key_id}
+        AND subject.RID = {key_id}
         AND dataset.name = {datasetname}
     ), {values}
   );
