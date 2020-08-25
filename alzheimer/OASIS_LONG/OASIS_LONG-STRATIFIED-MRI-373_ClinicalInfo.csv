@@ -1,0 +1,374 @@
+RID,VISCODE,REPEATCODE,AGE,Month.bl,PTGENDER,DX.bl,DX.fiNonel,DX,FLDSTRENG,AUX.VISCODE.prog,AUX.DX.prog,AUX.VISCODE.prog2,AUX.DX.prog2,AUX.DIAGNOSIS,AUX.GROUP,AUX.STRATIFICATION,AUX.Month.confirm,AUX.Month.followed
+OAS2-0001,v1,R1,87,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,15.23333333
+OAS2-0001,v2,R1,88.26944444,15.23333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,15.23333333
+OAS2-0002,v1,R1,75,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,63.16666667
+OAS2-0002,v2,R1,76.55555556,18.66666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,63.16666667
+OAS2-0002,v3,R1,80.26388889,63.16666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,63.16666667
+OAS2-0004,v1,R1,88,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,17.93333333
+OAS2-0004,v2,R1,89.49444444,17.93333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,17.93333333
+OAS2-0005,v1,R1,80,0,Male,NC,reverter,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> NC,v1 -> v2 -> v3,NC -> MCI -> NC,NC,reverter,rNC,None,53.43333333
+OAS2-0005,v2,R1,82.80555556,33.66666667,Male,NC,reverter,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> NC,v1 -> v2 -> v3,NC -> MCI -> NC,MCI,reverter,rMCI,None,53.43333333
+OAS2-0005,v3,R1,84.45277778,53.43333333,Male,NC,reverter,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> NC,v1 -> v2 -> v3,NC -> MCI -> NC,NC,reverter,rNC,None,53.43333333
+OAS2-0007,v1,R1,71,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v3 -> v4,MCI -> AD -> AD,v1 -> v3 -> v4,MCI -> AD -> AD,pMCI,MCI-of-pMCI,pMCI,17.26666667,42.7
+OAS2-0007,v3,R1,72.43888889,17.26666667,Male,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v3 -> v4,MCI -> AD -> AD,v1 -> v3 -> v4,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,42.7
+OAS2-0007,v4,R1,74.55833333,42.7,Male,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v3 -> v4,MCI -> AD -> AD,v1 -> v3 -> v4,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,42.7
+OAS2-0008,v1,R1,93,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.73333333
+OAS2-0008,v2,R1,95.06111111,24.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.73333333
+OAS2-0009,v1,R1,68,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,19.2
+OAS2-0009,v2,R1,69.6,19.2,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,19.2
+OAS2-0010,v1,R1,66,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,28.46666667
+OAS2-0010,v2,R1,68.37222222,28.46666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,28.46666667
+OAS2-0012,v1,R1,78,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.26666667
+OAS2-0012,v2,R1,80.02777778,24.33333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.26666667
+OAS2-0012,v3,R1,82.43888889,53.26666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.26666667
+OAS2-0013,v1,R1,81,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.53333333
+OAS2-0013,v2,R1,82.78611111,21.43333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.53333333
+OAS2-0013,v3,R1,85.04444444,48.53333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.53333333
+OAS2-0014,v1,R1,76,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,16.8,16.8
+OAS2-0014,v2,R1,77.4,16.8,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,16.8
+OAS2-0016,v1,R1,88,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,23.56666667
+OAS2-0016,v2,R1,89.96388889,23.56666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,23.56666667
+OAS2-0017,v1,R1,80,0,Male,NC,reverter,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,NC,reverter,rNC,None,80
+OAS2-0017,v3,R1,81.71388889,20.56666667,Male,NC,reverter,MCI,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,MCI,reverter,rMCI,None,80
+OAS2-0017,v4,R1,85.16944444,62.03333333,Male,NC,reverter,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,NC,reverter,rNC,None,80
+OAS2-0017,v5,R1,86.66666667,80,Male,NC,reverter,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> MCI -> NC -> NC,NC,reverter,rNC,None,80
+OAS2-0018,v1,R1,87,0,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v3 -> v4,NC -> NC -> MCI,v1 -> v3 -> v4,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,64.43333333
+OAS2-0018,v3,R1,88.35833333,16.3,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v3 -> v4,NC -> NC -> MCI,v1 -> v3 -> v4,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,64.43333333
+OAS2-0018,v4,R1,92.36944444,64.43333333,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v3 -> v4,NC -> NC -> MCI,v1 -> v3 -> v4,NC -> NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,64.43333333
+OAS2-0020,v1,R1,80,0,Male,NC,NC -> MCI -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,NC,NC-of-sMCI,uNC,None,52.1
+OAS2-0020,v2,R1,82.1,25.2,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,52.1
+OAS2-0020,v3,R1,84.34166667,52.1,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,52.1
+OAS2-0021,v1,R1,72,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,38.8
+OAS2-0021,v2,R1,75.23333333,38.8,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,38.8
+OAS2-0022,v1,R1,61,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,27.6
+OAS2-0022,v2,R1,63.3,27.6,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,27.6
+OAS2-0023,v1,R1,86,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,19.26666667
+OAS2-0023,v2,R1,87.60555556,19.26666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,19.26666667
+OAS2-0026,v1,R1,82,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,22.43333333
+OAS2-0026,v2,R1,83.86944444,22.43333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,22.43333333
+OAS2-0027,v1,R1,69,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,59.3
+OAS2-0027,v2,R1,70.69166667,20.3,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,59.3
+OAS2-0027,v3,R1,72.42777778,41.13333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,59.3
+OAS2-0027,v4,R1,73.94166667,59.3,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,59.3
+OAS2-0028,v1,R1,64,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,20.33333333,20.33333333
+OAS2-0028,v2,R1,65.69444444,20.33333333,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,20.33333333
+OAS2-0029,v1,R1,77,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,36.63333333
+OAS2-0029,v2,R1,80.05277778,36.63333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,36.63333333
+OAS2-0030,v1,R1,60,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,31.06666667
+OAS2-0030,v2,R1,62.58888889,31.06666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,31.06666667
+OAS2-0031,v1,R1,86,0,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,52.93333333
+OAS2-0031,v2,R1,87.23888889,14.86666667,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,52.93333333
+OAS2-0031,v3,R1,90.41111111,52.93333333,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,52.93333333
+OAS2-0032,v1,R1,90,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.4
+OAS2-0032,v2,R1,91.78333333,21.4,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.4
+OAS2-0034,v1,R1,79,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,62.8
+OAS2-0034,v2,R1,80.35833333,16.3,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,62.8
+OAS2-0034,v3,R1,82.575,42.9,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,62.8
+OAS2-0034,v4,R1,84.23333333,62.8,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,62.8
+OAS2-0035,v1,R1,88,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,13.5
+OAS2-0035,v2,R1,89.125,13.5,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,13.5
+OAS2-0036,v1,R1,69,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,78.96666667
+OAS2-0036,v3,R1,70.98055556,23.76666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,78.96666667
+OAS2-0036,v4,R1,73.91666667,59,Female,NC,NC,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,78.96666667
+OAS2-0036,v5,R1,75.58055556,78.96666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,v1 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,78.96666667
+OAS2-0037,v1,R1,82,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,83.6
+OAS2-0037,v2,R1,85.11944444,37.43333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,83.6
+OAS2-0037,v3,R1,87.63611111,67.63333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,83.6
+OAS2-0037,v4,R1,88.96666667,83.6,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4,MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,83.6
+OAS2-0039,v1,R1,81,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.2
+OAS2-0039,v2,R1,82.35,16.2,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.2
+OAS2-0040,v1,R1,84,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.13333333
+OAS2-0040,v2,R1,85.575,18.9,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.13333333
+OAS2-0040,v3,R1,87.34444444,40.13333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.13333333
+OAS2-0041,v1,R1,71,0,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,44.36666667
+OAS2-0041,v2,R1,73.1,25.2,Female,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,44.36666667
+OAS2-0041,v3,R1,74.69722222,44.36666667,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,44.36666667
+OAS2-0042,v1,R1,70,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,33.6
+OAS2-0042,v2,R1,72.8,33.6,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,33.6
+OAS2-0043,v1,R1,72,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.36666667
+OAS2-0043,v2,R1,73.36388889,16.36666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.36666667
+OAS2-0044,v1,R1,68,0,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3,AD -> AD -> AD,v1 -> v2 -> v3,AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,28.86666667
+OAS2-0044,v2,R1,68.97777778,11.73333333,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3,AD -> AD -> AD,v1 -> v2 -> v3,AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,28.86666667
+OAS2-0044,v3,R1,70.40555556,28.86666667,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3,AD -> AD -> AD,v1 -> v2 -> v3,AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,28.86666667
+OAS2-0045,v1,R1,75,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.96666667
+OAS2-0045,v2,R1,76.91388889,22.96666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.96666667
+OAS2-0046,v1,R1,83,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,19.16666667,19.16666667
+OAS2-0046,v2,R1,84.59722222,19.16666667,Female,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,19.16666667
+OAS2-0047,v1,R1,77,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,16.2
+OAS2-0047,v2,R1,78.35,16.2,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,16.2
+OAS2-0048,v1,R1,66,0,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,41.1
+OAS2-0048,v2,R1,66.68888889,8.266666667,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,41.1
+OAS2-0048,v3,R1,67.79722222,21.56666667,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,41.1
+OAS2-0048,v4,R1,68.69444444,32.33333333,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,41.1
+OAS2-0048,v5,R1,69.425,41.1,Male,AD,AD,AD,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,v1 -> v2 -> v3 -> v4 -> v5,AD -> AD -> AD -> AD -> AD,AD,DAT-of-sDAT,sDAT,None,41.1
+OAS2-0049,v1,R1,69,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,22.9
+OAS2-0049,v2,R1,70.09722222,13.16666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,22.9
+OAS2-0049,v3,R1,70.90833333,22.9,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,22.9
+OAS2-0050,v1,R1,71,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,17.93333333,17.93333333
+OAS2-0050,v2,R1,72.49444444,17.93333333,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,17.93333333
+OAS2-0051,v1,R1,92,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,50.86666667
+OAS2-0051,v2,R1,93.26944444,15.23333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,50.86666667
+OAS2-0051,v3,R1,96.23888889,50.86666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,50.86666667
+OAS2-0052,v1,R1,74,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,50.33333333
+OAS2-0052,v2,R1,78.19444444,50.33333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,50.33333333
+OAS2-0053,v1,R1,82,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,28.06666667
+OAS2-0053,v2,R1,84.33888889,28.06666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,28.06666667
+OAS2-0054,v1,R1,85,0,Female,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,NC,NC-of-sMCI,uNC,None,28.2
+OAS2-0054,v2,R1,87.35,28.2,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,28.2
+OAS2-0055,v1,R1,65,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.2
+OAS2-0055,v2,R1,67.01666667,24.2,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.2
+OAS2-0056,v1,R1,71,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,20.73333333
+OAS2-0056,v2,R1,72.72777778,20.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,20.73333333
+OAS2-0057,v1,R1,81,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.66666667
+OAS2-0057,v2,R1,82.77777778,21.33333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.66666667
+OAS2-0057,v3,R1,84.72222222,44.66666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.66666667
+OAS2-0058,v1,R1,78,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.46666667
+OAS2-0058,v2,R1,78.58888889,7.066666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.46666667
+OAS2-0058,v3,R1,80.12222222,25.46666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.46666667
+OAS2-0060,v1,R1,75,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,43
+OAS2-0060,v2,R1,78.58333333,43,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,43
+OAS2-0061,v1,R1,68,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.03333333
+OAS2-0061,v2,R1,70.425,29.1,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.03333333
+OAS2-0061,v3,R1,72.58611111,55.03333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.03333333
+OAS2-0062,v1,R1,79,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,45.03333333
+OAS2-0062,v2,R1,81.00833333,24.1,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,45.03333333
+OAS2-0062,v3,R1,82.75277778,45.03333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,45.03333333
+OAS2-0063,v1,R1,80,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.33333333
+OAS2-0063,v2,R1,81.36111111,16.33333333,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.33333333
+OAS2-0064,v1,R1,78,0,Female,AD,reverter,AD,1.5 Tesla,v1 -> v2 -> v3,AD -> MCI -> MCI,v1 -> v2 -> v3,AD -> MCI -> MCI,AD,reverter,rAD,None,42.73333333
+OAS2-0064,v2,R1,80.30555556,27.66666667,Female,AD,reverter,MCI,1.5 Tesla,v1 -> v2 -> v3,AD -> MCI -> MCI,v1 -> v2 -> v3,AD -> MCI -> MCI,MCI,reverter,rMCI,None,42.73333333
+OAS2-0064,v3,R1,81.56111111,42.73333333,Female,AD,reverter,MCI,1.5 Tesla,v1 -> v2 -> v3,AD -> MCI -> MCI,v1 -> v2 -> v3,AD -> MCI -> MCI,MCI,reverter,rMCI,None,42.73333333
+OAS2-0066,v1,R1,61,0,Male,AD,reverter,AD,1.5 Tesla,v1 -> v2,AD -> MCI,v1 -> v2,AD -> MCI,AD,reverter,rAD,None,16.56666667
+OAS2-0066,v2,R1,62.38055556,16.56666667,Male,AD,reverter,MCI,1.5 Tesla,v1 -> v2,AD -> MCI,v1 -> v2,AD -> MCI,MCI,reverter,rMCI,None,16.56666667
+OAS2-0067,v1,R1,67,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,72.1
+OAS2-0067,v2,R1,68.25277778,15.03333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,72.1
+OAS2-0067,v3,R1,70.99444444,47.93333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,72.1
+OAS2-0067,v4,R1,73.00833333,72.1,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,72.1
+OAS2-0068,v1,R1,88,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.76666667
+OAS2-0068,v2,R1,90.06388889,24.76666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,24.76666667
+OAS2-0069,v1,R1,81,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,14.4
+OAS2-0069,v2,R1,82.2,14.4,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,14.4
+OAS2-0070,v1,R1,80,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,79.53333333
+OAS2-0070,v2,R1,81.86666667,22.4,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,79.53333333
+OAS2-0070,v3,R1,83.93055556,47.16666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,79.53333333
+OAS2-0070,v4,R1,85.19444444,62.33333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,79.53333333
+OAS2-0070,v5,R1,86.62777778,79.53333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,79.53333333
+OAS2-0071,v1,R1,83,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,12.16666667
+OAS2-0071,v2,R1,84.01388889,12.16666667,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,12.16666667
+OAS2-0073,v1,R1,70,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,83.9
+OAS2-0073,v2,R1,71.61111111,19.33333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,83.9
+OAS2-0073,v3,R1,74.73611111,56.83333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,83.9
+OAS2-0073,v4,R1,76.35555556,76.26666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,83.9
+OAS2-0073,v5,R1,76.99166667,83.9,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4 -> v5,NC -> NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,83.9
+OAS2-0075,v1,R1,73,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,18.9
+OAS2-0075,v2,R1,74.575,18.9,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,18.9
+OAS2-0076,v1,R1,66,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.43333333
+OAS2-0076,v2,R1,68.65555556,31.86666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.43333333
+OAS2-0076,v3,R1,70.61944444,55.43333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,55.43333333
+OAS2-0077,v1,R1,69,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,46.43333333
+OAS2-0077,v2,R1,72.86944444,46.43333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,46.43333333
+OAS2-0078,v1,R1,89,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,33.96666667
+OAS2-0078,v2,R1,90.225,14.7,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,33.96666667
+OAS2-0078,v3,R1,91.83055556,33.96666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,33.96666667
+OAS2-0079,v1,R1,69,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,pMCI,MCI-of-pMCI,pMCI,19.46666667,47.83333333
+OAS2-0079,v2,R1,70.62222222,19.46666667,Female,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,47.83333333
+OAS2-0079,v3,R1,72.98611111,47.83333333,Female,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,47.83333333
+OAS2-0080,v1,R1,66,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.3
+OAS2-0080,v2,R1,67.61111111,19.33333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.3
+OAS2-0080,v3,R1,69.35833333,40.3,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.3
+OAS2-0081,v1,R1,82,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.96666667
+OAS2-0081,v2,R1,83.83055556,21.96666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.96666667
+OAS2-0085,v1,R1,78,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.33333333
+OAS2-0085,v2,R1,79.86111111,22.33333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.33333333
+OAS2-0086,v1,R1,63,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,26.73333333
+OAS2-0086,v2,R1,65.22777778,26.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,26.73333333
+OAS2-0087,v1,R1,96,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.13333333
+OAS2-0087,v2,R1,98.09444444,25.13333333,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.13333333
+OAS2-0088,v1,R1,78,0,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.03333333
+OAS2-0088,v2,R1,80.08611111,25.03333333,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.03333333
+OAS2-0089,v1,R1,70,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v3,MCI -> AD,v1 -> v3,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,18.76666667,18.76666667
+OAS2-0089,v3,R1,71.56388889,18.76666667,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v3,MCI -> AD,v1 -> v3,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,18.76666667
+OAS2-0090,v1,R1,73,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.83333333
+OAS2-0090,v2,R1,74.88888889,22.66666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.83333333
+OAS2-0090,v3,R1,76.73611111,44.83333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.83333333
+OAS2-0091,v1,R1,75,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.9
+OAS2-0091,v2,R1,77.90833333,34.9,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.9
+OAS2-0092,v1,R1,83,0,Female,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,NC,NC-of-sMCI,uNC,None,23.53333333
+OAS2-0092,v2,R1,84.96111111,23.53333333,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,23.53333333
+OAS2-0094,v1,R1,61,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,27.23333333
+OAS2-0094,v2,R1,63.26944444,27.23333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,27.23333333
+OAS2-0095,v1,R1,71,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,47.06666667
+OAS2-0095,v2,R1,72.86944444,22.43333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,47.06666667
+OAS2-0095,v3,R1,74.92222222,47.06666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,47.06666667
+OAS2-0096,v1,R1,89,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.93333333
+OAS2-0096,v2,R1,91.16111111,25.93333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.93333333
+OAS2-0097,v1,R1,74,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.13333333
+OAS2-0097,v2,R1,76.84444444,34.13333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.13333333
+OAS2-0098,v1,R1,66,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,22.03333333
+OAS2-0098,v2,R1,67.83611111,22.03333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,22.03333333
+OAS2-0099,v1,R1,80,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,26.9
+OAS2-0099,v2,R1,82.24166667,26.9,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,26.9
+OAS2-0100,v1,R1,77,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,58.4
+OAS2-0100,v2,R1,80.38333333,40.6,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,58.4
+OAS2-0100,v3,R1,81.86666667,58.4,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,58.4
+OAS2-0101,v1,R1,71,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,54.36666667
+OAS2-0101,v2,R1,73.64444444,31.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,54.36666667
+OAS2-0101,v3,R1,75.53055556,54.36666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,54.36666667
+OAS2-0102,v1,R1,82,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,46.23333333
+OAS2-0102,v2,R1,83.69444444,20.33333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,46.23333333
+OAS2-0102,v3,R1,85.85277778,46.23333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,46.23333333
+OAS2-0103,v1,R1,69,0,Female,NC,NC -> MCI -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,NC,NC-of-sMCI,uNC,None,66.73333333
+OAS2-0103,v2,R1,73.31666667,51.8,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,66.73333333
+OAS2-0103,v3,R1,74.56111111,66.73333333,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> MCI -> MCI,v1 -> v2 -> v3,NC -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,66.73333333
+OAS2-0104,v1,R1,70,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,15.5,15.5
+OAS2-0104,v2,R1,71.29166667,15.5,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,15.5
+OAS2-0105,v1,R1,86,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.5
+OAS2-0105,v2,R1,87.875,22.5,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.5
+OAS2-0106,v1,R1,70,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,24.3
+OAS2-0106,v2,R1,72.025,24.3,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,24.3
+OAS2-0108,v1,R1,77,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,29.43333333
+OAS2-0108,v2,R1,79.45277778,29.43333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,29.43333333
+OAS2-0109,v1,R1,81,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.53333333
+OAS2-0109,v2,R1,83.12777778,25.53333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.53333333
+OAS2-0111,v1,R1,62,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,29.36666667
+OAS2-0111,v2,R1,64.44722222,29.36666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,29.36666667
+OAS2-0112,v1,R1,76,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,18.6
+OAS2-0112,v2,R1,77.55,18.6,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,18.6
+OAS2-0113,v1,R1,73,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.8
+OAS2-0113,v2,R1,74.4,16.8,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,16.8
+OAS2-0114,v1,R1,76,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,19,19
+OAS2-0114,v2,R1,77.58333333,19,Female,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,19
+OAS2-0116,v1,R1,73,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,20.53333333
+OAS2-0116,v2,R1,74.71111111,20.53333333,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,20.53333333
+OAS2-0117,v1,R1,73,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,64.23333333
+OAS2-0117,v2,R1,74.6,19.2,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,64.23333333
+OAS2-0117,v3,R1,76.73611111,44.83333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,64.23333333
+OAS2-0117,v4,R1,78.35277778,64.23333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,64.23333333
+OAS2-0118,v1,R1,67,0,Female,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,NC,NC-of-sMCI,uNC,None,47.4
+OAS2-0118,v2,R1,70.95,47.4,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,47.4
+OAS2-0119,v1,R1,81,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,57.1
+OAS2-0119,v2,R1,83.03611111,24.43333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,57.1
+OAS2-0119,v3,R1,85.75833333,57.1,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,57.1
+OAS2-0120,v1,R1,76,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,19.83333333
+OAS2-0120,v2,R1,77.65277778,19.83333333,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,19.83333333
+OAS2-0121,v1,R1,73,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,21.56666667
+OAS2-0121,v2,R1,74.79722222,21.56666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,21.56666667
+OAS2-0122,v1,R1,86,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,19.9
+OAS2-0122,v2,R1,87.65833333,19.9,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,19.9
+OAS2-0124,v1,R1,70,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,15.73333333
+OAS2-0124,v2,R1,71.31111111,15.73333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,15.73333333
+OAS2-0126,v1,R1,74,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,39.73333333
+OAS2-0126,v2,R1,75.31111111,15.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,39.73333333
+OAS2-0126,v3,R1,77.31111111,39.73333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,39.73333333
+OAS2-0127,v1,R1,79,0,Male,NC,NC -> MCI -> MCI -> MCI -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,NC,NC-of-sMCI,uNC,None,87.96666667
+OAS2-0127,v2,R1,81.36388889,28.36666667,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,87.96666667
+OAS2-0127,v3,R1,81.89444444,34.73333333,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,87.96666667
+OAS2-0127,v4,R1,84.98055556,71.76666667,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,87.96666667
+OAS2-0127,v5,R1,86.33055556,87.96666667,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,v1 -> v2 -> v3 -> v4 -> v5,NC -> MCI -> MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,87.96666667
+OAS2-0128,v1,R1,76,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,38
+OAS2-0128,v2,R1,79.16666667,38,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,38
+OAS2-0129,v1,R1,78,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.03333333
+OAS2-0129,v2,R1,80.04722222,24.56666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.03333333
+OAS2-0129,v3,R1,82.41944444,53.03333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.03333333
+OAS2-0131,v1,R1,65,0,Female,MCI,reverter,MCI,1.5 Tesla,v1 -> v2,MCI -> NC,v1 -> v2,MCI -> NC,MCI,reverter,rMCI,None,22.63333333
+OAS2-0131,v2,R1,66.88611111,22.63333333,Female,MCI,reverter,NC,1.5 Tesla,v1 -> v2,MCI -> NC,v1 -> v2,MCI -> NC,NC,reverter,rNC,None,22.63333333
+OAS2-0133,v1,R1,78,0,Female,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v3,NC -> MCI,v1 -> v3,NC -> MCI,NC,NC-of-sMCI,uNC,None,33.53333333
+OAS2-0133,v3,R1,80.79444444,33.53333333,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v3,NC -> MCI,v1 -> v3,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,33.53333333
+OAS2-0134,v1,R1,70,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,17.96666667
+OAS2-0134,v2,R1,71.49722222,17.96666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,17.96666667
+OAS2-0135,v1,R1,74,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,38.2
+OAS2-0135,v2,R1,77.18333333,38.2,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,38.2
+OAS2-0137,v1,R1,74,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.2
+OAS2-0137,v2,R1,75.76666667,21.2,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.2
+OAS2-0138,v1,R1,73,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,28.2
+OAS2-0138,v2,R1,75.35,28.2,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,28.2
+OAS2-0139,v1,R1,67,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,13.43333333
+OAS2-0139,v2,R1,68.11944444,13.43333333,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,13.43333333
+OAS2-0140,v1,R1,76,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,55.16666667
+OAS2-0140,v2,R1,78.20277778,26.43333333,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,55.16666667
+OAS2-0140,v3,R1,80.59722222,55.16666667,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,55.16666667
+OAS2-0141,v1,R1,65,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.06666667
+OAS2-0141,v2,R1,67.83888889,34.06666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,34.06666667
+OAS2-0142,v1,R1,69,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.16666667
+OAS2-0142,v2,R1,70.84722222,22.16666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.16666667
+OAS2-0143,v1,R1,89,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.76666667
+OAS2-0143,v2,R1,90.55833333,18.7,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.76666667
+OAS2-0143,v3,R1,93.31388889,51.76666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.76666667
+OAS2-0144,v1,R1,77,0,Male,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,NC,NC-of-sMCI,uNC,None,22.76666667
+OAS2-0144,v2,R1,78.89722222,22.76666667,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,22.76666667
+OAS2-0145,v1,R1,68,0,Female,NC,NC -> MCI,NC,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,NC,NC-of-sMCI,uNC,None,56.9
+OAS2-0145,v2,R1,72.74166667,56.9,Female,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2,NC -> MCI,v1 -> v2,NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,56.9
+OAS2-0146,v1,R1,80,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,17.5
+OAS2-0146,v2,R1,81.45833333,17.5,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,17.5
+OAS2-0147,v1,R1,77,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,60.2
+OAS2-0147,v2,R1,78.22222222,14.66666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,60.2
+OAS2-0147,v3,R1,80.34444444,40.13333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,60.2
+OAS2-0147,v4,R1,82.01666667,60.2,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,60.2
+OAS2-0149,v1,R1,81,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.46666667
+OAS2-0149,v2,R1,82.87222222,22.46666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.46666667
+OAS2-0150,v1,R1,73,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,17.26666667,17.26666667
+OAS2-0150,v2,R1,74.43888889,17.26666667,Female,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,17.26666667
+OAS2-0152,v1,R1,66,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.3
+OAS2-0152,v2,R1,68.19444444,26.33333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.3
+OAS2-0152,v3,R1,69.69166667,44.3,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,44.3
+OAS2-0154,v1,R1,75,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,26.36666667
+OAS2-0154,v2,R1,77.19722222,26.36666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,26.36666667
+OAS2-0156,v1,R1,78,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.9
+OAS2-0156,v2,R1,80.15833333,25.9,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,25.9
+OAS2-0157,v1,R1,73,0,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.46666667
+OAS2-0157,v2,R1,75.12222222,25.46666667,Female,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,25.46666667
+OAS2-0158,v1,R1,73,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,46.63333333
+OAS2-0158,v2,R1,76.88611111,46.63333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,46.63333333
+OAS2-0159,v1,R1,73,0,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.3
+OAS2-0159,v2,R1,75.10833333,25.3,Female,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.3
+OAS2-0160,v1,R1,76,0,Male,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,18.4,18.4
+OAS2-0160,v2,R1,77.53333333,18.4,Male,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,18.4
+OAS2-0161,v1,R1,77,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,34.43333333
+OAS2-0161,v2,R1,78.26111111,15.13333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,34.43333333
+OAS2-0161,v3,R1,79.86944444,34.43333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,34.43333333
+OAS2-0162,v1,R1,82,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,20.7
+OAS2-0162,v2,R1,83.725,20.7,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,20.7
+OAS2-0164,v1,R1,77,0,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,19.33333333
+OAS2-0164,v2,R1,78.61111111,19.33333333,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,19.33333333
+OAS2-0165,v1,R1,78,0,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,24.53333333
+OAS2-0165,v2,R1,80.04444444,24.53333333,Male,AD,AD,AD,1.5 Tesla,v1 -> v2,AD -> AD,v1 -> v2,AD -> AD,AD,DAT-of-sDAT,sDAT,None,24.53333333
+OAS2-0169,v1,R1,71,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,23.03333333
+OAS2-0169,v2,R1,72.91944444,23.03333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,23.03333333
+OAS2-0171,v1,R1,76,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,56.5
+OAS2-0171,v2,R1,77.36944444,16.43333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,56.5
+OAS2-0171,v3,R1,80.70833333,56.5,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,56.5
+OAS2-0172,v1,R1,75,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.4
+OAS2-0172,v2,R1,78.36666667,40.4,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,40.4
+OAS2-0174,v1,R1,60,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.83333333
+OAS2-0174,v2,R1,61.93055556,23.16666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.83333333
+OAS2-0174,v3,R1,64.31944444,51.83333333,Male,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,51.83333333
+OAS2-0175,v1,R1,70,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,44.76666667
+OAS2-0175,v2,R1,71.94444444,23.33333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,44.76666667
+OAS2-0175,v3,R1,73.73055556,44.76666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,44.76666667
+OAS2-0176,v1,R1,84,0,Male,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,54.36666667
+OAS2-0176,v2,R1,86.15,25.8,Male,NC,NC -> NC -> MCI,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,NC,NC-of-sMCI,uNC,None,54.36666667
+OAS2-0176,v3,R1,88.53055556,54.36666667,Male,NC,MCI_nonconvert,MCI,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> MCI,v1 -> v2 -> v3,NC -> NC -> MCI,sMCI,MCI-of-sMCI,sMCI,None,54.36666667
+OAS2-0177,v1,R1,68,0,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.16666667
+OAS2-0177,v2,R1,69.84722222,22.16666667,Male,NC,NC,NC,1.5 Tesla,v1 -> v2,NC -> NC,v1 -> v2,NC -> NC,NC,NC-of-sNC,sNC,None,22.16666667
+OAS2-0178,v1,R1,89,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.23333333
+OAS2-0178,v2,R1,90.66666667,20,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.23333333
+OAS2-0178,v3,R1,93.01944444,48.23333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,48.23333333
+OAS2-0179,v1,R1,79,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.73333333
+OAS2-0179,v2,R1,80.81111111,21.73333333,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,21.73333333
+OAS2-0181,v1,R1,74,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,pMCI,MCI-of-pMCI,pMCI,17.96666667,36.9
+OAS2-0181,v2,R1,75.49722222,17.96666667,Female,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,36.9
+OAS2-0181,v3,R1,77.075,36.9,Female,MCI,MCI -> AD -> AD,AD,1.5 Tesla,v1 -> v2 -> v3,MCI -> AD -> AD,v1 -> v2 -> v3,MCI -> AD -> AD,AD,DAT-of-pMCI,eDAT,None,36.9
+OAS2-0182,v1,R1,73,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.86666667
+OAS2-0182,v2,R1,75.15555556,25.86666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2,MCI -> MCI,v1 -> v2,MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,25.86666667
+OAS2-0183,v1,R1,66,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,70.23333333
+OAS2-0183,v2,R1,66.50555556,6.066666667,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,70.23333333
+OAS2-0183,v3,R1,68.03333333,24.4,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,70.23333333
+OAS2-0183,v4,R1,71.85277778,70.23333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,v1 -> v2 -> v3 -> v4,NC -> NC -> NC -> NC,NC,NC-of-sNC,sNC,None,70.23333333
+OAS2-0184,v1,R1,72,0,Female,MCI,MCI_convert,MCI,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,pMCI,MCI-of-pMCI,pMCI,18.43333333,18.43333333
+OAS2-0184,v2,R1,73.53611111,18.43333333,Female,MCI,MCI -> AD,AD,1.5 Tesla,v1 -> v2,MCI -> AD,v1 -> v2,MCI -> AD,AD,DAT-of-pMCI,eDAT,None,18.43333333
+OAS2-0185,v1,R1,80,0,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,76.56666667
+OAS2-0185,v2,R1,82.33888889,28.06666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,76.56666667
+OAS2-0185,v3,R1,86.38055556,76.56666667,Male,MCI,MCI,MCI,1.5 Tesla,v1 -> v2 -> v3,MCI -> MCI -> MCI,v1 -> v2 -> v3,MCI -> MCI -> MCI,sMCI,MCI-of-sMCI,sMCI,None,76.56666667
+OAS2-0186,v1,R1,61,0,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.6
+OAS2-0186,v2,R1,63.11944444,25.43333333,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.6
+OAS2-0186,v3,R1,65.46666667,53.6,Female,NC,NC,NC,1.5 Tesla,v1 -> v2 -> v3,NC -> NC -> NC,v1 -> v2 -> v3,NC -> NC -> NC,NC,NC-of-sNC,sNC,None,53.6
