@@ -1,0 +1,8 @@
+ALTER TABLE alzheimer.subject
+  ADD IF NOT EXISTS DX_fiNonel varchar,
+  ADD IF NOT EXISTS DX varchar,
+  ADD IF NOT EXISTS AUX_DIAGNOSIS varchar,
+  ADD IF NOT EXISTS AUX_GROUP varchar,
+  ADD IF NOT EXISTS AUX_STRATIFICATION varchar,
+  ADD IF NOT EXISTS AUX_Month_confirm float;
+
