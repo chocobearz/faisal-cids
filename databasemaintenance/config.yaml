@@ -111,3 +111,5 @@ AUX_GROUP: varchar
 AUX_STRATIFICATION: varchar
 AUX_Month_confirm: float
 AUX_Month_followed: float
+DX_final: varchar
+AGE_ORIG: float
