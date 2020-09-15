@@ -8,3 +8,8 @@ INSERT INTO alzheimer.dataset (name, geographicregion, timeframe, participants, 
   VALUES ('OASIS_LONG', 'United States', '-2010', 150,'Washington University St.Louis', 'Open Access');
 INSERT INTO alzheimer.dataset (name, geographicregion, timeframe, participants, affliliation, access)
   VALUES ('OASIS_CROSS', 'United States', '-2007', 416,'Washington University St.Louis', 'Open Access');
+INSERT INTO alzheimer.dataset (name, geographicregion, timeframe, participants, affliliation, access)
+  VALUES ('NIFD', 'United States', '2009-2014', 416,'National Institute of Health', 'Open Access');
+INSERT INTO alzheimer.dataset (name, geographicregion, timeframe, participants, affliliation, access)
+  VALUES ('MIRIAD', 'Europe', '-2012', 69,'University College London', 'Open Source');
+
