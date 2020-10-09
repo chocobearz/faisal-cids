@@ -46,12 +46,6 @@ In this case the user must manually update the tables
 
 ``python 3.*``
 
-``pandas``
-
-``pyyaml``
-
-``psycopg2-binary``
-
 ``.env``
 formatted as follows:
 ```sh
@@ -60,6 +54,12 @@ password:***************
 host:127.0.0.1
 port:5432
 database:faisalcids
+```
+
+to install python package requirements run
+
+```
+$ pip install -r requirements.txt
 ```
 
 ## Execution
