@@ -23,13 +23,13 @@ def measurementCheck(data):
                     ' missing RID,'+
                     ' please standardize column names and try again')
 
-  #check that RID exists or throw an error
+  #check that VISCODE exists or throw an error
   if("VISCODE" not in colnames):
     raise Exception('Incorrect data format,'+
                     ' missing VISCODE,'+
                     ' please standardize column names and try again')
 
-  #check that RID exists or throw an error
+  #check that REPEATCODE exists or throw an error
   if("REPEATCODE" not in colnames):
     raise Exception('Incorrect data format,'+
                     ' missing REPEATCODE,'+
