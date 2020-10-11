@@ -70,7 +70,7 @@ datasetname = args.datasetname
 with open(r"config.yaml") as config:
   # The FullLoader parameter handles the conversion from YAML
   # scalar values to Python the dictionary format
-  vars_list = yaml.load(config, Loader=yaml.FullLoader)
+  vars_dict = yaml.load(config, Loader=yaml.FullLoader)
 
 #read in the data and save the headers to a list
 data = pd.read_csv(csvPath+datasetname+".csv")
@@ -160,7 +160,7 @@ if not isListEmpty(adjTimePoint):
     schema,
     alterfilename,
     adjTimePoint,
-    vars_list,
+    vars_dict,
     newTable,
     csvPath,
   )
