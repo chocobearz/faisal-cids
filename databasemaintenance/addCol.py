@@ -208,45 +208,44 @@ updateData = updateData(
   csvPath
 )
 
-#try:
-#  connection = psycopg2.connect(
-#    user = creds[Username],
-#    password = creds[Password],
-#    host = creds[Host],
-#    port = creds[Port],
-#    database = creds[Database]
-#  )
-#
-#  cursor = connection.cursor()
-#
-#  # Print PostgreSQL Connection properties
-#  print ( connection.get_dsn_parameters(),"\n")
-#
-#  # Print PostgreSQL version
-#  cursor.execute("SELECT version();")
-#  record = cursor.fetchone()
-#  print("You are connected to - ", record,"\n")
-#
-#  if not isListEmpty(timePoint):
-#    for i, query in enumerate(alterTable):
-#      alterTableQuery= query
-#      cursor.execute(alterTableQuery)
-#      connection.commit()
-#      print("Table " + tables[i] + " altered successfully in PostgreSQL")
-#
-#  for i, query in enumerate(dataInsertion):
-#    insertQuery= query
-#    cursor.execute(insertQuery)
-#    connection.commit()
-#    print("Data successfully inserted in PostgreSQL table " + tables[i])
-#
-#except (Exception, psycopg2.Error) as error :
-#  print ("Error while connected to PostgreSQL", error)
-#  exit(0)
-#finally:
-#  #closing database connection.
-#  if(connection):
-#    cursor.close()
-#    connection.close()
-#    print("PostgreSQL connection is closed")
-#
+try:
+  connection = psycopg2.connect(
+    user = creds[Username],
+    password = creds[Password],
+    host = creds[Host],
+    port = creds[Port],
+    database = creds[Database]
+  )
+
+  cursor = connection.cursor()
+
+  # Print PostgreSQL Connection properties
+  print ( connection.get_dsn_parameters(),"\n")
+
+  # Print PostgreSQL version
+  cursor.execute("SELECT version();")
+  record = cursor.fetchone()
+  print("You are connected to - ", record,"\n")
+
+  if not isListEmpty(timePoint):
+    for i, query in enumerate(alterTable):
+      alterTableQuery= query
+      cursor.execute(alterTableQuery)
+      connection.commit()
+      print("Table " + tables[i] + " altered successfully in PostgreSQL")
+
+  for i, query in enumerate(updateData):
+    updateQuery= query
+    cursor.execute(updateQuery)
+    connection.commit()
+    print("Data successfully updated in PostgreSQL table " + tables[i])
+
+except (Exception, psycopg2.Error) as error :
+  print ("Error while connected to PostgreSQL", error)
+  exit(0)
+finally:
+  #closing database connection.
+  if(connection):
+    cursor.close()
+    connection.close()
+    print("PostgreSQL connection is closed")
