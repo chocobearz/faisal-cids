@@ -197,7 +197,7 @@ alterTable = updateTables(
     existing = True
   )
 
-dataInsertion = updateData(
+updateData = updateData(
   insertfilename,
   tables,
   data,

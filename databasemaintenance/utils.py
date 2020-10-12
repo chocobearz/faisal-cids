@@ -325,8 +325,6 @@ def updateData(
   path
 ):
 
-  uniqueRIDVC = []
-  uniqueTarget_id = []
   sqlStatement = []
 
   with open(path+filename+".sql", "w+") as textfile:
@@ -345,11 +343,11 @@ def updateData(
           for column in subjectValuesDict[row['RID']]:
             subjectValues += (f'{column} = {putquote(subjectValuesDict[row["RID"]][column])},')
           subjectValues = subjectValues[:-1]
-          templateInsert = ''.join(
+          templateUpdate = ''.join(
               open('templateUpdateSubject.sql', 'r').readlines()
             )
           update = (
-            templateInsert.format(
+            templateUpdate.format(
               schema = schema,
               my_set_values = subjectValues,
               RID = putquote(row['RID']),
@@ -360,63 +358,33 @@ def updateData(
           updateStatement = updateStatement + update
         textfile.write("\n")
         sqlStatement.append(updateStatement)
-#      elif tablename == 'visit':
-#        for index, row in data.iterrows():
-#          values = []
-#          RID_VC = f"{row['RID']}-{row['VISCODE']}"
-#          if RID_VC not in uniqueRIDVC:
-#            uniqueRIDVC.append(RID_VC)
-#            key_id = putquote(row['RID'])
-#            for name in timePoint[i]:
-#              if row[name] == "None":
-#                values.append('NULL')
-#              else:
-#                values.append(putquote(row[name]))
-#            templateInsert = ''.join(
-#              open('templateInsertVisit.sql', 'r').readlines()
-#            )
-#            insert = (
-#              templateInsert.format(
-#                schema = schema,
-#                fk = foreign_keys[1],
-#                columns = ", ".join(timePoint[i]),
-#                values = ", ".join(values),
-#                key_id = key_id,
-#                datasetname = putquote(dataset)
-#              )
-#            )
-#            textfile.write(insert)
-#            insertStatement = insertStatement + insert
-#        textfile.write("\n")
-#        sqlStatement.append(insertStatement)
+      elif tablename == 'visit':
+        for index, row in data.iterrows():
+          visitValuesDict = {row['VISCODE']: {}}
+          for name in timePoint[i]:
+            if row[name] == "None":
+              visitValuesDict[row['VISCODE']][name] = 'NULL'
+            else:
+              visitValuesDict[row['VISCODE']][name] = row[name]
+          visitValues = ''
+          for column in visitValuesDict[row['VISCODE']]:
+            visitValues += (f'{column} = {putquote(visitValuesDict[row["VISCODE"]][column])},')
+          visitValues = visitValues[:-1]
+          templateUpdate = ''.join(
+              open('templateUpdateVisit.sql', 'r').readlines()
+            )
+          update = (
+            templateUpdate.format(
+              schema = schema,
+              my_set_values = visitValues,
+              VISCODE = putquote(row['VISCODE']),
+              RID = putquote(row['RID']),
+              datasetname = putquote(dataset),
+            )
+          )
+          textfile.write(update)
+          updateStatement = updateStatement + update
+        textfile.write("\n")
+        sqlStatement.append(updateStatement)
 #      elif tablename == 'repeatmeasure':
-#        for index, row in data.iterrows():
-#          values = []
-#          RID_VC_RC = f"{row['RID']}-{row['VISCODE']}-{row['REPEATCODE']}-{tablename}"
-#          if RID_VC_RC not in uniqueRIDVC:
-#            uniqueRIDVC.append(RID_VC_RC)
-#            fk_id = putquote(row['RID'])
-#            key_id = putquote(row['VISCODE'])
-#            for name in timePoint[i]:
-#              if row[name] == "None":
-#                values.append('NULL')
-#              else:
-#                values.append(putquote(row[name]))
-#            templateInsert = ''.join(
-#              open('templateInsertRepeat.sql', 'r').readlines()
-#            )
-#            insert = (
-#              templateInsert.format(
-#                schema = schema,
-#                fk = foreign_keys[2],
-#                columns = ", ".join(timePoint[i]),
-#                values = ", ".join(values),
-#                fk_id = fk_id,
-#                key_id = key_id,
-#                datasetname = putquote(dataset)
-#              )
-#            )
-#            textfile.write(insert)
-#            insertStatement = insertStatement + insert
-#        sqlStatement.append(insertStatement)
 #  return(sqlStatement)
