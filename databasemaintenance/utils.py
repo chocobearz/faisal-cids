@@ -386,5 +386,33 @@ def updateData(
           updateStatement = updateStatement + update
         textfile.write("\n")
         sqlStatement.append(updateStatement)
-#      elif tablename == 'repeatmeasure':
-#  return(sqlStatement)
+      elif tablename == 'repeatmeasure':
+        for index, row in data.iterrows():
+          repeatValuesDict = {row['REPEATCODE']: {}}
+          for name in timePoint[i]:
+            if row[name] == "None":
+              repeatValuesDict[row['REPEATCODE']][name] = 'NULL'
+            else:
+              repeatValuesDict[row['REPEATCODE']][name] = row[name]
+          repeatValues = ''
+          for column in repeatValuesDict[row['REPEATCODE']]:
+            repeatValues += (f'{column} = {putquote(repeatValuesDict[row["REPEATCODE"]][column])},')
+          repeatValues = repeatValues[:-1]
+          templateUpdate = ''.join(
+              open('templateUpdateRepeat.sql', 'r').readlines()
+            )
+          update = (
+            templateUpdate.format(
+              schema = schema,
+              my_set_values = repeatValues,
+              REPEATCODE = putquote(row['REPEATCODE']),
+              VISCODE = putquote(row['VISCODE']),
+              RID = putquote(row['RID']),
+              datasetname = putquote(dataset),
+            )
+          )
+          textfile.write(update)
+          updateStatement = updateStatement + update
+        textfile.write("\n")
+        sqlStatement.append(updateStatement)
+  return(sqlStatement)
