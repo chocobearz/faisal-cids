@@ -72,7 +72,7 @@ def sortColNames(colNames):
   reg = re.compile(patt)
   for name in colNames:
     match = reg.match(name)
-    if name == 'viscode' or name == 'repeatcode':
+    if name in visitKeys or name in repeatKeys and not match:
       sortedColNames.insert(count, name)
     elif match:
       count = count + 1
