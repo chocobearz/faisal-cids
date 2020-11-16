@@ -309,14 +309,18 @@ for eid in eids:
     visRecs = [rec for rec in allVis if rec['viscode'] == vis and rec['eid'] == eid]
     if visRecs:
       visColDict = mergeDictArr(visRecs)
-      visRecBool = [visColDict[rec] == 'NULL' for rec in visColDict if rec not in subjectKeys and rec not in visitKeys]
+      visRecBool = [visColDict[rec] == 'NULL' for rec in visColDict 
+                    if rec not in subjectKeys and rec not in visitKeys]
       if not all(visRecBool):
         fullVis.append(visColDict)
     for rep in repCodes:
-      repRecs = [rec for rec in allRep if rec['repeatcode'] == rep and rec['viscode'] == vis and rec['eid'] == eid]
+      repRecs = [rec for rec in allRep if rec['repeatcode'] == rep 
+                 and rec['viscode'] == vis and rec['eid'] == eid]
       if repRecs:
         repColDict = mergeDictArr(repRecs)
-        repRecBool = [repColDict[rec] == 'NULL' for rec in repColDict if rec not in subjectKeys and rec not in visitKeys and rec not in repeatKeys]
+        repRecBool = [repColDict[rec] == 'NULL' for rec in repColDict 
+                      if rec not in subjectKeys and rec not in visitKeys 
+                      and rec not in repeatKeys]
         if not all(repRecBool):
           fullRep.append(repColDict)
 
