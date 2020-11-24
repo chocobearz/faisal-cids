@@ -328,7 +328,6 @@ queryfile = open(insertfilename, 'w+')
 insertStatement = []
 
 subInsert = ''
-schema = 'UKBiobank'
 for sub in fullSub:
   templateInsert = ''.join(
     open('insertTemplateSubject.sql', 'r').readlines()
