@@ -1,5 +1,6 @@
-FROM postgres
+FROM postgres:latest
 ENV POSTGRES_USER postgres
 ENV POSTGRES_PASSWORD yktsjEEbQaqX0h70Ww9K
-ENV POSTGRES_DB faisal-cids
-ADD ./alzheimer/alzheimer.sql /docker-entrypoint-initdb.d/
+ENV POSTGRES_DB faisalcids
+COPY databasemaintenance/backups/ ./backups
+ADD restore_database.sh /docker-entrypoint-initdb.d
