@@ -1463,6 +1463,3 @@ GTAGS
 
 #python compalation
 __pycache__/
-
-#don't push database dumps
-databasemaintenance/backups/
