@@ -181,7 +181,17 @@ def updateTables(
         if column == 'RID':
           alteration = textwrap.dedent('''
             ADD IF NOT EXISTS {name} {datatype},
-            ADD UNIQUE ({name}, datasetid),\n'''.format(
+            ADD CONSTRAINT rid_unique UNIQUE ({name}, datasetid),\n'''.format(
+              name = column,
+              datatype = vars_list[column]
+            )
+          )
+          textfile.write(alteration)
+          alterationStatement = alterationStatement + alteration
+        elif column == 'VISCODE':
+          alteration = textwrap.dedent('''
+            ADD IF NOT EXISTS {name} {datatype},
+            ADD CONSTRAINT viscode_unique UNIQUE ({name}, subjectid),\n'''.format(
               name = column,
               datatype = vars_list[column]
             )
@@ -220,7 +230,6 @@ def insertData(
 
   uniqueRID = []
   uniqueRIDVC = []
-  uniqueTarget_id = []
   sqlStatement = []
 
   with open(path+filename+".sql", "w+") as textfile:

@@ -24,17 +24,29 @@ CREATE TABLE IF NOT EXISTS alzheimer.dataset(
 --holds info that remains constant over all visits
 CREATE TABLE IF NOT EXISTS alzheimer.subject(
   id serial NOT NULL UNIQUE PRIMARY KEY,
-  datasetid int NOT NULL REFERENCES alzheimer.dataset(id) ON DELETE CASCADE
+  datasetid int NOT NULL,
+  CONSTRAINT fk_dataset
+    FOREIGN KEY (datasetid)
+      REFERENCES alzheimer.dataset(id)
+        ON DELETE CASCADE
 );
 
 --holds info that remains constant for the duration of a visit
 CREATE TABLE IF NOT EXISTS alzheimer.visit(
   id serial NOT NULL UNIQUE PRIMARY KEY,
-  subjectid int NOT NULL REFERENCES alzheimer.subject(id) ON DELETE CASCADE
+  subjectid int NOT NULL,
+  CONSTRAINT fk_subject
+    FOREIGN KEY (subjectid)
+      REFERENCES alzheimer.subject(id)
+        ON DELETE CASCADE
 );
 
 --info that changes during the visit
 CREATE TABLE IF NOT EXISTS alzheimer.repeatmeasure(
   id serial NOT NULL UNIQUE PRIMARY KEY,
-  visitid int NOT NULL REFERENCES alzheimer.visit(id) ON DELETE CASCADE
+  visitid int NOT NULL,
+  CONSTRAINT fk_visit
+    FOREIGN KEY (visitid)
+      REFERENCES alzheimer.visit(id)
+        ON DELETE CASCADE
 );
