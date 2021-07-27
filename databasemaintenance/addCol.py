@@ -13,7 +13,6 @@ import psycopg2
 from psycopg2 import Error
 
 tables = ["subject","visit","repeatmeasure"]
-### CHECK THIS!!!! ###
 foreign_keys = ["datasetid", "subjectid", "visitid"]
 Username = "username"
 Password = "password"
@@ -60,7 +59,7 @@ parser.add_argument(
   help="the name of the dataset you are currently updating in the database"
 )
 parser.add_argument(
-  "-table",
+  "--table",
   default= None,
   help="the name of the table the new column will go into: not required"
 )
