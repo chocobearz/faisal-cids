@@ -10,7 +10,7 @@ def isInList(inList, value):
     for currentList in inList:
       if value in currentList:
         return True
-      return False
+    return False
   return False
 
 def measurementCheck(data):

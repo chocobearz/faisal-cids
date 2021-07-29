@@ -144,7 +144,7 @@ for i, table in enumerate(timePoint):
       sys.exit(f'''One of the columns: {col} you are attempting to load is already in 
       the database and is being assesed to belong to a different table. Please
       refer to the database to see the current table. Check for input errors
-      and if the new table is correct manually move the column to the new table''')
+      and if the new table is correct manually move the column to the new table {table[i]}''')
 
 newTimePoint = copy.deepcopy(adjTimePoint)
 newTable = copy.deepcopy(tables)
